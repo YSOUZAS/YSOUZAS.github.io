@@ -1,0 +1,113 @@
+.pure {
+    padding: 0px 0px 0px;
+    margin: 0px;
+}
+
+.div-pure {
+    padding: 0px 0px 0px;
+    margin: 0px;
+}
+
+.body-pure {
+    padding: 0px 0px 0px;
+    margin: 0px;
+}
+
+.div-header {
+    display: inline-block;
+    background: url('../img/backgroud-header.jpg');
+    width: 100%;
+    text-align: center;
+}
+
+.div-header h1 {
+    color: #4CAF50;
+    padding-top: 1%;
+}
+
+.div-header h2 {
+    color: #4CAF50;
+}
+
+.navbar {}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.navbar li:last-child {
+    border-right: none;
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+.navbar .active {
+    background-color: #4CAF50;
+}
+
+.footer {
+    padding: 0px 0px 0px;
+    margin: 0px;
+    position: relative;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.footer h4 {
+    padding: 0px 0px 0px;
+    margin: 0px;
+}
+
+.section {
+    padding: 0px 0px 10%;
+}
+
+.section h3 {
+    text-align: center;
+    font-size: 45px;
+    background-color: #4CAF50;
+    padding: 0px 0px 0px;
+    margin: 0px;
+}
+
+.article {}
+
+.article h4 {
+    text-align: center
+}
+
+.article p {
+    text-align: justify;
+    text-align: justify;
+    padding: 1%;
+    margin: 0px;
+}
+
+.checkboxes {
+    display: inline-flex;
+    padding-left: 40%;
+}
+
+.checkboxes input {
+    padding-left: 10%;
+}

@@ -1,0 +1,70 @@
+.table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.table-all {
+    border: 1px solid #ccc
+}
+
+.table-bordered tr,
+.table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.table-hoverable tbody tr:hover,
+.table-ul.table-hoverable li:hover {
+    background-color: #ccc
+}
+
+.table-centered tr th,
+.table-centered tr td {
+    text-align: center
+}
+
+.table td,
+.table th,
+.table-all td,
+.table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+.table th:first-child,
+.table td:first-child,
+.table-all th:first-child,
+.table-all td:first-child {
+    padding-left: 16px
+}
+
+.table-btn,
+.table-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
