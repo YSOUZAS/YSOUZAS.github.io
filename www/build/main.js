@@ -55674,20 +55674,20 @@ var HomePage = (function () {
     }
     HomePage.prototype.ngOnInit = function () {
         var _this = this;
-        this._http.get('http://swapi.co/api/people/').map(function (res) { return res.json(); })
+        this._http.get('https://swapi.co/api/people/').map(function (res) { return res.json(); })
             .subscribe(function (response) {
             _this._people = response.results;
         });
-        this._http.get('http://swapi.co/api/starships/').map(function (res) { return res.json(); })
+        this._http.get('https://swapi.co/api/starships/').map(function (res) { return res.json(); })
             .subscribe(function (response) {
             _this._starships = response.results;
         });
         this._people;
-        this._http.get('http://swapi.co/api/planets/').map(function (res) { return res.json(); })
+        this._http.get('https://swapi.co/api/planets/').map(function (res) { return res.json(); })
             .subscribe(function (response) {
             _this._planets = response.results;
         });
-        /*this._http.get('http://swapi.co/api/people/', {}, {})
+        /*this._http.get('https://swapi.co/api/people/', {}, {})
           .then(data => {
             this._people
           })
