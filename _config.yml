@@ -1,82 +1,35 @@
-# Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
-favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
-rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
-
-# Build settings
+highlighter: rouge
 markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://ysouzas.github.io/
+author: Yago Souza
 
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Yago Souza's Resume
+name: Yago Souza
+email: yago.souza.santos#gmail.com
+email_full: mailto:yago.souza.santos@gmail.com
+website: github.io/ysouzas
+website_full: https://ysouzas.github.io/
+github: ysouzas
+#twitter: twitter
+#tel: +44 0000 000000
+#tel_full: tel:+440000000000
+#google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+#address: Espírito Santo , Brasil
+#postcode: EH3 5BL
+city: Serra
+country: Brasil
+#google_analytics: UA-69300817-1
+
+# needed for travis-ci build
 exclude: [vendor]
-
-# Author settings
-author:
-  name: Yago Souza Santos
-  title: Front/BackEnd Developer
-  address: Espírito Santo, Brasil
-  email: yago.souza.santos#gmail.com
-  #link: http://ddbullfrog.com
-  #weibo:
-  github: ysouzas
-  linkedin: ysouzas
-  #twitter: ddbullfrog
-  #gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
-#  stackoverflow: 4582127
-  workHistory:
-    - work1:
-      company: Mitis Tecnologia
-      location: Serra, Espírito Santo
-      title: Front/BackEnd Developer
-      started: 2016
-      duration: (2016 - 2016)
-      description: Trabalhei com projetos web usando C#,VB.NET e AngularJS, utilizando Bootstrap como framework CSS, utilizei o banco de dados SQl Server 2012 e a ferramenta de versionamento Tortoise SVN.
-    - work2:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  educationHistory:
-    - education1:
-      organization: XXXXXX University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  languages:
-    - language1:
-      name: Português
-      proficiency: Nativo
-    - language2:
-      name: Inglês
-      proficiency: Intermediário
-  programmingSkills:
-    - skill1:
-      name: Ionic 2
-      percentage: 80%
-    - skill2:
-      name: C#/VB.NET
-      percentage: 70%
-    - skill3:
-      name: Angular 1/2
-      percentage: 70%
-    - skill4:
-      name: NodeJS
-      percentage: 60%
-    - skill5:
-      name: DevOps (Em Progresso)
-      percentage: 40%
