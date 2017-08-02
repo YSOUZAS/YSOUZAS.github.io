@@ -19,6 +19,9 @@
     },
     "menu": {
       "dashboard": "Dashboard",
+      "users": "Usuários",
+      "groups": "Grupos",
+      "administration": "Administração",
       "editors": "Editors",
       "ck_editor": "CKEditor",
       "components": "Components",

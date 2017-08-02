@@ -1,4 +1,4 @@
-webpackJsonp([10,15],{
+webpackJsonp([11,16],{
 
 /***/ 141:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -88,7 +88,7 @@ var _a;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_constants__ = __webpack_require__(223);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BaThemeConfigProvider; });
@@ -218,7 +218,7 @@ BaThemeConfigProvider = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ngx_uploader__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_translation_module__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_translation_module__ = __webpack_require__(170);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_config__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_configProvider__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components__ = __webpack_require__(466);
@@ -320,12 +320,12 @@ var NgaModule_1;
 
 /***/ }),
 
-/***/ 168:
+/***/ 170:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_http_loader__ = __webpack_require__(492);
 /* unused harmony export createTranslateLoader */
@@ -409,7 +409,7 @@ var Pages = (function () {
 Pages = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'pages',
-        template: "\n    <ba-sidebar></ba-sidebar>\n    <ba-page-top></ba-page-top>\n    <div class=\"al-main\">\n      <div class=\"al-content\">\n        <ba-content-top></ba-content-top>\n        <router-outlet></router-outlet>\n      </div>\n    </div>\n    <footer class=\"al-footer clearfix\">\n      <div class=\"al-footer-right\" translate>{{'general.created_with'}} <i class=\"ion-heart\"></i></div>\n      <div class=\"al-footer-main clearfix\">\n        <div class=\"al-copy\">&copy; <a href=\"http://akveo.com\" translate>{{'general.akveo'}}</a> 2016</div>\n        <ul class=\"al-share clearfix\">\n          <li><i class=\"socicon socicon-facebook\"></i></li>\n          <li><i class=\"socicon socicon-twitter\"></i></li>\n          <li><i class=\"socicon socicon-google\"></i></li>\n          <li><i class=\"socicon socicon-github\"></i></li>\n        </ul>\n      </div>\n    </footer>\n    <ba-back-top position=\"200\"></ba-back-top>\n    "
+        template: "\n    <ba-sidebar></ba-sidebar>\n    <ba-page-top></ba-page-top>\n    <div class=\"al-main\">\n      <div class=\"al-content\">\n        <ba-content-top></ba-content-top>\n        <router-outlet></router-outlet>\n      </div>\n    </div>\n    <!--<footer class=\"al-footer clearfix\">\n      <div class=\"al-footer-right\" translate>{{'general.created_with'}} <i class=\"ion-heart\"></i></div>\n      <div class=\"al-footer-main clearfix\">\n        <div class=\"al-copy\">&copy; <a href=\"http://akveo.com\" translate>{{'general.akveo'}}</a> 2016</div>\n        <ul class=\"al-share clearfix\">\n          <li><i class=\"socicon socicon-facebook\"></i></li>\n          <li><i class=\"socicon socicon-twitter\"></i></li>\n          <li><i class=\"socicon socicon-google\"></i></li>\n          <li><i class=\"socicon socicon-github\"></i></li>\n        </ul>\n      </div>\n    </footer>-->\n    <ba-back-top position=\"200\"></ba-back-top>\n    "
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__theme__["a" /* BaMenuService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__theme__["a" /* BaMenuService */]) === "function" && _a || Object])
 ], Pages);
@@ -486,45 +486,49 @@ var isMobile = function () { return (/android|webos|iphone|ipad|ipod|blackberry|
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./charts/charts.module": [
+	"./administration/administration.module": [
 		622,
-		7
-	],
-	"./components/components.module": [
-		623,
 		1
 	],
-	"./dashboard/dashboard.module": [
+	"./charts/charts.module": [
+		623,
+		8
+	],
+	"./components/components.module": [
 		624,
-		3
+		2
 	],
-	"./editors/editors.module": [
+	"./dashboard/dashboard.module": [
 		625,
-		6
-	],
-	"./forms/forms.module": [
-		626,
 		4
 	],
-	"./maps/maps.module": [
-		628,
+	"./editors/editors.module": [
+		626,
+		7
+	],
+	"./forms/forms.module": [
+		627,
 		5
 	],
+	"./maps/maps.module": [
+		629,
+		6
+	],
 	"./tables/tables.module": [
-		630,
+		631,
 		0
 	],
 	"./ui/ui.module": [
-		631,
-		2
+		632,
+		3
 	],
 	"app/pages/login/login.module": [
-		627,
-		9
+		628,
+		10
 	],
 	"app/pages/register/register.module": [
-		629,
-		8
+		630,
+		9
 	]
 };
 function webpackAsyncContext(req) {
@@ -712,9 +716,9 @@ var _a, _b, _c, _d, _e;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(394);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_routing__ = __webpack_require__(427);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(425);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_service__ = __webpack_require__(428);
@@ -885,343 +889,374 @@ var PAGES_MENU = [
                 },
             },
             {
-                path: 'editors',
+                path: 'administration',
                 data: {
                     menu: {
-                        title: 'general.menu.editors',
+                        title: 'general.menu.administration',
                         icon: 'ion-edit',
                         selected: false,
-                        expanded: false,
+                        expanded: true,
                         order: 100,
                     },
                 },
                 children: [
                     {
-                        path: 'ckeditor',
+                        path: 'users',
                         data: {
                             menu: {
-                                title: 'general.menu.ck_editor',
+                                title: 'general.menu.users',
+                            },
+                        },
+                    }, {
+                        path: 'groups',
+                        data: {
+                            menu: {
+                                title: 'general.menu.groups',
                             },
                         },
                     },
                 ],
-            },
-            {
-                path: 'components',
-                data: {
-                    menu: {
-                        title: 'general.menu.components',
-                        icon: 'ion-gear-a',
-                        selected: false,
-                        expanded: false,
-                        order: 250,
-                    },
-                },
-                children: [
-                    {
-                        path: 'treeview',
-                        data: {
-                            menu: {
-                                title: 'general.menu.tree_view',
-                            },
-                        },
-                    },
-                ],
-            },
-            {
-                path: 'charts',
-                data: {
-                    menu: {
-                        title: 'general.menu.charts',
-                        icon: 'ion-stats-bars',
-                        selected: false,
-                        expanded: false,
-                        order: 200,
-                    },
-                },
-                children: [
-                    {
-                        path: 'chartist-js',
-                        data: {
-                            menu: {
-                                title: 'general.menu.chartist_js',
-                            },
-                        },
-                    },
-                ],
-            },
-            {
-                path: 'ui',
-                data: {
-                    menu: {
-                        title: 'general.menu.ui_features',
-                        icon: 'ion-android-laptop',
-                        selected: false,
-                        expanded: false,
-                        order: 300,
-                    },
-                },
-                children: [
-                    {
-                        path: 'typography',
-                        data: {
-                            menu: {
-                                title: 'general.menu.typography',
-                            },
-                        },
-                    },
-                    {
-                        path: 'buttons',
-                        data: {
-                            menu: {
-                                title: 'general.menu.buttons',
-                            },
-                        },
-                    },
-                    {
-                        path: 'icons',
-                        data: {
-                            menu: {
-                                title: 'general.menu.icons',
-                            },
-                        },
-                    },
-                    {
-                        path: 'modals',
-                        data: {
-                            menu: {
-                                title: 'general.menu.modals',
-                            },
-                        },
-                    },
-                    {
-                        path: 'slim',
-                        data: {
-                            menu: {
-                                title: 'Slim loading bar',
-                            },
-                        },
-                    },
-                    {
-                        path: 'grid',
-                        data: {
-                            menu: {
-                                title: 'general.menu.grid',
-                            },
-                        },
-                    },
-                ],
-            },
-            {
-                path: 'forms',
-                data: {
-                    menu: {
-                        title: 'general.menu.form_elements',
-                        icon: 'ion-compose',
-                        selected: false,
-                        expanded: false,
-                        order: 400,
-                    },
-                },
-                children: [
-                    {
-                        path: 'inputs',
-                        data: {
-                            menu: {
-                                title: 'general.menu.form_inputs',
-                            },
-                        },
-                    },
-                    {
-                        path: 'layouts',
-                        data: {
-                            menu: {
-                                title: 'general.menu.form_layouts',
-                            },
-                        },
-                    },
-                ],
-            },
-            {
-                path: 'tables',
-                data: {
-                    menu: {
-                        title: 'general.menu.tables',
-                        icon: 'ion-grid',
-                        selected: false,
-                        expanded: false,
-                        order: 500,
-                    },
-                },
-                children: [
-                    {
-                        path: 'basictables',
-                        data: {
-                            menu: {
-                                title: 'general.menu.basic_tables',
-                            },
-                        },
-                    },
-                    {
-                        path: 'smarttables',
-                        data: {
-                            menu: {
-                                title: 'general.menu.smart_tables',
-                            },
-                        },
-                    },
-                    {
-                        path: 'datatables',
-                        data: {
-                            menu: {
-                                title: 'Data Tables',
-                            },
-                        },
-                    },
-                    {
-                        path: 'hottables',
-                        data: {
-                            menu: {
-                                title: 'Hot Tables',
-                            },
-                        },
-                    },
-                ],
-            },
-            {
-                path: 'maps',
-                data: {
-                    menu: {
-                        title: 'general.menu.maps',
-                        icon: 'ion-ios-location-outline',
-                        selected: false,
-                        expanded: false,
-                        order: 600,
-                    },
-                },
-                children: [
-                    {
-                        path: 'googlemaps',
-                        data: {
-                            menu: {
-                                title: 'general.menu.google_maps',
-                            },
-                        },
-                    },
-                    {
-                        path: 'leafletmaps',
-                        data: {
-                            menu: {
-                                title: 'general.menu.leaflet_maps',
-                            },
-                        },
-                    },
-                    {
-                        path: 'bubblemaps',
-                        data: {
-                            menu: {
-                                title: 'general.menu.bubble_maps',
-                            },
-                        },
-                    },
-                    {
-                        path: 'linemaps',
-                        data: {
-                            menu: {
-                                title: 'general.menu.line_maps',
-                            },
-                        },
-                    },
-                ],
-            },
-            {
-                path: '',
-                data: {
-                    menu: {
-                        title: 'general.menu.pages',
-                        icon: 'ion-document',
-                        selected: false,
-                        expanded: false,
-                        order: 650,
-                    },
-                },
-                children: [
-                    {
-                        path: ['/login'],
-                        data: {
-                            menu: {
-                                title: 'general.menu.login',
-                            },
-                        },
-                    },
-                    {
-                        path: ['/register'],
-                        data: {
-                            menu: {
-                                title: 'general.menu.register',
-                            },
-                        },
-                    },
-                ],
-            },
-            {
-                path: '',
-                data: {
-                    menu: {
-                        title: 'general.menu.menu_level_1',
-                        icon: 'ion-ios-more',
-                        selected: false,
-                        expanded: false,
-                        order: 700,
-                    },
-                },
-                children: [
-                    {
-                        path: '',
-                        data: {
-                            menu: {
-                                title: 'general.menu.menu_level_1_1',
-                                url: '#',
-                            },
-                        },
-                    },
-                    {
-                        path: '',
-                        data: {
-                            menu: {
-                                title: 'general.menu.menu_level_1_2',
-                                url: '#',
-                            },
-                        },
-                        children: [
-                            {
-                                path: '',
-                                data: {
-                                    menu: {
-                                        title: 'general.menu.menu_level_1_2_1',
-                                        url: '#',
-                                    },
-                                },
-                            },
-                        ],
-                    },
-                ],
-            },
-            {
-                path: '',
-                data: {
-                    menu: {
-                        title: 'general.menu.external_link',
-                        url: 'http://akveo.com',
-                        icon: 'ion-android-exit',
-                        order: 800,
-                        target: '_blank',
-                    },
-                },
             },
         ],
     },
 ];
+/*
+{
+
+      {
+        path: 'tables',
+        data: {
+          menu: {
+            title: 'general.menu.tables',
+            icon: 'ion-grid',
+            selected: false,
+            expanded: false,
+            order: 500,
+          },
+        },
+        children: [
+          {
+            path: 'basictables',
+            data: {
+              menu: {
+                title: 'general.menu.basic_tables',
+              },
+            },
+          },
+          {
+            path: 'smarttables',
+            data: {
+              menu: {
+                title: 'general.menu.smart_tables',
+              },
+            },
+          },
+          {
+            path: 'datatables',
+            data: {
+              menu: {
+                title: 'Data Tables',
+              },
+            },
+          },
+          {
+            path: 'hottables',
+            data: {
+              menu: {
+                title: 'Hot Tables',
+              },
+            },
+          },
+        ],
+      },
+      {
+        path: 'maps',
+        data: {
+          menu: {
+            title: 'general.menu.maps',
+            icon: 'ion-ios-location-outline',
+            selected: false,
+            expanded: false,
+            order: 600,
+          },
+        },
+        children: [
+          {
+            path: 'googlemaps',
+            data: {
+              menu: {
+                title: 'general.menu.google_maps',
+              },
+            },
+          },
+          {
+            path: 'leafletmaps',
+            data: {
+              menu: {
+                title: 'general.menu.leaflet_maps',
+              },
+            },
+          },
+          {
+            path: 'bubblemaps',
+            data: {
+              menu: {
+                title: 'general.menu.bubble_maps',
+              },
+            },
+          },
+          {
+            path: 'linemaps',
+            data: {
+              menu: {
+                title: 'general.menu.line_maps',
+              },
+            },
+          },
+        ],
+      },
+      {
+        path: '',
+        data: {
+          menu: {
+            title: 'general.menu.pages',
+            icon: 'ion-document',
+            selected: false,
+            expanded: false,
+            order: 650,
+          },
+        },
+        children: [
+          {
+            path: ['/login'],
+            data: {
+              menu: {
+                title: 'general.menu.login',
+              },
+            },
+          },
+          {
+            path: ['/register'],
+            data: {
+              menu: {
+                title: 'general.menu.register',
+              },
+            },
+          },
+        ],
+      },
+      {
+        path: '',
+        data: {
+          menu: {
+            title: 'general.menu.menu_level_1',
+            icon: 'ion-ios-more',
+            selected: false,
+            expanded: false,
+            order: 700,
+          },
+        },
+        children: [
+          {
+            path: '',
+            data: {
+              menu: {
+                title: 'general.menu.menu_level_1_1',
+                url: '#',
+              },
+            },
+          },
+          {
+            path: '',
+            data: {
+              menu: {
+                title: 'general.menu.menu_level_1_2',
+                url: '#',
+              },
+            },
+            children: [
+              {
+                path: '',
+                data: {
+                  menu: {
+                    title: 'general.menu.menu_level_1_2_1',
+                    url: '#',
+                  },
+                },
+              },
+            ],
+          },
+        ],
+      },
+      {
+        path: '',
+        data: {
+          menu: {
+            title: 'general.menu.external_link',
+            url: 'http://akveo.com',
+            icon: 'ion-android-exit',
+            order: 800,
+            target: '_blank',
+          },
+        },
+      },
+        path: 'editors',
+        data: {
+          menu: {
+            title: 'general.menu.editors',
+            icon: 'ion-edit',
+            selected: false,
+            expanded: false,
+            order: 100,
+          },
+        },
+        children: [
+          {
+            path: 'ckeditor',
+            data: {
+              menu: {
+                title: 'general.menu.ck_editor',
+              },
+            },
+          },
+        ],
+      },   {
+        path: 'components',
+        data: {
+          menu: {
+            title: 'general.menu.components',
+            icon: 'ion-gear-a',
+            selected: false,
+            expanded: false,
+            order: 250,
+          },
+        },
+        children: [
+          {
+            path: 'treeview',
+            data: {
+              menu: {
+                title: 'general.menu.tree_view',
+              },
+            },
+          },
+        ],
+      },
+      {
+        path: 'charts',
+        data: {
+          menu: {
+            title: 'general.menu.charts',
+            icon: 'ion-stats-bars',
+            selected: false,
+            expanded: false,
+            order: 200,
+          },
+        },
+        children: [
+          {
+            path: 'chartist-js',
+            data: {
+              menu: {
+                title: 'general.menu.chartist_js',
+              },
+            },
+          },
+        ],
+      },
+      {
+        path: 'ui',
+        data: {
+          menu: {
+            title: 'general.menu.ui_features',
+            icon: 'ion-android-laptop',
+            selected: false,
+            expanded: false,
+            order: 300,
+          },
+        },
+        children: [
+          {
+            path: 'typography',
+            data: {
+              menu: {
+                title: 'general.menu.typography',
+              },
+            },
+          },
+          {
+            path: 'buttons',
+            data: {
+              menu: {
+                title: 'general.menu.buttons',
+              },
+            },
+          },
+          {
+            path: 'icons',
+            data: {
+              menu: {
+                title: 'general.menu.icons',
+              },
+            },
+          },
+          {
+            path: 'modals',
+            data: {
+              menu: {
+                title: 'general.menu.modals',
+              },
+            },
+          },
+          {
+            path: 'slim',
+            data: {
+              menu: {
+                title: 'Slim loading bar',
+              },
+            },
+          },
+          {
+            path: 'grid',
+            data: {
+              menu: {
+                title: 'general.menu.grid',
+              },
+            },
+          },
+        ],
+      },
+      {
+        path: 'forms',
+        data: {
+          menu: {
+            title: 'general.menu.form_elements',
+            icon: 'ion-compose',
+            selected: false,
+            expanded: false,
+            order: 400,
+          },
+        },
+        children: [
+          {
+            path: 'inputs',
+            data: {
+              menu: {
+                title: 'general.menu.form_inputs',
+              },
+            },
+          },
+          {
+            path: 'layouts',
+            data: {
+              menu: {
+                title: 'general.menu.form_layouts',
+              },
+            },
+          },
+        ],
+      },
+      */ 
 //# sourceMappingURL=pages.menu.js.map
 
 /***/ }),
@@ -1234,7 +1269,7 @@ var PAGES_MENU = [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_routing__ = __webpack_require__(431);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_translation_module__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_translation_module__ = __webpack_require__(170);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_component__ = __webpack_require__(222);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1291,6 +1326,7 @@ var routes = [
         component: __WEBPACK_IMPORTED_MODULE_1__pages_component__["a" /* Pages */],
         children: [
             { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+            { path: 'administration', loadChildren: './administration/administration.module#AdministrationModule' },
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
             { path: 'editors', loadChildren: './editors/editors.module#EditorsModule' },
             { path: 'components', loadChildren: './components/components.module#ComponentsModule' },
@@ -2271,7 +2307,7 @@ var _a, _b, _c, _d;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_fullcalendar_dist_fullcalendar_js__ = __webpack_require__(580);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_fullcalendar_dist_fullcalendar_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_fullcalendar_dist_fullcalendar_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery__ = __webpack_require__(175);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_jquery__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BaFullCalendar; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -3543,9 +3579,9 @@ BaImageLoaderService = __decorate([
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_BehaviorSubject__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BaMenuService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -4429,7 +4465,7 @@ module.exports = "<div class=\"{{baMultiCheckboxClass}} container-content\">\n  
 /***/ 601:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-top clearfix\" baScrollPosition maxHeight=\"50\" (scrollChange)=\"scrolledChanged($event)\"\n     [ngClass]=\"{scrolled: isScrolled}\">\n  <a routerLink=\"/pages/dashboard\" class=\"al-logo clearfix\"><span>ng2-</span>admin</a>\n  <a href (click)=\"toggleMenu()\" class=\"collapse-menu-link ion-navicon\"></a>\n\n  <div class=\"search\">\n    <i class=\"ion-ios-search-strong\" ng-click=\"startSearch()\"></i>\n    <input id=\"searchInput\" type=\"text\" placeholder=\"Search for...\">\n  </div>\n\n  <div class=\"user-profile clearfix\">\n    <div class=\"dropdown al-user-profile\">\n      <a class=\"profile-toggle-link dropdown-toggle\" id=\"user-profile-dd\" data-toggle=\"dropdown\" aria-expanded=\"false\">\n        <img src=\"{{ ( 'Nasta' | baProfilePicture ) }}\">\n      </a>\n      <ul class=\"dropdown-menu top-dropdown-menu profile-dropdown\" aria-labelledby=\"user-profile-dd\">\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-user\"></i>Profile</a></li>\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-cog\"></i>Settings</a></li>\n        <li class=\"dropdown-item\"><a href class=\"signout\"><i class=\"fa fa-power-off\"></i>Sign out</a></li>\n      </ul>\n    </div>\n    <ba-msg-center></ba-msg-center>\n  </div>\n</div>\n"
+module.exports = "<div class=\"page-top clearfix\" baScrollPosition maxHeight=\"50\" (scrollChange)=\"scrolledChanged($event)\" [ngClass]=\"{scrolled: isScrolled}\">\n  <a routerLink=\"/pages/dashboard\" class=\"al-logo clearfix\"><span>Sua </span>Empresa</a>\n  <a href (click)=\"toggleMenu()\" class=\"collapse-menu-link ion-navicon\"></a>\n  <!--\n  <div class=\"search\">\n    <i class=\"ion-ios-search-strong\" ng-click=\"startSearch()\"></i>\n    <input id=\"searchInput\" type=\"text\" placeholder=\"Search for...\">\n  </div>\n-->\n  <!--  <div class=\"user-profile clearfix\">\n    <div class=\"dropdown al-user-profile\">\n      <a class=\"profile-toggle-link dropdown-toggle\" id=\"user-profile-dd\" data-toggle=\"dropdown\" aria-expanded=\"false\">\n        <img src=\"{{ ( 'Nasta' | baProfilePicture ) }}\">\n      </a>\n      <ul class=\"dropdown-menu top-dropdown-menu profile-dropdown\" aria-labelledby=\"user-profile-dd\">\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-user\"></i>Profile</a></li>\n        <li class=\"dropdown-item\"><a href><i class=\"fa fa-cog\"></i>Settings</a></li>\n        <li class=\"dropdown-item\"><a href class=\"signout\"><i class=\"fa fa-power-off\"></i>Sign out</a></li>\n      </ul>\n    </div>\n    <ba-msg-center></ba-msg-center>\n  </div>-->\n</div>"
 
 /***/ }),
 
