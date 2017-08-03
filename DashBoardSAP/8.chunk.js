@@ -1,6 +1,6 @@
 webpackJsonp([8,16],{
 
-/***/ 1001:
+/***/ 1009:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35,12 +35,12 @@ Charts = __decorate([
 
 /***/ }),
 
-/***/ 1002:
+/***/ 1010:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__chartistJs_service__ = __webpack_require__(1003);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__chartistJs_service__ = __webpack_require__(1011);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChartistJs; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -68,8 +68,8 @@ var ChartistJs = (function () {
 ChartistJs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'chartist-js',
-        template: __webpack_require__(1190),
-        styles: [__webpack_require__(1147)]
+        template: __webpack_require__(1203),
+        styles: [__webpack_require__(1159)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__chartistJs_service__["a" /* ChartistJsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__chartistJs_service__["a" /* ChartistJsService */]) === "function" && _a || Object])
 ], ChartistJs);
@@ -79,12 +79,12 @@ var _a;
 
 /***/ }),
 
-/***/ 1003:
+/***/ 1011:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__theme__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__theme__ = __webpack_require__(17);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChartistJsService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -298,7 +298,7 @@ var ChartistJsService = (function () {
 }());
 ChartistJsService = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__theme__["c" /* BaThemeConfigProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__theme__["c" /* BaThemeConfigProvider */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__theme__["b" /* BaThemeConfigProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__theme__["b" /* BaThemeConfigProvider */]) === "function" && _a || Object])
 ], ChartistJsService);
 
 var _a;
@@ -306,13 +306,13 @@ var _a;
 
 /***/ }),
 
-/***/ 1056:
+/***/ 1067:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__charts_component__ = __webpack_require__(1001);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_chartistJs_chartistJs_component__ = __webpack_require__(1002);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__charts_component__ = __webpack_require__(1009);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_chartistJs_chartistJs_component__ = __webpack_require__(1010);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -332,10 +332,10 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 1147:
+/***/ 1159:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -350,27 +350,27 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1190:
+/***/ 1203:
 /***/ (function(module, exports) {
 
 module.exports = "<section class=\"chartist\">\n  <div class=\"row\">\n    <div class=\"col-md-6 \">\n      <ba-card cardTitle=\"chart.lines\" baCardClass=\"with-scroll\">\n        <h5 translate>{{'chart.simple_line_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Line\"\n                           [baChartistChartData]=\"data['simpleLineData']\"\n                           [baChartistChartOptions]=\"data['simpleLineOptions']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.line_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Line\"\n                           [baChartistChartData]=\"data['areaLineData']\"\n                           [baChartistChartOptions]=\"data['areaLineOptions']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.bi_polar_line_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Line\"\n                           [baChartistChartData]=\"data['biLineData']\"\n                           [baChartistChartOptions]=\"data['biLineOptions']\">\n        </ba-chartist-chart>\n      </ba-card>\n    </div>\n\n    <div class=\"col-md-6 \">\n      <ba-card cardTitle=\"chart.bars\" baCardClass=\"with-scroll\">\n        <h5 translate>{{'chart.simple_bar_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Bar\"\n                           [baChartistChartData]=\"data['simpleBarData']\"\n                           [baChartistChartOptions]=\"data['simpleBarOptions']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.multi_line_labels_bar_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Bar\"\n                           [baChartistChartData]=\"data['multiBarData']\"\n                           [baChartistChartOptions]=\"data['multiBarOptions']\"\n                           [baChartistChartResponsive]=\"data['multiBarResponsive']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.stacked_bar_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                           baChartistChartType=\"Bar\"\n                           [baChartistChartData]=\"data['stackedBarData']\"\n                           [baChartistChartOptions]=\"data['stackedBarOptions']\">\n        </ba-chartist-chart>\n      </ba-card>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <ba-card cardTitle=\"chart.pies_and_donuts\" baCardClass=\"with-scroll\">\n        <div class=\"row\">\n          <div class=\"col-md-12 col-lg-4\"><h5 translate>{{'chart.simple_pie'}}</h5>\n            <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                               baChartistChartType=\"Pie\"\n                               [baChartistChartData]=\"data['simplePieData']\"\n                               [baChartistChartOptions]=\"data['simplePieOptions']\"\n                               [baChartistChartResponsive]=\"getResponsive(20, 80)\">\n            </ba-chartist-chart>\n          </div>\n          <div class=\"col-md-12 col-lg-4\"><h5 translate>{{'chart.pie_with_labels'}}</h5>\n            <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                               baChartistChartType=\"Pie\"\n                               [baChartistChartData]=\"data['labelsPieData']\"\n                               [baChartistChartOptions]=\"data['labelsPieOptions']\">\n            </ba-chartist-chart>\n          </div>\n          <div class=\"col-md-12 col-lg-4\"><h5 translate>{{'chart.donut'}}</h5>\n            <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                               baChartistChartType=\"Pie\"\n                               [baChartistChartData]=\"data['simpleDonutData']\"\n                               [baChartistChartOptions]=\"data['simpleDonutOptions']\"\n                               [baChartistChartResponsive]=\"getResponsive(5, 40)\">\n            </ba-chartist-chart>\n          </div>\n        </div>\n      </ba-card>\n    </div>\n  </div>\n</section>\n"
 
 /***/ }),
 
-/***/ 623:
+/***/ 629:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__charts_routing__ = __webpack_require__(1056);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__charts_component__ = __webpack_require__(1001);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_chartistJs_chartistJs_component__ = __webpack_require__(1002);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_chartistJs_chartistJs_service__ = __webpack_require__(1003);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_translation_module__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__charts_routing__ = __webpack_require__(1067);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__charts_component__ = __webpack_require__(1009);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_chartistJs_chartistJs_component__ = __webpack_require__(1010);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_chartistJs_chartistJs_service__ = __webpack_require__(1011);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_translation_module__ = __webpack_require__(171);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChartsModule", function() { return ChartsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

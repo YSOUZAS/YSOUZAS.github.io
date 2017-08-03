@@ -1,6 +1,6 @@
 webpackJsonp([3,16],{
 
-/***/ 1036:
+/***/ 1044:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24,8 +24,8 @@ var Buttons = (function () {
 Buttons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'buttons',
-        template: __webpack_require__(1236),
-        styles: [__webpack_require__(1170)]
+        template: __webpack_require__(1249),
+        styles: [__webpack_require__(1182)]
     }),
     __metadata("design:paramtypes", [])
 ], Buttons);
@@ -34,7 +34,7 @@ Buttons = __decorate([
 
 /***/ }),
 
-/***/ 1037:
+/***/ 1045:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58,8 +58,8 @@ var Grid = (function () {
 Grid = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'grid',
-        template: __webpack_require__(1245),
-        styles: [__webpack_require__(1171)]
+        template: __webpack_require__(1258),
+        styles: [__webpack_require__(1183)]
     }),
     __metadata("design:paramtypes", [])
 ], Grid);
@@ -68,12 +68,12 @@ Grid = __decorate([
 
 /***/ }),
 
-/***/ 1038:
+/***/ 1046:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__icons_service__ = __webpack_require__(1039);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__icons_service__ = __webpack_require__(1047);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Icons; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -98,8 +98,8 @@ var Icons = (function () {
 Icons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'icons',
-        template: __webpack_require__(1246),
-        styles: [__webpack_require__(1172)]
+        template: __webpack_require__(1259),
+        styles: [__webpack_require__(1184)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__icons_service__["a" /* IconsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__icons_service__["a" /* IconsService */]) === "function" && _a || Object])
 ], Icons);
@@ -109,7 +109,7 @@ var _a;
 
 /***/ }),
 
-/***/ 1039:
+/***/ 1047:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -342,12 +342,12 @@ IconsService = __decorate([
 
 /***/ }),
 
-/***/ 1040:
+/***/ 1048:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__ = __webpack_require__(394);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__ = __webpack_require__(397);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DefaultModal; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -374,8 +374,8 @@ var DefaultModal = (function () {
 DefaultModal = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'add-service-modal',
-        styles: [__webpack_require__((1173))],
-        template: __webpack_require__(1247)
+        styles: [__webpack_require__((1185))],
+        template: __webpack_require__(1260)
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["e" /* NgbActiveModal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["e" /* NgbActiveModal */]) === "function" && _a || Object])
 ], DefaultModal);
@@ -385,13 +385,13 @@ var _a;
 
 /***/ }),
 
-/***/ 1041:
+/***/ 1049:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__ = __webpack_require__(394);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__default_modal_default_modal_component__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__default_modal_default_modal_component__ = __webpack_require__(1048);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Modals; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -433,8 +433,8 @@ var Modals = (function () {
 Modals = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'modals',
-        styles: [__webpack_require__(1174)],
-        template: __webpack_require__(1248)
+        styles: [__webpack_require__(1186)],
+        template: __webpack_require__(1261)
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["f" /* NgbModal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__ng_bootstrap_ng_bootstrap__["f" /* NgbModal */]) === "function" && _a || Object])
 ], Modals);
@@ -444,12 +444,12 @@ var _a;
 
 /***/ }),
 
-/***/ 1042:
+/***/ 1050:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_slim_loading_bar__ = __webpack_require__(1046);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ng2_slim_loading_bar__ = __webpack_require__(1056);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlimComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -503,8 +503,8 @@ var SlimComponent = (function () {
 SlimComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'slim',
-        styles: [__webpack_require__(1175)],
-        template: __webpack_require__(1249)
+        styles: [__webpack_require__(1187)],
+        template: __webpack_require__(1262)
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ng2_slim_loading_bar__["b" /* SlimLoadingBarService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ng2_slim_loading_bar__["b" /* SlimLoadingBarService */]) === "function" && _a || Object])
 ], SlimComponent);
@@ -514,7 +514,7 @@ var _a;
 
 /***/ }),
 
-/***/ 1043:
+/***/ 1051:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -538,7 +538,7 @@ var Typography = (function () {
 Typography = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'typography',
-        template: __webpack_require__(1250),
+        template: __webpack_require__(1263),
     }),
     __metadata("design:paramtypes", [])
 ], Typography);
@@ -547,7 +547,7 @@ Typography = __decorate([
 
 /***/ }),
 
-/***/ 1044:
+/***/ 1052:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -580,13 +580,13 @@ Ui = __decorate([
 
 /***/ }),
 
-/***/ 1046:
+/***/ 1056:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_slim_loading_bar_component__ = __webpack_require__(1047);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_slim_loading_bar_service__ = __webpack_require__(951);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_slim_loading_bar_component__ = __webpack_require__(1057);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_slim_loading_bar_service__ = __webpack_require__(955);
 /* unused harmony namespace reexport */
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__src_slim_loading_bar_service__["a"]; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlimLoadingBarModule; });
@@ -622,13 +622,13 @@ var SlimLoadingBarModule = (function () {
 
 /***/ }),
 
-/***/ 1047:
+/***/ 1057:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slim_loading_bar_service__ = __webpack_require__(951);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__slim_loading_bar_utils__ = __webpack_require__(1048);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slim_loading_bar_service__ = __webpack_require__(955);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__slim_loading_bar_utils__ = __webpack_require__(1058);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlimLoadingBarComponent; });
 // Copyright (C) 2016 Sergey Akopkokhyants
 // This project is licensed under the terms of the MIT license.
@@ -686,7 +686,7 @@ var SlimLoadingBarComponent = (function () {
 
 /***/ }),
 
-/***/ 1048:
+/***/ 1058:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -701,7 +701,7 @@ function isPresent(obj) {
 
 /***/ }),
 
-/***/ 1126:
+/***/ 1137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -725,7 +725,7 @@ var DisabledButtons = (function () {
 DisabledButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'disabled-buttons',
-        template: __webpack_require__(1237),
+        template: __webpack_require__(1250),
     }),
     __metadata("design:paramtypes", [])
 ], DisabledButtons);
@@ -734,18 +734,18 @@ DisabledButtons = __decorate([
 
 /***/ }),
 
-/***/ 1127:
+/***/ 1138:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__disabledButtons_component__ = __webpack_require__(1126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__disabledButtons_component__ = __webpack_require__(1137);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__disabledButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1128:
+/***/ 1139:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -769,7 +769,7 @@ var DropdownButtons = (function () {
 DropdownButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'dropdown-buttons',
-        template: __webpack_require__(1238)
+        template: __webpack_require__(1251)
     })
     // TODO: appendToBody does not implemented yet, waiting for it
     ,
@@ -780,18 +780,18 @@ DropdownButtons = __decorate([
 
 /***/ }),
 
-/***/ 1129:
+/***/ 1140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dropdownButtons_component__ = __webpack_require__(1128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dropdownButtons_component__ = __webpack_require__(1139);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__dropdownButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1130:
+/***/ 1141:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -815,7 +815,7 @@ var FlatButtons = (function () {
 FlatButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'flat-buttons',
-        template: __webpack_require__(1239),
+        template: __webpack_require__(1252),
     }),
     __metadata("design:paramtypes", [])
 ], FlatButtons);
@@ -824,18 +824,18 @@ FlatButtons = __decorate([
 
 /***/ }),
 
-/***/ 1131:
+/***/ 1142:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__flatButtons_component__ = __webpack_require__(1130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__flatButtons_component__ = __webpack_require__(1141);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__flatButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1132:
+/***/ 1143:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -859,7 +859,7 @@ var GroupButtons = (function () {
 GroupButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'group-buttons',
-        template: __webpack_require__(1240),
+        template: __webpack_require__(1253),
     }),
     __metadata("design:paramtypes", [])
 ], GroupButtons);
@@ -868,18 +868,18 @@ GroupButtons = __decorate([
 
 /***/ }),
 
-/***/ 1133:
+/***/ 1144:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__groupButtons_component__ = __webpack_require__(1132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__groupButtons_component__ = __webpack_require__(1143);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__groupButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1134:
+/***/ 1145:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -903,7 +903,7 @@ var IconButtons = (function () {
 IconButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'icon-buttons',
-        template: __webpack_require__(1241),
+        template: __webpack_require__(1254),
     }),
     __metadata("design:paramtypes", [])
 ], IconButtons);
@@ -912,29 +912,29 @@ IconButtons = __decorate([
 
 /***/ }),
 
-/***/ 1135:
+/***/ 1146:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__iconButtons_component__ = __webpack_require__(1134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__iconButtons_component__ = __webpack_require__(1145);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__iconButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1136:
+/***/ 1147:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__largeButtons_component__ = __webpack_require__(1137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__largeButtons_component__ = __webpack_require__(1148);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__largeButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1137:
+/***/ 1148:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -958,7 +958,7 @@ var LargeButtons = (function () {
 LargeButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'large-buttons',
-        template: __webpack_require__(1242),
+        template: __webpack_require__(1255),
     }),
     __metadata("design:paramtypes", [])
 ], LargeButtons);
@@ -967,18 +967,18 @@ LargeButtons = __decorate([
 
 /***/ }),
 
-/***/ 1138:
+/***/ 1149:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__raisedButtons_component__ = __webpack_require__(1139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__raisedButtons_component__ = __webpack_require__(1150);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__raisedButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1139:
+/***/ 1150:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1002,7 +1002,7 @@ var RaisedButtons = (function () {
 RaisedButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'raised-buttons',
-        template: __webpack_require__(1243),
+        template: __webpack_require__(1256),
     }),
     __metadata("design:paramtypes", [])
 ], RaisedButtons);
@@ -1011,18 +1011,18 @@ RaisedButtons = __decorate([
 
 /***/ }),
 
-/***/ 1140:
+/***/ 1151:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sizedButtons_component__ = __webpack_require__(1141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sizedButtons_component__ = __webpack_require__(1152);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__sizedButtons_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1141:
+/***/ 1152:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1046,7 +1046,7 @@ var SizedButtons = (function () {
 SizedButtons = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'sized-buttons',
-        template: __webpack_require__(1244),
+        template: __webpack_require__(1257),
     }),
     __metadata("design:paramtypes", [])
 ], SizedButtons);
@@ -1055,18 +1055,18 @@ SizedButtons = __decorate([
 
 /***/ }),
 
-/***/ 1142:
+/***/ 1153:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ui_component__ = __webpack_require__(1044);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_buttons_buttons_component__ = __webpack_require__(1036);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_grid_grid_component__ = __webpack_require__(1037);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_icons_icons_component__ = __webpack_require__(1038);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_modals_modals_component__ = __webpack_require__(1041);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_typography_typography_component__ = __webpack_require__(1043);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_slim_slim_component__ = __webpack_require__(1042);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ui_component__ = __webpack_require__(1052);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_buttons_buttons_component__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_grid_grid_component__ = __webpack_require__(1045);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_icons_icons_component__ = __webpack_require__(1046);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_modals_modals_component__ = __webpack_require__(1049);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_typography_typography_component__ = __webpack_require__(1051);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_slim_slim_component__ = __webpack_require__(1050);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -1096,10 +1096,10 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 1170:
+/***/ 1182:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -1114,10 +1114,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1171:
+/***/ 1183:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -1132,10 +1132,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1172:
+/***/ 1184:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -1150,10 +1150,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1173:
+/***/ 1185:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -1168,10 +1168,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1174:
+/***/ 1186:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -1186,10 +1186,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1175:
+/***/ 1187:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(3)(false);
+exports = module.exports = __webpack_require__(4)(false);
 // imports
 
 
@@ -1204,140 +1204,140 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1236:
+/***/ 1249:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n  <div class=\"row\">\n    <div class=\"col-xl-3 col-lg-6 col-md-6\">\n      <ba-card cardTitle=\"Flat Buttons\" baCardClass=\"with-scroll button-panel\">\n        <flat-buttons></flat-buttons>\n      </ba-card>\n    </div>\n    <div class=\"col-xl-3 col-lg-6 col-md-6\">\n      <ba-card cardTitle=\"Raised Buttons\" baCardClass=\"with-scroll button-panel\">\n        <raised-buttons></raised-buttons>\n      </ba-card>\n    </div>\n    <div class=\"col-xl-3 col-lg-6 col-md-6\">\n      <ba-card cardTitle=\"Different Sizes\" baCardClass=\"with-scroll button-panel df-size-button-panel\">\n        <sized-buttons></sized-buttons>\n      </ba-card>\n    </div>\n    <div class=\"col-xl-3 col-lg-6 col-md-6\">\n      <ba-card cardTitle=\"Disabled\" baCardClass=\"with-scroll button-panel\">\n        <disabled-buttons></disabled-buttons>\n      </ba-card>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n\n      <ba-card cardTitle=\"Icon Buttons\" baCardClass=\"with-scroll\">\n        <icon-buttons></icon-buttons>\n      </ba-card>\n\n      <ba-card cardTitle=\"Large Buttons\" baCardClass=\"with-scroll large-buttons-panel\">\n        <large-buttons></large-buttons>\n      </ba-card>\n\n    </div>\n    <div class=\"col-md-6\">\n\n      <ba-card cardTitle=\"Button Dropdowns\" baCardClass=\"with-scroll\">\n        <dropdown-buttons></dropdown-buttons>\n      </ba-card>\n\n      <ba-card cardTitle=\"Button Groups\" baCardClass=\"with-scroll\">\n        <group-buttons></group-buttons>\n      </ba-card>\n\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-md-12\"\n         ba-panel\n         ba-panel-title=\"Progress Buttons\"\n         ba-panel-class=\"with-scroll\">\n      <div ng-include=\"'app/pages/ui/buttons/widgets/progressButtons.html'\"></div>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
-/***/ 1237:
+/***/ 1250:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-default\" disabled=\"disabled\">Default</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-primary\" disabled=\"disabled\">Primary</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-success\" disabled=\"disabled\">Success</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-info\" disabled=\"disabled\">Info</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-warning\" disabled=\"disabled\">Warning</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-danger\" disabled=\"disabled\">Danger</button>\n</div>\n"
 
 /***/ }),
 
-/***/ 1238:
+/***/ 1251:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row btns-row\">\n  <div class=\"col-sm-4 col-6\">\n    <div class=\"btn-group\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-primary\" ngbDropdownToggle>\n        Primary\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <div class=\"btn-group\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-success\" ngbDropdownToggle>\n        Success\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <div class=\"btn-group\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-info\" ngbDropdownToggle>\n        Info\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <div class=\"btn-group\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-default\" ngbDropdownToggle>\n        Default\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <div class=\"btn-group\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-warning\" ngbDropdownToggle>\n        Warning\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <div class=\"btn-group\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-danger\" ngbDropdownToggle>\n        Danger\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n</div>\n\n<h5 class=\"panel-subtitle\">Split button dropdowns</h5>\n\n<div class=\"row btns-row\">\n  <div class=\"col-sm-4 col-6 col-lg-4 col-md-6\">\n    <div class=\"btn-group flex-dropdown\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n      <button type=\"button\" class=\"btn btn-primary\" ngbDropdownToggle>\n        <span class=\"sr-only\">Toggle Dropdown</span>\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6 col-lg-4 col-md-6\">\n    <div class=\"btn-group flex-dropdown\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-success\">Success</button>\n      <button type=\"button\" class=\"btn btn-success\" ngbDropdownToggle>\n        <span class=\"sr-only\">Toggle Dropdown</span>\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6 col-lg-4 col-md-6\">\n    <div class=\"btn-group flex-dropdown\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-info\">Info</button>\n      <button type=\"button\" class=\"btn btn-info\" ngbDropdownToggle>\n        <span class=\"sr-only\">Toggle Dropdown</span>\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6 col-lg-4 col-md-6\">\n    <div class=\"btn-group flex-dropdown\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-default\">Default</button>\n      <button type=\"button\" class=\"btn btn-default\" ngbDropdownToggle>\n        <span class=\"sr-only\">Toggle Dropdown</span>\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6 col-lg-4 col-md-6\">\n    <div class=\"btn-group flex-dropdown\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-warning\">Warning</button>\n      <button type=\"button\" class=\"btn btn-warning\" ngbDropdownToggle>\n        <span class=\"sr-only\">Toggle Dropdown</span>\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n  <div class=\"col-sm-4 col-6 col-lg-4 col-md-6\">\n    <div class=\"btn-group flex-dropdown\" ngbDropdown>\n      <button type=\"button\" class=\"btn btn-danger\">Danger</button>\n      <button type=\"button\" class=\"btn btn-danger\" ngbDropdownToggle>\n        <span class=\"sr-only\">Toggle Dropdown</span>\n      </button>\n      <ul class=\"dropdown-menu\">\n        <li class=\"dropdown-item\"><a href=\"#\">Action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Another action</a></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Something else here</a></li>\n        <li class=\"dropdown-divider\"></li>\n        <li class=\"dropdown-item\"><a href=\"#\">Separated link</a></li>\n      </ul>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1239:
+/***/ 1252:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-default\">Default</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-success\">Success</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-info\">Info</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-warning\">Warning</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-danger\">Danger</button>\n</div>\n"
 
 /***/ }),
 
-/***/ 1240:
+/***/ 1253:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"btn-group-example\">\n  <div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">\n    <button type=\"button\" class=\"btn btn-danger\">Left</button>\n    <button type=\"button\" class=\"btn btn-danger\">Middle</button>\n    <button type=\"button\" class=\"btn btn-danger\">Right</button>\n  </div>\n</div>\n\n<div class=\"btn-toolbar-example\">\n  <div class=\"btn-toolbar\" role=\"toolbar\" aria-label=\"Toolbar with button groups\">\n    <div class=\"btn-group\" role=\"group\" aria-label=\"First group\">\n      <button type=\"button\" class=\"btn btn-primary\">1</button>\n      <button type=\"button\" class=\"btn btn-primary\">2</button>\n      <button type=\"button\" class=\"btn btn-primary\">3</button>\n      <button type=\"button\" class=\"btn btn-primary\">4</button>\n    </div>\n    <div class=\"btn-group\" role=\"group\" aria-label=\"Second group\">\n      <button type=\"button\" class=\"btn btn-primary\">5</button>\n      <button type=\"button\" class=\"btn btn-primary\">6</button>\n      <button type=\"button\" class=\"btn btn-primary\">7</button>\n    </div>\n    <div class=\"btn-group\" role=\"group\" aria-label=\"Third group\">\n      <button type=\"button\" class=\"btn btn-primary\">8</button>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1241:
+/***/ 1254:
 /***/ (function(module, exports) {
 
 module.exports = "<ul class=\"btn-list clearfix\">\n  <li>\n    <button type=\"button\" class=\"btn btn-primary btn-icon\"><i class=\"ion-android-download\"></i></button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-default btn-icon\"><i class=\"ion-stats-bars\"></i></button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-success btn-icon\"><i class=\"ion-android-checkmark-circle\"></i></button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-info btn-icon\"><i class=\"ion-information\"></i></button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-warning btn-icon\"><i class=\"ion-android-warning\"></i></button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-danger btn-icon\"><i class=\"ion-nuclear\"></i></button>\n  </li>\n</ul>\n\n<h5 class=\"panel-subtitle\">Buttons with icons</h5>\n\n<ul class=\"btn-list clearfix\">\n  <li>\n    <button type=\"button\" class=\"btn btn-primary btn-with-icon\"><i class=\"ion-android-download\"></i>Primary</button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-default btn-with-icon\"><i class=\"ion-stats-bars\"></i>Default</button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-success btn-with-icon\"><i class=\"ion-android-checkmark-circle\"></i>Success\n    </button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-info btn-with-icon\"><i class=\"ion-information\"></i>Info</button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-warning btn-with-icon\"><i class=\"ion-android-warning\"></i>Warning</button>\n  </li>\n  <li>\n    <button type=\"button\" class=\"btn btn-danger btn-with-icon\"><i class=\"ion-nuclear\"></i>Danger</button>\n  </li>\n</ul>\n"
 
 /***/ }),
 
-/***/ 1242:
+/***/ 1255:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row btns-row btns-same-width-lg\">\n  <div class=\"col-sm-4 col-6\">\n    <button type=\"button\" class=\"btn btn-primary btn-lg\">Primary</button>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <button type=\"button\" class=\"btn btn-success btn-lg\">Success</button>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <button type=\"button\" class=\"btn btn-info btn-lg\">Info</button>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <button type=\"button\" class=\"btn btn-default btn-lg\">Default</button>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <button type=\"button\" class=\"btn btn-warning btn-lg\">Warning</button>\n  </div>\n  <div class=\"col-sm-4 col-6\">\n    <button type=\"button\" class=\"btn btn-danger btn-lg\">Danger</button>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1243:
+/***/ 1256:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-default btn-raised\">Default</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-primary btn-raised\">Primary</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-success btn-raised\">Success</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-info btn-raised\">Info</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-warning btn-raised\">Warning</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-danger btn-raised\">Danger</button>\n</div>\n"
 
 /***/ }),
 
-/***/ 1244:
+/***/ 1257:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-default  btn-xs\">Default</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-primary  btn-sm\">Primary</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-success btn-mm\">Success</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-info btn-md\">Info</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-warning btn-xm\">Warning</button>\n</div>\n<div class=\"button-wrapper\">\n  <button type=\"button\" class=\"btn btn-danger btn-lg\">Danger</button>\n</div>\n"
 
 /***/ }),
 
-/***/ 1245:
+/***/ 1258:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n\n      <ba-card cardTitle=\"Inline Form\" baCardClass=\"with-scroll\">\n\n        <h4 class=\"grid-h\">Stacked to horizontal</h4>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n          <div class=\"col-md-1\">\n            <div>.col-md-1</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-8\">\n            <div>.col-md-8</div>\n          </div>\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-6\">\n            <div>.col-md-6</div>\n          </div>\n          <div class=\"col-md-6\">\n            <div>.col-md-6</div>\n          </div>\n        </div>\n\n        <h4 class=\"grid-h\">Mobile and desktop</h4>\n        <div class=\"row show-grid\">\n          <div class=\"col-12 col-md-8\">\n            <div>xs-12 .col-md-8</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>xs-6 .col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-6 col-md-4\">\n            <div>xs-6 .col-md-4</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>xs-6 .col-md-4</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>xs-6 .col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-6\">\n            <div>.col-6</div>\n          </div>\n          <div class=\"col-6\">\n            <div>.col-6</div>\n          </div>\n        </div>\n\n        <h4 class=\"grid-h\">Mobile, tablet, desktop</h4>\n        <div class=\"row show-grid\">\n          <div class=\"col-12 col-sm-6 col-md-8\">\n            <div>.col-12 .col-sm-6 .col-md-8</div>\n          </div>\n          <div class=\"col-6 col-md-4\">\n            <div>.col-6 .col-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-6 col-sm-4\">\n            <div>.col-6 .col-sm-4</div>\n          </div>\n          <div class=\"col-6 col-sm-4\">\n            <div>.col-6 .col-sm-4</div>\n          </div>\n          <div class=\"clearfix hidden-xs-up\"></div>\n          <div class=\"col-6 col-sm-4\">\n            <div>.col-6 .col-sm-4</div>\n          </div>\n        </div>\n\n        <h4 class=\"grid-h\">Column wrapping</h4>\n        <div class=\"row show-grid\">\n          <div class=\"col-9\">\n            <div>.col-9</div>\n          </div>\n          <div class=\"col-4\">\n            <div>.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous\n              unit.\n            </div>\n          </div>\n          <div class=\"col-6\">\n            <div>.col-6<br>Subsequent columns continue along the new line.</div>\n          </div>\n        </div>\n\n        <h4 class=\"grid-h\">Responsive column resets</h4>\n        <div class=\"row show-grid\">\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3 <p>Resize your viewport or check it out on your phone for an example.</p></div>\n          </div>\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3</div>\n          </div>\n          <div class=\"clearfix hidden-xs-up\"></div>\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3</div>\n          </div>\n          <div class=\"col-6 col-sm-3\">\n            <div>.col-6 .col-sm-3</div>\n          </div>\n        </div>\n\n        <h4 class=\"grid-h\">Offsetting columns</h4>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-4\">\n            <div>.col-md-4</div>\n          </div>\n          <div class=\"col-md-4 offset-md-4\">\n            <div>.col-md-4 .offset-md-4</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-3 offset-md-3\">\n            <div>.col-md-3 .offset-md-3</div>\n          </div>\n          <div class=\"col-md-3 offset-md-3\">\n            <div>.col-md-3 .offset-md-3</div>\n          </div>\n        </div>\n        <div class=\"row show-grid\">\n          <div class=\"col-md-6 offset-md-3\">\n            <div>.col-md-6 .offset-md-3</div>\n          </div>\n        </div>\n\n        <h4 class=\"grid-h\">Grid options</h4>\n        <div class=\"table-responsive\">\n          <table class=\"table table-bordered table-striped\">\n            <thead>\n            <tr>\n              <th></th>\n              <th> Extra small devices\n                <small>Phones (&lt;544px)</small>\n              </th>\n              <th> Small devices\n                <small>Tablets (≥544px)</small>\n              </th>\n              <th> Medium devices\n                <small>Desktops (≥768px)</small>\n              </th>\n              <th> Large devices\n                <small>Desktops (≥992px)</small>\n              </th>\n              <th> Large devices\n                <small>Desktops (≥1200px)</small>\n              </th>\n            </tr>\n            </thead>\n            <tbody>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\">Grid behavior</th>\n              <td>Horizontal at all times</td>\n              <td colspan=\"4\">Collapsed to start, horizontal above breakpoints</td>\n            </tr>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\">Container width</th>\n              <td>None (auto)</td>\n              <td>576px</td>\n              <td>720px</td>\n              <td>940px</td>\n              <td>1140px</td>\n            </tr>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\">Class prefix</th>\n              <td><code>.col-</code></td>\n              <td><code>.col-sm-</code></td>\n              <td><code>.col-md-</code></td>\n              <td><code>.col-lg-</code></td>\n              <td><code>.col-xl-</code></td>\n            </tr>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\"># of columns</th>\n              <td colspan=\"5\">12</td>\n            </tr>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\">Gutter width</th>\n              <td colspan=\"5\">1.875rem / 30px (15px on each side of a column)</td>\n            </tr>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\">Nestable</th>\n              <td colspan=\"5\">Yes</td>\n            </tr>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\">Offsets</th>\n              <td colspan=\"5\">Yes</td>\n            </tr>\n            <tr>\n              <th class=\"text-nowrap\" scope=\"row\">Column ordering</th>\n              <td colspan=\"5\">Yes</td>\n            </tr>\n            </tbody>\n          </table>\n        </div>\n      </ba-card>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
-/***/ 1246:
+/***/ 1259:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <ba-card cardTitle=\"Kameleon SVG Icons\" baCardClass=\"with-scroll\">\n        <div class=\"row clearfix\">\n          <div class=\"kameleon-row\" *ngFor=\"let icon of icons.kameleonIcons\">\n            <div class=\"kameleon-icon\"><img src=\"{{ (icon.img | baKameleonPicture )}}\"><span>{{ icon.name }}</span></div>\n          </div>\n        </div>\n        <a href=\"http://www.kameleon.pics/\" target=\"_blank\" class=\"see-all-icons\">See all Kamaleon icons</a>\n      </ba-card>\n\n      <ba-card cardTitle=\"Socicon\" baCardClass=\"with-scroll\">\n        <div class=\"row icons-list danger\">\n          <div class=\"col-2\" *ngFor=\"let icon of icons.socicon\"><i class=\"socicon\">{{ icon }}</i></div>\n        </div>\n        <a href=\"http://www.socicon.com/chart.php\" target=\"_blank\" class=\"see-all-icons\">See all Socicon icons</a>\n      </ba-card>\n    </div>\n    <div class=\"col-md-6\">\n      <ba-card cardTitle=\"Icons With Rounded Background\" baCardClass=\"with-scroll\">\n        <div class=\"row clearfix\">\n          <div class=\"kameleon-row\" *ngFor=\"let icon of icons.kameleonRoundedIcons\">\n            <div class=\"kameleon-icon with-round-bg {{ icon.color }}\"><img src=\"{{ ( icon.img | baKameleonPicture ) }}\"><span>{{ icon.name }}</span></div>\n          </div>\n        </div>\n        <a href=\"http://www.kameleon.pics/\" target=\"_blank\" class=\"see-all-icons\">See all Kamaleon icons</a>\n      </ba-card>\n\n      <ba-card cardTitle=\"Ionicons\" baCardClass=\"with-scroll\">\n        <div class=\"row icons-list primary\">\n          <div class=\"col-2\" *ngFor=\"let icon of icons.ionicons\"><i class=\"{{ icon }}\"></i></div>\n        </div>\n        <a href=\"http://ionicons.com/\" target=\"_blank\" class=\"see-all-icons\">See all ionicons icons</a>\n      </ba-card>\n\n      <ba-card cardTitle=\"Font Awesome Icons\" baCardClass=\"with-scroll\">\n        <div class=\"row icons-list success awesomeIcons\">\n          <div class=\"col-2\" *ngFor=\"let icon of icons.fontAwesomeIcons\"><i class=\"fa {{ icon }}\"></i></div>\n        </div>\n        <a href=\"http://fortawesome.github.io/Font-Awesome/icons/\" target=\"_blank\" class=\"see-all-icons\">See all Font Awesome icons</a>\n      </ba-card>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
-/***/ 1247:
+/***/ 1260:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"modal-content\">\n  <div class=\"modal-header\">\n    <h4 class=\"modal-title\">{{modalHeader}}</h4>\n    <button class=\"close\" aria-label=\"Close\" (click)=\"closeModal()\">\n      <span aria-hidden=\"true\">&times;</span>\n    </button>\n  </div>\n  <div class=\"modal-body\">\n    {{modalContent}}\n  </div>\n  <div class=\"modal-footer\">\n    <button class=\"btn btn-primary confirm-btn\" (click)=\"closeModal()\">Save changes</button>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1248:
+/***/ 1261:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <ba-card cardTitle=\"Modals\" class=\"modal-buttons\">\n        <button class=\"btn btn-success\" (click)=\"lgModalShow()\">Large modal</button>\n        <button class=\"btn btn-warning\" (click)=\"smModalShow()\">Small modal</button>\n        <button class=\"btn btn-primary\" (click)=\"staticModalShow()\">Static modal</button>\n        <button class=\"btn btn-danger\" (click)=\"childModalShow()\">Open child modal</button>\n      </ba-card>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1249:
+/***/ 1262:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <ba-card cardTitle=\"Slim loading bar\" class=\"slim-loading-bar-block\">\n        <button class=\"btn btn-default\" (click)=\"setProgres30()\">Set progress equals 30</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"incrementProgress()\">Increment progress</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"startProgress()\">Start progress</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"completeProgress()\">Complete progress</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"stopProgress()\">Stop progress</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"resetProgress()\">Reset progress</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"changeProgressTo4px()\">Change height to 4px</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"changeProgressTo2px()\">Change height to 2px</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"changeProgressToWhite()\">Change color to white</button>\n        <br>\n        <button class=\"btn btn-default\" (click)=\"changeProgressToGreen()\">Change color to green</button>\n      </ba-card>\n    </div>\n  </div>\n</div>\n<ng2-slim-loading-bar></ng2-slim-loading-bar>\n"
 
 /***/ }),
 
-/***/ 1250:
+/***/ 1263:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n\n  <div class=\"typography-document-samples row\">\n    <div class=\"col-xlg-3 col-lg-6  col-md-6 col-sm-6 col-12 typography-widget\">\n\n      <ba-card cardTitle=\"Text Size\" baCardClass=\"with-scroll heading-widget\">\n\n        <div class=\"section-block\">\n          <h1>H1. Heading 1</h1>\n\n          <p>Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra, placerat\n            vestibulum eleifend pellentesque.</p>\n        </div>\n        <div class=\"section-block\">\n          <h2>H2. Heading 2</h2>\n\n          <p>Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra, placerat\n            vestibulum eleifend pellentesque.</p>\n        </div>\n        <div class=\"section-block\">\n          <h3>H3. Heading 3</h3>\n\n          <p>Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra, placerat\n            vestibulum eleifend pellentesque.</p>\n        </div>\n        <div class=\"section-block\">\n          <h4>H4. Heading 4</h4>\n\n          <p>Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra,.</p>\n        </div>\n        <div class=\"section-block\">\n          <h5>H5. Heading 5</h5>\n\n          <p>Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar, lacinia scelerisque pharetra.</p>\n        </div>\n\n      </ba-card>\n    </div>\n\n    <div class=\"col-xlg-3 col-lg-6  col-md-6 col-sm-6 col-12 typography-widget\">\n\n      <ba-card cardTitle=\"Some more text\" baCardClass=\"with-scroll more-text-widget\">\n\n        <div class=\"section-block light-text\">\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis\n            ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed\n            ornare\n            nulla. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis.\n          </p>\n        </div>\n        <div class=\"section-block regular-text\">\n          <p>Curabitur bibendum ornare dolor, quis ullamcorper ligula dfgz`zzsodales at. Nullam quis risus eget urna\n            mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur\n            ridiculus\n            mus. Nullam id dolor id.\n          </p>\n        </div>\n        <div class=\"section-block upper-text bold-text\">\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor,\n            quis\n            ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed\n            ornare\n            nulla. </p>\n        </div>\n        <div class=\"section-block bold-text\">\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor,\n            quis\n            ullam-corper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed\n            ornare\n            nulla.\n          </p>\n        </div>\n        <div class=\"section-block small-text\">\n          <p>Secondary text. Lorem ipsum dolor sit amet, id mollis iaculis mi nisl pulvinar,</p>\n\n          <p>lacinia scelerisque pharetra, placerat vestibulum eleifend</p>\n\n          <p> pellentesque, mi nam.</p>\n        </div>\n\n      </ba-card>\n    </div>\n\n    <div class=\"col-xlg-3 col-lg-6  col-md-6 col-sm-6 col-12 typography-widget\">\n\n      <ba-card cardTitle=\"Lists\" baCardClass=\"with-scroll lists-widget\">\n\n        <div class=\"section-block\">\n          <h5 class=\"list-header\">Unordered list:</h5>\n          <ul class=\"blur\">\n            <li>Lorem ipsum dolor sit amet</li>\n            <li>Сlacinia scelerisque pharetra\n              <ul>\n                <li>Dui rhoncus quisque integer lorem\n                  <ul>\n                    <li>Libero iaculis vestibulum eu vitae</li>\n                  </ul>\n                </li>\n              </ul>\n            </li>\n            <li>Nisl lectus nibh habitasse suspendisse ut</li>\n            <li><span>Posuere cursus hac, vestibulum wisi nulla bibendum</span></li>\n          </ul>\n          <h5 class=\"list-header\">Ordered Lists:</h5>\n          <ol class=\"blur\">\n            <li><span>Eu non nec cursus quis mollis, amet quam nec</span></li>\n            <li><span>Et suspendisse, adipiscing fringilla ornare sit ligula sed</span>\n              <ol>\n                <li><span>Interdum et justo nulla</span>\n                  <ol>\n                    <li><span>Magna amet, suscipit suscipit non amet</span></li>\n                  </ol>\n                </li>\n              </ol>\n            </li>\n            <li><span>Metus duis eu non eu ridiculus turpis</span></li>\n            <li>\n              <span>Neque egestas id fringilla consectetuer justo curabitur, wisi magna neque commodo volutpat</span>\n            </li>\n          </ol>\n          <div class=\"accent\">Important text fragment. Lorem ipsum dolor sit amet, id mollis iaculis mi nisl\n            pulvinar,\n            lacinia scelerisque pharetra.\n          </div>\n        </div>\n      </ba-card>\n    </div>\n\n    <div class=\"col-xlg-3 col-lg-6  col-md-6 col-sm-6 col-12 typography-widget\">\n\n      <ba-card cardTitle=\"Text Color\" baCardClass=\"with-scroll color-widget\">\n        <div class=\"section-block red-text \">\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis\n            ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed\n            ornare\n            nulla. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis\n            dis\n            parturient montes, nascetur ridiculus mus.\n          </p>\n        </div>\n        <div class=\"section-block yellow-text \">\n          <p>Curabitur bibendum ornare dolor, quis ullamcorper ligula dfgz`zzsodales at. Nullam quis risus eget\n            urna\n            mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur\n            ridiculus\n            mus. Nullam id dolor id nibh ultricies vehicula ut id elit. In sed ornare nulla.\n          </p>\n        </div>\n        <div class=\"section-block links\">\n          <p>Lorem ipsum <a href>dolor</a> sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor,\n            quis\n            <a href>ullamcorper</a> ligula sodales at. Nulla tellus elit, varius non commodo eget, <a\n              href>mattis</a> vel eros. In sed ornare\n            nulla.\n          </p>\n        </div>\n        <div class=\"section-block links\">\n          <p><a href>Active link — #209e91</a></p>\n\n          <p class=\"hovered\"><a href>Hover link — #17857a</a></p>\n        </div>\n      </ba-card>\n    </div>\n  </div>\n\n\n  <div class=\"row\">\n    <div class=\"col-lg-12 col-sm-12 col-12\">\n\n      <ba-card baCardClass=\"banner-column-panel\">\n        <div class=\"banner\">\n          <div class=\"large-banner-wrapper\">\n            <img src=\"{{ ( 'app/typography/banner.png' | baAppPicture ) }}\" alt=\"\"/>\n          </div>\n          <div class=\"banner-text-wrapper\">\n            <div class=\"banner-text\">\n              <h1>Simple Banner Text</h1>\n\n              <p>Lorem ipsum dolor sit amet</p>\n\n              <p>Odio amet viverra rutrum</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"section\">\n          <h2>Columns</h2>\n\n          <div class=\"row\">\n            <div class=\"col-sm-6\">\n              <div class=\"img-wrapper\"><img src=\"{{ ( 'app/typography/typo03.png' | baAppPicture ) }}\" alt=\"\" title=\"\"/>\n              </div>\n              <p>Vel elit, eros elementum, id lacinia, duis non ut ut tortor blandit. Mauris <a\n                href>dapibus</a> magna rutrum. Ornare neque suspendisse <a\n                href>phasellus wisi</a>, quam cras pede rutrum suspendisse, <a\n                href>felis amet eu</a>. Congue magna elit quisque quia, nullam justo sagittis,\n                ante erat libero placerat, proin condimentum consectetuer lacus. Velit condimentum velit, sed\n                penatibus\n                arcu nulla.</p>\n            </div>\n            <div class=\"col-sm-6\">\n              <div class=\"img-wrapper\"><img src=\"{{ ( 'app/typography/typo01.png' | baAppPicture ) }}\" alt=\"\" title=\"\"/>\n              </div>\n              <p>Et suspendisse, adipiscing fringilla ornare sit ligula sed, vel nam. Interdum et justo nulla,\n                fermentum\n                lobortis purus ut eu, duis nibh dolor massa tristique elementum, nibh iste potenti risus fusce\n                aliquet\n                fusce, ullamcorper debitis primis arcu tellus vestibulum ac.</p>\n            </div>\n          </div>\n\n          <div class=\"separator\"></div>\n\n          <div class=\"row\">\n            <div class=\"col-sm-4\">\n              <h4>Column heading example</h4>\n              <div class=\"img-wrapper\"><img src=\"{{ ( 'app/typography/typo04.png' | baAppPicture ) }}\" alt=\"\"/></div>\n              <p>Eget augue, lacus erat ante egestas scelerisque aliquam, metus molestie leo in habitasse magna\n                maecenas</p>\n              <a href class=\"learn-more\">Learn more</a>\n            </div>\n            <div class=\"col-sm-4\">\n              <h4>Yet another column heading example</h4>\n              <div class=\"img-wrapper\"><img src=\"{{ ( 'app/typography/typo05.png' | baAppPicture ) }}\" alt=\"\"/></div>\n              <p>Augue massa et parturient, suspendisse orci nec scelerisque sit, integer nam mauris pede consequat\n                in\n                velit</p>\n              <a href class=\"learn-more\">Learn more</a>\n            </div>\n            <div class=\"col-sm-4\">\n              <h4>Third column heading example</h4>\n              <div class=\"img-wrapper\"><img src=\"{{ ( 'app/typography/typo06.png' | baAppPicture ) }}\" alt=\"\"/></div>\n              <p>Eget turpis, tortor lobortis porttitor, vestibulum nullam vehicula aliquam</p>\n              <a href class=\"learn-more\">Learn more</a>\n            </div>\n          </div>\n          <div class=\"separator\"></div>\n        </div>\n      </ba-card>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
-/***/ 632:
+/***/ 638:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_slim_loading_bar__ = __webpack_require__(1046);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(394);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ui_routing__ = __webpack_require__(1142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ui_component__ = __webpack_require__(1044);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_buttons_buttons_component__ = __webpack_require__(1036);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_grid_grid_component__ = __webpack_require__(1037);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_icons_icons_component__ = __webpack_require__(1038);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_modals_modals_component__ = __webpack_require__(1041);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_slim_slim_component__ = __webpack_require__(1042);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_typography_typography_component__ = __webpack_require__(1043);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_buttons_components_flatButtons__ = __webpack_require__(1131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_buttons_components_raisedButtons__ = __webpack_require__(1138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_buttons_components_sizedButtons__ = __webpack_require__(1140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_buttons_components_disabledButtons__ = __webpack_require__(1127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_buttons_components_iconButtons__ = __webpack_require__(1135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_buttons_components_largeButtons__ = __webpack_require__(1136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_buttons_components_dropdownButtons__ = __webpack_require__(1129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_buttons_components_groupButtons__ = __webpack_require__(1133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_icons_icons_service__ = __webpack_require__(1039);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_modals_default_modal_default_modal_component__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_slim_loading_bar__ = __webpack_require__(1056);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ui_routing__ = __webpack_require__(1153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ui_component__ = __webpack_require__(1052);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_buttons_buttons_component__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_grid_grid_component__ = __webpack_require__(1045);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_icons_icons_component__ = __webpack_require__(1046);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_modals_modals_component__ = __webpack_require__(1049);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_slim_slim_component__ = __webpack_require__(1050);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_typography_typography_component__ = __webpack_require__(1051);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_buttons_components_flatButtons__ = __webpack_require__(1142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_buttons_components_raisedButtons__ = __webpack_require__(1149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_buttons_components_sizedButtons__ = __webpack_require__(1151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_buttons_components_disabledButtons__ = __webpack_require__(1138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_buttons_components_iconButtons__ = __webpack_require__(1146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_buttons_components_largeButtons__ = __webpack_require__(1147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_buttons_components_dropdownButtons__ = __webpack_require__(1140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_buttons_components_groupButtons__ = __webpack_require__(1144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_icons_icons_service__ = __webpack_require__(1047);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_modals_default_modal_default_modal_component__ = __webpack_require__(1048);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UiModule", function() { return UiModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1416,13 +1416,13 @@ UiModule = __decorate([
 
 /***/ }),
 
-/***/ 951:
+/***/ 955:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slim_loading_bar_utils__ = __webpack_require__(1048);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slim_loading_bar_utils__ = __webpack_require__(1058);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return SlimLoadingBarEventType; });
 /* unused harmony export SlimLoadingBarEvent */
