@@ -56322,14 +56322,12 @@ var UserCreateEdit = (function () {
         }
         this.optionsModel = [1, 2];
         this.myOptions = [
-            { id: 1, name: 'Car brands', isLabel: true },
-            { id: 2, name: 'Volvo', parentId: 1 },
-            { id: 3, name: 'Honda', parentId: 1 },
-            { id: 4, name: 'BMW', parentId: 1 },
-            { id: 5, name: 'Colors', isLabel: true },
-            { id: 6, name: 'Blue', parentId: 5 },
-            { id: 7, name: 'Red', parentId: 5 },
-            { id: 8, name: 'White', parentId: 5 }
+            { id: 1, name: 'Administradores' },
+            { id: 2, name: 'Funcionários' },
+            { id: 3, name: 'Estratégico' },
+            { id: 4, name: 'Tático' },
+            { id: 5, name: 'Operacional' },
+            { id: 6, name: 'Terceirizados' }
         ];
     };
     UserCreateEdit.prototype.onChange = function () {
@@ -57356,7 +57354,7 @@ module.exports = "<div class=\"row\">\n\n  <div class=\"col-md-6\">\n    <form [
 /* 1202 */
 /***/ (function(module, exports) {
 
-module.exports = "<button type=\"button\" [routerLink]=\"['./../user-create-edit','false']\" class=\"btn btn-primary btn-lg\" style=\"float: right\">Novo</button>\n<div class=\"vertical-scroll\">\n  <table class=\"table table-hover\">\n    <tr>\n      <th style=\"text-align: center\">#</th>\n      <th>Usuário</th>\n      <th>Nome</th>\n      <th>E-mail</th>\n      <th>Ativo</th>\n      <th style=\"text-align: center\">Editar</th>\n    </tr>\n    <tr *ngFor=\"let user of users\">\n      <td style=\"text-align: center\">{{user.id}}</td>\n      <td>{{user.usuario}}</td>\n      <td>{{user.nome}}</td>\n      <td>{{user.email}}</td>\n      <td>\n        <ba-checkbox [(ngModel)]=\"user.ativo\" [baCheckboxClass]=\"'disabled'\" [label]=\"'Ativo'\" [disabled]=\"true\"></ba-checkbox>\n      </td>\n      <a [routerLink]=\"['./../user-create-edit',user.id,'true']\" href=\"\"> asddassa</a>\n      <td style=\"text-align: center\"><i class=\"ion-edit\"></i></td>\n    </tr>\n\n  </table>\n</div>"
+module.exports = "<button type=\"button\" [routerLink]=\"['./../user-create-edit','false']\" class=\"btn btn-primary btn-lg\" style=\"float: right\">Novo</button>\n<div class=\"vertical-scroll\">\n  <table class=\"table table-hover\">\n    <tr>\n      <th style=\"text-align: center\">#</th>\n      <th>Usuário</th>\n      <th>Nome</th>\n      <th>E-mail</th>\n      <th>Ativo</th>\n      <th style=\"text-align: center\">Editar</th>\n    </tr>\n    <tr *ngFor=\"let user of users\">\n      <td style=\"text-align: center\">{{user.id}}</td>\n      <td>{{user.usuario}}</td>\n      <td>{{user.nome}}</td>\n      <td>{{user.email}}</td>\n      <td>\n        <ba-checkbox [(ngModel)]=\"user.ativo\" [baCheckboxClass]=\"'disabled'\" [label]=\"'Ativo'\" [disabled]=\"true\"></ba-checkbox>\n      </td>\n      <td [routerLink]=\"['./../user-create-edit',user.id,'true']\" style=\"text-align: center\"><i class=\"ion-edit\"></i></td>\n    </tr>\n\n  </table>\n</div>"
 
 /***/ })
 ]));
