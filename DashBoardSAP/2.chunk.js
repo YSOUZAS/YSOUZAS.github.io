@@ -57053,7 +57053,9 @@ var routes = [
         path: '',
         component: __WEBPACK_IMPORTED_MODULE_1__documentos_component__["a" /* Documentos */],
         children: [
-            { path: 'solcomp', component: __WEBPACK_IMPORTED_MODULE_0__components_solicitacao_compras_solicitacao_compras_component__["a" /* SolicitacaoComprasComponent */] }
+            { path: 'solcomp', component: __WEBPACK_IMPORTED_MODULE_0__components_solicitacao_compras_solicitacao_compras_component__["a" /* SolicitacaoComprasComponent */] },
+            { path: 'nf', component: __WEBPACK_IMPORTED_MODULE_0__components_solicitacao_compras_solicitacao_compras_component__["a" /* SolicitacaoComprasComponent */] },
+            { path: 'adiant', component: __WEBPACK_IMPORTED_MODULE_0__components_solicitacao_compras_solicitacao_compras_component__["a" /* SolicitacaoComprasComponent */] },
         ]
     }
 ];
@@ -57213,7 +57215,7 @@ module.exports = module.exports.toString();
 /* 1227 */
 /***/ (function(module, exports) {
 
-module.exports = "<button type=\"button\" [routerLink]=\"['./../user-create-edit','false']\" class=\"btn btn-primary btn-lg\" style=\"float: right\">Novo</button>\n<div class=\"vertical-scroll\">\n  <table class=\"table table-hover\">\n    <tr>\n      <th style=\"text-align: center\">#</th>\n      <th>Fornecedor</th>\n      <th>Nº</th>\n      <th>Data</th>\n      <th>Valor</th>\n      <th>Status</th>\n      <th style=\"text-align: center\">Editar</th>\n    </tr>\n    <tr *ngFor=\"let sol of solcomps\">\n      <td style=\"text-align: center\">{{sol.id}}</td>\n      <td>{{sol.Fornecedor}}</td>\n      <td>{{sol.Data}}</td>\n      <td>{{sol.Valor}}</td>\n      <td>{{sol.Status}}</td>\n      <td [routerLink]=\"['./../user-create-edit']\" style=\"text-align: center\"><i class=\"ion-edit\"></i></td>\n    </tr>\n\n  </table>\n</div>"
+module.exports = "<button type=\"button\" [routerLink]=\"['./../user-create-edit','false']\" class=\"btn btn-primary btn-lg\" style=\"float: right\">Novo</button>\n<div class=\"vertical-scroll\">\n  <table class=\"table table-hover\">\n    <tr>\n      <th style=\"text-align: center\">#</th>\n      <th>Fornecedor</th>\n      <th>Nº</th>\n      <th>Data</th>\n      <th>Valor</th>\n      <th>Status</th>\n      <th style=\"text-align: center\">Editar</th>\n    </tr>\n    <tr *ngFor=\"let sol of solcomps\">\n      <td style=\"text-align: center\">{{sol.id}}</td>\n      <td>{{sol.n}}</td>\n\n\n      <td>{{sol.Fornecedor}}</td>\n      <td>{{sol.Data}}</td>\n      <td>{{sol.Valor}}</td>\n      <td>{{sol.Status}}</td>\n      <td [routerLink]=\"['./../user-create-edit']\" style=\"text-align: center\"><i class=\"ion-edit\"></i></td>\n    </tr>\n\n  </table>\n</div>"
 
 /***/ })
 ]));

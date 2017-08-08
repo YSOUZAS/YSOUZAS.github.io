@@ -943,10 +943,17 @@ var PAGES_MENU = [
                             },
                         },
                     }, {
-                        path: 'groups',
+                        path: 'nf',
                         data: {
                             menu: {
-                                title: 'general.menu.groups',
+                                title: 'general.menu.nf',
+                            },
+                        },
+                    }, {
+                        path: 'adiant',
+                        data: {
+                            menu: {
+                                title: 'general.menu.adiantamento',
                             },
                         },
                     },
