@@ -1,4 +1,4 @@
-webpackJsonp([11,16],{
+webpackJsonp([12,17],{
 
 /***/ 141:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -186,7 +186,7 @@ BaThemeConfigProvider = __decorate([
 
 /***/ }),
 
-/***/ 166:
+/***/ 167:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -195,7 +195,7 @@ BaThemeConfigProvider = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ngx_uploader__ = __webpack_require__(163);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_translation_module__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_translation_module__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__theme_config__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_configProvider__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components__ = __webpack_require__(470);
@@ -203,7 +203,7 @@ BaThemeConfigProvider = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__directives__ = __webpack_require__(477);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pipes__ = __webpack_require__(484);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__validators__ = __webpack_require__(419);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__validators__ = __webpack_require__(420);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NgaModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -320,12 +320,12 @@ var NgaModule_1;
 
 /***/ }),
 
-/***/ 171:
+/***/ 172:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_http_loader__ = __webpack_require__(496);
 /* unused harmony export createTranslateLoader */
@@ -492,43 +492,47 @@ var map = {
 	],
 	"./charts/charts.module": [
 		629,
-		8
+		9
 	],
 	"./components/components.module": [
 		630,
-		2
+		3
 	],
 	"./dashboard/dashboard.module": [
 		631,
-		4
-	],
-	"./editors/editors.module": [
-		632,
-		7
-	],
-	"./forms/forms.module": [
-		633,
 		5
 	],
-	"./maps/maps.module": [
-		635,
+	"./documentos/documentos.module": [
+		632,
+		2
+	],
+	"./editors/editors.module": [
+		633,
+		8
+	],
+	"./forms/forms.module": [
+		634,
 		6
 	],
+	"./maps/maps.module": [
+		636,
+		7
+	],
 	"./tables/tables.module": [
-		637,
+		638,
 		0
 	],
 	"./ui/ui.module": [
-		638,
-		3
+		639,
+		4
 	],
 	"app/pages/login/login.module": [
-		634,
-		10
+		635,
+		11
 	],
 	"app/pages/register/register.module": [
-		636,
-		9
+		637,
+		10
 	]
 };
 function webpackAsyncContext(req) {
@@ -627,7 +631,7 @@ GlobalState = __decorate([
 
 /***/ }),
 
-/***/ 419:
+/***/ 420:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -716,16 +720,16 @@ var _a, _b, _c, _d, _e;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(397);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_routing__ = __webpack_require__(431);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(429);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_service__ = __webpack_require__(432);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__global_state__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_nga_module__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__theme_nga_module__ = __webpack_require__(167);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_pages_module__ = __webpack_require__(434);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular_2_dropdown_multiselect__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular_2_dropdown_multiselect__ = __webpack_require__(419);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -908,6 +912,34 @@ var PAGES_MENU = [
                         data: {
                             menu: {
                                 title: 'general.menu.users',
+                            },
+                        },
+                    }, {
+                        path: 'groups',
+                        data: {
+                            menu: {
+                                title: 'general.menu.groups',
+                            },
+                        },
+                    },
+                ],
+            }, {
+                path: 'documentos',
+                data: {
+                    menu: {
+                        title: 'general.menu.documentos',
+                        icon: 'ion-edit',
+                        selected: false,
+                        expanded: true,
+                        order: 100,
+                    },
+                },
+                children: [
+                    {
+                        path: 'solcomp',
+                        data: {
+                            menu: {
+                                title: 'general.menu.solcomp',
                             },
                         },
                     }, {
@@ -1271,8 +1303,8 @@ var PAGES_MENU = [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_routing__ = __webpack_require__(435);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_translation_module__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_translation_module__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_component__ = __webpack_require__(224);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1330,6 +1362,7 @@ var routes = [
         children: [
             { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
             { path: 'administration', loadChildren: './administration/administration.module#AdministrationModule' },
+            { path: 'documentos', loadChildren: './documentos/documentos.module#DocumentosModule' },
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
             { path: 'editors', loadChildren: './editors/editors.module#EditorsModule' },
             { path: 'components', loadChildren: './components/components.module#ComponentsModule' },
