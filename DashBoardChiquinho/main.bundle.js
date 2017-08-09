@@ -2009,7 +2009,7 @@ var CategoryListService = (function () {
     //public url: string = 'http://localhost:1337/';
     function CategoryListService(http) {
         this.http = http;
-        this.url = 'http://acess.azurewebsites.net/';
+        this.url = 'https://acess.azurewebsites.net/';
     }
     CategoryListService.prototype.add = function (category) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
@@ -2086,7 +2086,7 @@ var ComandaService = (function () {
     function ComandaService(http) {
         this.http = http;
         //public url: string = 'http://localhost:1337/';
-        this.url = 'http://acess.azurewebsites.net/';
+        this.url = 'https://acess.azurewebsites.net/';
     }
     ComandaService.prototype.returnOrders = function () {
         return this.http.get(this.url + 'comanda').map(function (res) { return res.json(); }).toPromise()
@@ -2157,7 +2157,7 @@ var NotificationService = (function () {
     //public url: string = 'http://localhost:1337/';
     function NotificationService(http) {
         this.http = http;
-        this.url = 'http://acess.azurewebsites.net/';
+        this.url = 'https://acess.azurewebsites.net/';
     }
     NotificationService.prototype.send = function (message) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
@@ -2219,7 +2219,7 @@ var PossibilityService = (function () {
     //public url: string = 'http://localhost:1337/';
     function PossibilityService(http) {
         this.http = http;
-        this.url = 'http://acess.azurewebsites.net/';
+        this.url = 'https://acess.azurewebsites.net/';
     }
     PossibilityService.prototype.add = function (possibility) {
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Headers */]({ 'Content-Type': 'application/json' });
@@ -2296,7 +2296,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var ProductsListService = (function () {
     function ProductsListService(http) {
         this.http = http;
-        this.url = 'http://acess.azurewebsites.net/';
+        this.url = 'https://acess.azurewebsites.net/';
     }
     //public url: string = 'http://localhost:1337/';
     ProductsListService.prototype.add = function (product, possibilities) {
@@ -2389,7 +2389,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var PromotionsService = (function () {
     function PromotionsService(http) {
         this.http = http;
-        this.url = 'http://acess.azurewebsites.net/';
+        this.url = 'https://acess.azurewebsites.net/';
     }
     //public url: string = 'http://localhost:1337/';
     PromotionsService.prototype.add = function (promotion) {
