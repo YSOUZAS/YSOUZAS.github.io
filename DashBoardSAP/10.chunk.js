@@ -1,13 +1,47 @@
-webpackJsonp([10,17],{
+webpackJsonp([10,18],{
 
-/***/ 1044:
+/***/ 1018:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_validators__ = __webpack_require__(420);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Charts; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var Charts = (function () {
+    function Charts() {
+    }
+    Charts.prototype.ngOnInit = function () {
+    };
+    return Charts;
+}());
+Charts = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'maps',
+        template: "<router-outlet></router-outlet>"
+    }),
+    __metadata("design:paramtypes", [])
+], Charts);
+
+//# sourceMappingURL=charts.component.js.map
+
+/***/ }),
+
+/***/ 1019:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__chartistJs_service__ = __webpack_require__(1020);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChartistJs; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -19,69 +53,286 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-var Register = (function () {
-    function Register(fb) {
-        this.submitted = false;
-        this.form = fb.group({
-            'name': ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(4)])],
-            'email': ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required, __WEBPACK_IMPORTED_MODULE_2__theme_validators__["a" /* EmailValidator */].validate])],
-            'passwords': fb.group({
-                'password': ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(4)])],
-                'repeatPassword': ['', __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].compose([__WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["Validators"].minLength(4)])]
-            }, { validator: __WEBPACK_IMPORTED_MODULE_2__theme_validators__["b" /* EqualPasswordsValidator */].validate('password', 'repeatPassword') })
-        });
-        this.name = this.form.controls['name'];
-        this.email = this.form.controls['email'];
-        this.passwords = this.form.controls['passwords'];
-        this.password = this.passwords.controls['password'];
-        this.repeatPassword = this.passwords.controls['repeatPassword'];
+var ChartistJs = (function () {
+    function ChartistJs(_chartistJsService) {
+        this._chartistJsService = _chartistJsService;
     }
-    Register.prototype.onSubmit = function (values) {
-        this.submitted = true;
-        if (this.form.valid) {
-            // your code goes here
-            // console.log(values);
-        }
+    ChartistJs.prototype.ngOnInit = function () {
+        this.data = this._chartistJsService.getAll();
     };
-    return Register;
+    ChartistJs.prototype.getResponsive = function (padding, offset) {
+        return this._chartistJsService.getResponsive(padding, offset);
+    };
+    return ChartistJs;
 }());
-Register = __decorate([
+ChartistJs = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'register',
-        template: __webpack_require__(1247),
-        styles: [__webpack_require__(1188)]
+        selector: 'chartist-js',
+        template: __webpack_require__(1223),
+        styles: [__webpack_require__(1174)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["FormBuilder"]) === "function" && _a || Object])
-], Register);
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__chartistJs_service__["a" /* ChartistJsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__chartistJs_service__["a" /* ChartistJsService */]) === "function" && _a || Object])
+], ChartistJs);
 
 var _a;
-//# sourceMappingURL=register.component.js.map
+//# sourceMappingURL=chartistJs.component.js.map
 
 /***/ }),
 
-/***/ 1123:
+/***/ 1020:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__theme__ = __webpack_require__(17);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChartistJsService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ChartistJsService = (function () {
+    function ChartistJsService(_baConfig) {
+        this._baConfig = _baConfig;
+        this._data = {
+            simpleLineOptions: {
+                color: this._baConfig.get().colors.defaultText,
+                fullWidth: true,
+                height: '300px',
+                chartPadding: {
+                    right: 40
+                }
+            },
+            simpleLineData: {
+                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+                series: [
+                    [20, 20, 12, 45, 50],
+                    [10, 45, 30, 14, 12],
+                    [34, 12, 12, 40, 50],
+                    [10, 43, 25, 22, 16],
+                    [3, 6, 30, 33, 43]
+                ]
+            },
+            areaLineData: {
+                labels: [1, 2, 3, 4, 5, 6, 7, 8],
+                series: [
+                    [5, 9, 7, 8, 5, 3, 5, 4]
+                ]
+            },
+            areaLineOptions: {
+                fullWidth: true,
+                height: '300px',
+                low: 0,
+                showArea: true
+            },
+            biLineData: {
+                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                series: [
+                    [1, 2, 3, 1, -2, 0, 1],
+                    [-2, -1, -2, -1, -2.5, -1, -2],
+                    [0, 0, 0, 1, 2, 2.5, 2],
+                    [2.5, 2, 1, 0.5, 1, 0.5, -1]
+                ]
+            },
+            biLineOptions: {
+                height: '300px',
+                high: 3,
+                low: -3,
+                showArea: true,
+                showLine: false,
+                showPoint: false,
+                fullWidth: true,
+                axisX: {
+                    showGrid: false
+                }
+            },
+            simpleBarData: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                series: [
+                    [15, 24, 43, 27, 5, 10, 23, 44, 68, 50, 26, 8],
+                    [13, 22, 49, 22, 4, 6, 24, 46, 57, 48, 22, 4]
+                ]
+            },
+            simpleBarOptions: {
+                fullWidth: true,
+                height: '300px'
+            },
+            multiBarData: {
+                labels: ['Quarter 1', 'Quarter 2', 'Quarter 3', 'Quarter 4'],
+                series: [
+                    [5, 4, 3, 7],
+                    [3, 2, 9, 5],
+                    [1, 5, 8, 4],
+                    [2, 3, 4, 6],
+                    [4, 1, 2, 1]
+                ]
+            },
+            multiBarOptions: {
+                fullWidth: true,
+                height: '300px',
+                stackBars: true,
+                axisX: {
+                    labelInterpolationFnc: function (value) {
+                        return value.split(/\s+/).map(function (word) {
+                            return word[0];
+                        }).join('');
+                    }
+                },
+                axisY: {
+                    offset: 20
+                }
+            },
+            multiBarResponsive: [
+                ['screen and (min-width: 400px)', {
+                        reverseData: true,
+                        horizontalBars: true,
+                        axisX: {
+                            labelInterpolationFnc: function (n) { return n; }
+                        },
+                        axisY: {
+                            offset: 60
+                        }
+                    }],
+                ['screen and (min-width: 700px)', {
+                        stackBars: false,
+                        reverseData: false,
+                        horizontalBars: false,
+                        seriesBarDistance: 15
+                    }]
+            ],
+            stackedBarData: {
+                labels: ['Quarter 1', 'Quarter 2', 'Quarter 3', 'Quarter 4'],
+                series: [
+                    [800000, 1200000, 1400000, 1300000],
+                    [200000, 400000, 500000, 300000],
+                    [100000, 200000, 400000, 600000]
+                ]
+            },
+            stackedBarOptions: {
+                fullWidth: true,
+                height: '300px',
+                stackBars: true,
+                axisY: {
+                    labelInterpolationFnc: function (value) {
+                        return (value / 1000) + 'k';
+                    }
+                }
+            },
+            simplePieData: {
+                series: [5, 3, 4]
+            },
+            simplePieOptions: {
+                fullWidth: true,
+                height: '300px',
+                weight: '300px',
+                labelInterpolationFnc: function (value) {
+                    return Math.round(value / 12 * 100) + '%';
+                }
+            },
+            labelsPieData: {
+                labels: ['Bananas', 'Apples', 'Grapes'],
+                series: [20, 15, 40]
+            },
+            labelsPieOptions: {
+                fullWidth: true,
+                height: '300px',
+                weight: '300px',
+                labelDirection: 'explode',
+                labelInterpolationFnc: function (value) {
+                    return value[0];
+                }
+            },
+            simpleDonutData: {
+                labels: ['Bananas', 'Apples', 'Grapes'],
+                series: [20, 15, 40]
+            },
+            simpleDonutOptions: {
+                fullWidth: true,
+                donut: true,
+                height: '300px',
+                weight: '300px',
+                labelDirection: 'explode',
+                labelInterpolationFnc: function (value) {
+                    return value[0];
+                }
+            }
+        };
+    }
+    ChartistJsService.prototype.getAll = function () {
+        return this._data;
+    };
+    ChartistJsService.prototype.getResponsive = function (padding, offset) {
+        return [
+            ['screen and (min-width: 1550px)', {
+                    chartPadding: padding,
+                    labelOffset: offset,
+                    labelDirection: 'explode',
+                    labelInterpolationFnc: function (value) {
+                        return value;
+                    }
+                }],
+            ['screen and (max-width: 1200px)', {
+                    chartPadding: padding,
+                    labelOffset: offset,
+                    labelDirection: 'explode',
+                    labelInterpolationFnc: function (value) {
+                        return value;
+                    }
+                }],
+            ['screen and (max-width: 600px)', {
+                    chartPadding: 0,
+                    labelOffset: 0,
+                    labelInterpolationFnc: function (value) {
+                        return value[0];
+                    }
+                }]
+        ];
+    };
+    return ChartistJsService;
+}());
+ChartistJsService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__theme__["b" /* BaThemeConfigProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__theme__["b" /* BaThemeConfigProvider */]) === "function" && _a || Object])
+], ChartistJsService);
+
+var _a;
+//# sourceMappingURL=chartistJs.service.js.map
+
+/***/ }),
+
+/***/ 1078:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__register_component__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__charts_component__ = __webpack_require__(1018);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_chartistJs_chartistJs_component__ = __webpack_require__(1019);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
+
 
 
 // noinspection TypeScriptValidateTypes
 var routes = [
     {
         path: '',
-        component: __WEBPACK_IMPORTED_MODULE_1__register_component__["a" /* Register */]
+        component: __WEBPACK_IMPORTED_MODULE_1__charts_component__["a" /* Charts */],
+        children: [
+            { path: 'chartist-js', component: __WEBPACK_IMPORTED_MODULE_2__components_chartistJs_chartistJs_component__["a" /* ChartistJs */] }
+        ]
     }
 ];
 var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forChild(routes);
-//# sourceMappingURL=register.routing.js.map
+//# sourceMappingURL=charts.routing.js.map
 
 /***/ }),
 
-/***/ 1188:
+/***/ 1174:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -89,7 +340,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, ".auth-main {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  height: 100%;\n  width: 100%;\n  position: absolute; }\n\n.auth-block {\n  width: 540px;\n  margin: 0 auto;\n  border-radius: 5px;\n  background: rgba(0, 0, 0, 0.55);\n  color: #fff;\n  padding: 32px; }\n  .auth-block h1 {\n    font-weight: 300;\n    margin-bottom: 28px;\n    text-align: center; }\n  .auth-block p {\n    font-size: 16px; }\n  .auth-block a {\n    text-decoration: none;\n    outline: none;\n    transition: all 0.2s ease;\n    color: #00abff; }\n    .auth-block a:hover {\n      color: #0091d9; }\n  .auth-block .control-label {\n    padding-top: 11px;\n    color: #ffffff; }\n  .auth-block .form-group {\n    margin-bottom: 12px; }\n\n.auth-input {\n  width: 300px;\n  margin-bottom: 24px; }\n  .auth-input input {\n    display: block;\n    width: 100%;\n    border: none;\n    font-size: 16px;\n    padding: 4px 10px;\n    outline: none; }\n\na.forgot-pass {\n  display: block;\n  text-align: right;\n  margin-bottom: -20px;\n  float: right;\n  z-index: 2;\n  position: relative; }\n\n.auth-link {\n  display: block;\n  font-size: 16px;\n  text-align: center;\n  margin-bottom: 33px; }\n\n.auth-sep {\n  margin-top: 36px;\n  margin-bottom: 24px;\n  line-height: 20px;\n  font-size: 16px;\n  text-align: center;\n  display: block;\n  position: relative; }\n  .auth-sep > span {\n    display: table-cell;\n    width: 30%;\n    white-space: nowrap;\n    padding: 0 24px;\n    color: #ffffff; }\n    .auth-sep > span > span {\n      margin-top: -12px;\n      display: block; }\n  .auth-sep:before, .auth-sep:after {\n    border-top: solid 1px #ffffff;\n    content: \"\";\n    height: 1px;\n    width: 35%;\n    display: table-cell; }\n\n.al-share-auth {\n  text-align: center; }\n  .al-share-auth .al-share {\n    float: none;\n    margin: 0;\n    padding: 0;\n    display: inline-block; }\n    .al-share-auth .al-share li {\n      margin-left: 24px; }\n      .al-share-auth .al-share li:first-child {\n        margin-left: 0; }\n      .al-share-auth .al-share li i {\n        font-size: 24px; }\n\n.btn-auth {\n  color: #ffffff !important; }\n", ""]);
+exports.push([module.i, ":host /deep/ .ct-area {\n  fill-opacity: .5; }\n\n:host /deep/ .ct-label {\n  color: #ffffff;\n  opacity: 0.9;\n  fill: #ffffff; }\n\n:host /deep/ .ct-chart .ct-label {\n  font-size: 1em; }\n\n:host /deep/ .ct-chart svg {\n  width: 100%;\n  display: block; }\n\n:host /deep/ .ct-series-a .ct-bar, :host /deep/ .ct-series-a .ct-line, :host /deep/ .ct-series-a .ct-point, :host /deep/ .ct-series-a .ct-slice-donut, :host /deep/ .ct-series-a .ct-slice-pie {\n  stroke: #00abff; }\n\n:host /deep/ .ct-series-a .ct-slice-pie, :host /deep/ .ct-series-a .ct-area {\n  fill: #00abff; }\n\n:host /deep/ .ct-series-b .ct-bar, :host /deep/ .ct-series-b .ct-line, :host /deep/ .ct-series-b .ct-point, :host /deep/ .ct-series-b .ct-slice-donut, :host /deep/ .ct-series-b .ct-slice-pie {\n  stroke: #8bd22f; }\n\n:host /deep/ .ct-series-b .ct-slice-pie, :host /deep/ .ct-series-b .ct-area {\n  fill: #8bd22f; }\n\n:host /deep/ .ct-series-c .ct-bar, :host /deep/ .ct-series-c .ct-line, :host /deep/ .ct-series-c .ct-point, :host /deep/ .ct-series-c .ct-slice-donut, :host /deep/ .ct-series-c .ct-slice-pie {\n  stroke: #f95372; }\n\n:host /deep/ .ct-series-c .ct-slice-pie, :host /deep/ .ct-series-c .ct-area {\n  fill: #f95372; }\n\n:host /deep/ .ct-series-d .ct-bar, :host /deep/ .ct-series-d .ct-line, :host /deep/ .ct-series-d .ct-point, :host /deep/ .ct-series-d .ct-slice-donut, :host /deep/ .ct-series-d .ct-slice-pie {\n  stroke: #e7ba08; }\n\n:host /deep/ .ct-series-d .ct-slice-pie, :host /deep/ .ct-series-d .ct-area {\n  fill: #e7ba08; }\n\n:host /deep/ .ct-series-e .ct-bar, :host /deep/ .ct-series-e .ct-line, :host /deep/ .ct-series-e .ct-point, :host /deep/ .ct-series-e .ct-slice-donut, :host /deep/ .ct-series-e .ct-slice-pie {\n  stroke: #40daf1; }\n\n:host /deep/ .ct-series-e .ct-slice-pie, :host /deep/ .ct-series-e .ct-area {\n  fill: #40daf1; }\n\n:host /deep/ .stacked-bar .ct-bar {\n  stroke-width: 30px; }\n", ""]);
 
 // exports
 
@@ -99,14 +350,14 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1247:
+/***/ 1223:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"auth-main\">\n  <div class=\"auth-block\">\n    <h1>Sign up to ng2-admin</h1>\n    <a routerLink=\"/login\" class=\"auth-link\">Already have an ng2-admin account? Sign in!</a>\n\n    <form [formGroup]=\"form\" (ngSubmit)=\"onSubmit(form.value)\" class=\"form-horizontal\">\n      <div class=\"form-group row\" [ngClass]=\"{'has-error': (!name.valid && name.touched), 'has-success': (name.valid && name.touched)}\">\n        <label for=\"inputName3\" class=\"col-sm-2 control-label\">Name</label>\n\n        <div class=\"col-sm-10\">\n          <input [formControl]=\"name\" type=\"text\" class=\"form-control\" id=\"inputName3\" placeholder=\"Full Name\">\n        </div>\n      </div>\n      <div class=\"form-group row\" [ngClass]=\"{'has-error': (!email.valid && email.touched), 'has-success': (email.valid && email.touched)}\">\n        <label for=\"inputEmail3\" class=\"col-sm-2 control-label\">Email</label>\n\n        <div class=\"col-sm-10\">\n          <input [formControl]=\"email\" type=\"email\" class=\"form-control\" id=\"inputEmail3\" placeholder=\"Email\">\n        </div>\n      </div>\n      <div class=\"form-group row\" [ngClass]=\"{'has-error': (!password.valid && password.touched), 'has-success': (password.valid && password.touched)}\">\n        <label for=\"inputPassword3\" class=\"col-sm-2 control-label\">Password</label>\n\n        <div class=\"col-sm-10\">\n          <input [formControl]=\"password\" type=\"password\" class=\"form-control\" id=\"inputPassword3\" placeholder=\"Password\">\n        </div>\n      </div>\n      <div class=\"form-group row\" [ngClass]=\"{'has-error': (!repeatPassword.valid && repeatPassword.touched), 'has-success': (repeatPassword.valid && repeatPassword.touched)}\">\n        <label for=\"inputPassword4\" class=\"col-sm-2 control-label\">Repeat</label>\n\n        <div class=\"col-sm-10\">\n          <input [formControl]=\"repeatPassword\" type=\"password\" class=\"form-control\" id=\"inputPassword4\" placeholder=\"Repeat\">\n          <span *ngIf=\"!passwords.valid && (password.touched || repeatPassword.touched)\" class=\"help-block sub-little-text\">Passwords don't match.</span>\n        </div>\n      </div>\n      <div class=\"form-group row\">\n        <div class=\"offset-sm-2 col-sm-10\">\n          <button [disabled]=\"!form.valid\" type=\"submit\" class=\"btn btn-default btn-auth\">Sign up</button>\n        </div>\n      </div>\n    </form>\n\n    <div class=\"auth-sep\"><span><span>or Sign up with one click</span></span></div>\n\n    <div class=\"al-share-auth\">\n      <ul class=\"al-share clearfix\">\n        <li><i class=\"socicon socicon-facebook\" title=\"Share on Facebook\"></i></li>\n        <li><i class=\"socicon socicon-twitter\" title=\"Share on Twitter\"></i></li>\n        <li><i class=\"socicon socicon-google\" title=\"Share on Google Plus\"></i></li>\n      </ul>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<section class=\"chartist\">\n  <div class=\"row\">\n    <div class=\"col-md-6 \">\n      <ba-card cardTitle=\"chart.lines\" baCardClass=\"with-scroll\">\n        <h5 translate>{{'chart.simple_line_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Line\"\n                           [baChartistChartData]=\"data['simpleLineData']\"\n                           [baChartistChartOptions]=\"data['simpleLineOptions']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.line_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Line\"\n                           [baChartistChartData]=\"data['areaLineData']\"\n                           [baChartistChartOptions]=\"data['areaLineOptions']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.bi_polar_line_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Line\"\n                           [baChartistChartData]=\"data['biLineData']\"\n                           [baChartistChartOptions]=\"data['biLineOptions']\">\n        </ba-chartist-chart>\n      </ba-card>\n    </div>\n\n    <div class=\"col-md-6 \">\n      <ba-card cardTitle=\"chart.bars\" baCardClass=\"with-scroll\">\n        <h5 translate>{{'chart.simple_bar_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Bar\"\n                           [baChartistChartData]=\"data['simpleBarData']\"\n                           [baChartistChartOptions]=\"data['simpleBarOptions']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.multi_line_labels_bar_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart\"\n                           baChartistChartType=\"Bar\"\n                           [baChartistChartData]=\"data['multiBarData']\"\n                           [baChartistChartOptions]=\"data['multiBarOptions']\"\n                           [baChartistChartResponsive]=\"data['multiBarResponsive']\">\n        </ba-chartist-chart>\n\n        <h5 translate>{{'chart.stacked_bar_chart'}}</h5>\n        <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                           baChartistChartType=\"Bar\"\n                           [baChartistChartData]=\"data['stackedBarData']\"\n                           [baChartistChartOptions]=\"data['stackedBarOptions']\">\n        </ba-chartist-chart>\n      </ba-card>\n    </div>\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <ba-card cardTitle=\"chart.pies_and_donuts\" baCardClass=\"with-scroll\">\n        <div class=\"row\">\n          <div class=\"col-md-12 col-lg-4\"><h5 translate>{{'chart.simple_pie'}}</h5>\n            <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                               baChartistChartType=\"Pie\"\n                               [baChartistChartData]=\"data['simplePieData']\"\n                               [baChartistChartOptions]=\"data['simplePieOptions']\"\n                               [baChartistChartResponsive]=\"getResponsive(20, 80)\">\n            </ba-chartist-chart>\n          </div>\n          <div class=\"col-md-12 col-lg-4\"><h5 translate>{{'chart.pie_with_labels'}}</h5>\n            <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                               baChartistChartType=\"Pie\"\n                               [baChartistChartData]=\"data['labelsPieData']\"\n                               [baChartistChartOptions]=\"data['labelsPieOptions']\">\n            </ba-chartist-chart>\n          </div>\n          <div class=\"col-md-12 col-lg-4\"><h5 translate>{{'chart.donut'}}</h5>\n            <ba-chartist-chart baChartistChartClass=\"ct-chart stacked-bar\"\n                               baChartistChartType=\"Pie\"\n                               [baChartistChartData]=\"data['simpleDonutData']\"\n                               [baChartistChartOptions]=\"data['simpleDonutOptions']\"\n                               [baChartistChartResponsive]=\"getResponsive(5, 40)\">\n            </ba-chartist-chart>\n          </div>\n        </div>\n      </ba-card>\n    </div>\n  </div>\n</section>\n"
 
 /***/ }),
 
-/***/ 637:
+/***/ 629:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -114,10 +365,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_component__ = __webpack_require__(1044);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__register_routing__ = __webpack_require__(1123);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterModule", function() { return RegisterModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__charts_routing__ = __webpack_require__(1078);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__charts_component__ = __webpack_require__(1018);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_chartistJs_chartistJs_component__ = __webpack_require__(1019);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_chartistJs_chartistJs_service__ = __webpack_require__(1020);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_translation_module__ = __webpack_require__(172);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChartsModule", function() { return ChartsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -130,27 +384,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var RegisterModule = (function () {
-    function RegisterModule() {
+
+
+
+var ChartsModule = (function () {
+    function ChartsModule() {
     }
-    return RegisterModule;
+    return ChartsModule;
 }());
-RegisterModule = __decorate([
+ChartsModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
-            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["ReactiveFormsModule"],
+            __WEBPACK_IMPORTED_MODULE_8__app_translation_module__["a" /* AppTranslationModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["FormsModule"],
             __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__["a" /* NgaModule */],
-            __WEBPACK_IMPORTED_MODULE_5__register_routing__["a" /* routing */]
+            __WEBPACK_IMPORTED_MODULE_4__charts_routing__["a" /* routing */]
         ],
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_4__register_component__["a" /* Register */]
+            __WEBPACK_IMPORTED_MODULE_5__charts_component__["a" /* Charts */],
+            __WEBPACK_IMPORTED_MODULE_6__components_chartistJs_chartistJs_component__["a" /* ChartistJs */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_7__components_chartistJs_chartistJs_service__["a" /* ChartistJsService */]
         ]
     })
-], RegisterModule);
+], ChartsModule);
 
-//# sourceMappingURL=register.module.js.map
+//# sourceMappingURL=charts.module.js.map
 
 /***/ })
 
