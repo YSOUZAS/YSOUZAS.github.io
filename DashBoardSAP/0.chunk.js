@@ -9,33 +9,33 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_smart_table__ = __webpack_require__(949);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_datatable__ = __webpack_require__(950);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_datatable__ = __webpack_require__(951);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_angular2_datatable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_dataTables_data_filter_pipe__ = __webpack_require__(1141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_handsontable__ = __webpack_require__(955);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tables_routing__ = __webpack_require__(1149);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tables_component__ = __webpack_require__(1057);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_basicTables_basicTables_component__ = __webpack_require__(1050);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_basicTables_basicTables_service__ = __webpack_require__(1000);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_basicTables_components_responsiveTable__ = __webpack_require__(1137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_basicTables_components_stripedTable__ = __webpack_require__(1139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_basicTables_components_borderedTable__ = __webpack_require__(1130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_basicTables_components_hoverTable__ = __webpack_require__(1136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_basicTables_components_condensedTable__ = __webpack_require__(1132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_basicTables_components_contextualTable__ = __webpack_require__(1134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_smartTables_smartTables_component__ = __webpack_require__(1055);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_smartTables_smartTables_service__ = __webpack_require__(1056);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_dataTables_dataTables_component__ = __webpack_require__(1051);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_dataTables_dataTables_service__ = __webpack_require__(1052);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_hotTables_hotTables_component__ = __webpack_require__(1054);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_hotTables_handsontable_section__ = __webpack_require__(1142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_hotTables_handsontable_basic_demo__ = __webpack_require__(1144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_hotTables_handsontable_sheet_demo__ = __webpack_require__(1147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_hotTables_handsontable_finance_demo__ = __webpack_require__(1145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_hotTables_handsontable_science_demo__ = __webpack_require__(1146);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_hotTables_handsontable_sport_demo__ = __webpack_require__(1148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_hotTables_handsontable_advanced_demo__ = __webpack_require__(1143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_dataTables_data_filter_pipe__ = __webpack_require__(1153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_handsontable__ = __webpack_require__(956);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__tables_routing__ = __webpack_require__(1161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tables_component__ = __webpack_require__(1064);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_basicTables_basicTables_component__ = __webpack_require__(1057);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_basicTables_basicTables_service__ = __webpack_require__(1001);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_basicTables_components_responsiveTable__ = __webpack_require__(1149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_basicTables_components_stripedTable__ = __webpack_require__(1151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_basicTables_components_borderedTable__ = __webpack_require__(1142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_basicTables_components_hoverTable__ = __webpack_require__(1148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_basicTables_components_condensedTable__ = __webpack_require__(1144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_basicTables_components_contextualTable__ = __webpack_require__(1146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_smartTables_smartTables_component__ = __webpack_require__(1062);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_smartTables_smartTables_service__ = __webpack_require__(1063);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_dataTables_dataTables_component__ = __webpack_require__(1058);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_dataTables_dataTables_service__ = __webpack_require__(1059);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_hotTables_hotTables_component__ = __webpack_require__(1061);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_hotTables_handsontable_section__ = __webpack_require__(1154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_hotTables_handsontable_basic_demo__ = __webpack_require__(1156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_hotTables_handsontable_sheet_demo__ = __webpack_require__(1159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_hotTables_handsontable_finance_demo__ = __webpack_require__(1157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_hotTables_handsontable_science_demo__ = __webpack_require__(1158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_hotTables_handsontable_sport_demo__ = __webpack_require__(1160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_hotTables_handsontable_advanced_demo__ = __webpack_require__(1155);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TablesModule", function() { return TablesModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -184,7 +184,7 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers__ = __webpack_require__(660);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_set_data_set__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_set_data_set__ = __webpack_require__(990);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Grid; });
 
 
@@ -886,7 +886,7 @@ var queue_1 = __webpack_require__(683);
 var Subscription_1 = __webpack_require__(43);
 var observeOn_1 = __webpack_require__(396);
 var ObjectUnsubscribedError_1 = __webpack_require__(170);
-var SubjectSubscription_1 = __webpack_require__(397);
+var SubjectSubscription_1 = __webpack_require__(398);
 /**
  * @class ReplaySubject<T>
  */
@@ -1446,7 +1446,7 @@ Observable_1.Observable.prototype.distinctUntilChanged = distinctUntilChanged_1.
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_completer_module__ = __webpack_require__(952);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_completer_module__ = __webpack_require__(953);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ng2_completer_module__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_completer_cmp__ = __webpack_require__(694);
 /* unused harmony reexport CompleterCmp */
@@ -2273,7 +2273,7 @@ var ZipBufferIterator = (function (_super) {
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var catch_1 = __webpack_require__(409);
+var catch_1 = __webpack_require__(410);
 Observable_1.Observable.prototype.catch = catch_1._catch;
 Observable_1.Observable.prototype._catch = catch_1._catch;
 //# sourceMappingURL=catch.js.map
@@ -2743,17 +2743,17 @@ var RemoteData = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_completer__ = __webpack_require__(658);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cell_component__ = __webpack_require__(966);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cell_edit_mode_custom_edit_component__ = __webpack_require__(956);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cell_edit_mode_default_edit_component__ = __webpack_require__(957);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cell_edit_mode_edit_cell_component__ = __webpack_require__(958);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cell_editors_checkbox_editor_component__ = __webpack_require__(959);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cell_editors_completer_editor_component__ = __webpack_require__(960);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cell_editors_input_editor_component__ = __webpack_require__(961);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cell_editors_select_editor_component__ = __webpack_require__(962);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__cell_editors_textarea_editor_component__ = __webpack_require__(963);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__cell_view_mode_custom_view_component__ = __webpack_require__(964);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__cell_view_mode_view_cell_component__ = __webpack_require__(965);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cell_component__ = __webpack_require__(967);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cell_edit_mode_custom_edit_component__ = __webpack_require__(957);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cell_edit_mode_default_edit_component__ = __webpack_require__(958);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cell_edit_mode_edit_cell_component__ = __webpack_require__(959);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cell_editors_checkbox_editor_component__ = __webpack_require__(960);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cell_editors_completer_editor_component__ = __webpack_require__(961);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cell_editors_input_editor_component__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cell_editors_select_editor_component__ = __webpack_require__(963);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__cell_editors_textarea_editor_component__ = __webpack_require__(964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__cell_view_mode_custom_view_component__ = __webpack_require__(965);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__cell_view_mode_view_cell_component__ = __webpack_require__(966);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CellModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2813,9 +2813,9 @@ CellModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__local_sorter__ = __webpack_require__(992);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__local_filter__ = __webpack_require__(990);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__local_pager__ = __webpack_require__(991);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__local_sorter__ = __webpack_require__(993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__local_filter__ = __webpack_require__(991);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__local_pager__ = __webpack_require__(992);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_source__ = __webpack_require__(656);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__helpers__ = __webpack_require__(660);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocalDataSource; });
@@ -3882,7 +3882,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var FromObservable_1 = __webpack_require__(404);
+var FromObservable_1 = __webpack_require__(405);
 var isArray_1 = __webpack_require__(113);
 var OuterSubscriber_1 = __webpack_require__(41);
 var subscribeToResult_1 = __webpack_require__(42);
@@ -4785,7 +4785,7 @@ __webpack_require__(721);
 __webpack_require__(722);
 __webpack_require__(726);
 __webpack_require__(723);
-__webpack_require__(398);
+__webpack_require__(399);
 __webpack_require__(724);
 __webpack_require__(725);
 __webpack_require__(727);
@@ -4841,7 +4841,7 @@ __webpack_require__(171);
 __webpack_require__(768);
 __webpack_require__(769);
 __webpack_require__(770);
-__webpack_require__(399);
+__webpack_require__(400);
 __webpack_require__(771);
 __webpack_require__(772);
 __webpack_require__(773);
@@ -4867,7 +4867,7 @@ __webpack_require__(792);
 __webpack_require__(793);
 __webpack_require__(794);
 __webpack_require__(795);
-__webpack_require__(400);
+__webpack_require__(401);
 __webpack_require__(796);
 __webpack_require__(797);
 __webpack_require__(798);
@@ -4879,7 +4879,7 @@ __webpack_require__(803);
 __webpack_require__(804);
 __webpack_require__(805);
 __webpack_require__(806);
-__webpack_require__(401);
+__webpack_require__(402);
 __webpack_require__(807);
 __webpack_require__(173);
 __webpack_require__(808);
@@ -4889,7 +4889,7 @@ __webpack_require__(811);
 __webpack_require__(812);
 __webpack_require__(813);
 __webpack_require__(814);
-__webpack_require__(402);
+__webpack_require__(403);
 __webpack_require__(815);
 __webpack_require__(816);
 __webpack_require__(817);
@@ -4910,7 +4910,7 @@ var ReplaySubject_1 = __webpack_require__(650);
 exports.ReplaySubject = ReplaySubject_1.ReplaySubject;
 var BehaviorSubject_1 = __webpack_require__(169);
 exports.BehaviorSubject = BehaviorSubject_1.BehaviorSubject;
-var ConnectableObservable_1 = __webpack_require__(403);
+var ConnectableObservable_1 = __webpack_require__(404);
 exports.ConnectableObservable = ConnectableObservable_1.ConnectableObservable;
 var Notification_1 = __webpack_require__(392);
 exports.Notification = Notification_1.Notification;
@@ -4922,7 +4922,7 @@ var ObjectUnsubscribedError_1 = __webpack_require__(170);
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError_1.ObjectUnsubscribedError;
 var TimeoutError_1 = __webpack_require__(686);
 exports.TimeoutError = TimeoutError_1.TimeoutError;
-var UnsubscriptionError_1 = __webpack_require__(417);
+var UnsubscriptionError_1 = __webpack_require__(418);
 exports.UnsubscriptionError = UnsubscriptionError_1.UnsubscriptionError;
 var timeInterval_1 = __webpack_require__(679);
 exports.TimeInterval = timeInterval_1.TimeInterval;
@@ -6108,11 +6108,11 @@ __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_completer__ = __webpack_require__(658);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__filter_component__ = __webpack_require__(971);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__filter_types_checkbox_filter_component__ = __webpack_require__(967);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter_types_completer_filter_component__ = __webpack_require__(968);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__filter_types_input_filter_component__ = __webpack_require__(969);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__filter_types_select_filter_component__ = __webpack_require__(970);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__filter_component__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__filter_types_checkbox_filter_component__ = __webpack_require__(968);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter_types_completer_filter_component__ = __webpack_require__(969);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__filter_types_input_filter_component__ = __webpack_require__(970);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__filter_types_select_filter_component__ = __webpack_require__(971);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FilterModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -41308,7 +41308,7 @@ return hooks;
 }());
 },{}]},{},[24,63,65,66,64,67,110,111,112,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,99,100,101,102,103,105,106,107,108,109,113,114,115,116,133,134,135,136,119,120,121,122,123,124,32,36,33,34,41,35,37,38,39,40])(24)
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(997), __webpack_require__(44)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(998), __webpack_require__(44)))
 
 /***/ }),
 /* 705 */
@@ -41460,7 +41460,7 @@ Observable_1.Observable.empty = empty_1.empty;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var forkJoin_1 = __webpack_require__(405);
+var forkJoin_1 = __webpack_require__(406);
 Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 //# sourceMappingURL=forkJoin.js.map
 
@@ -41471,7 +41471,7 @@ Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var from_1 = __webpack_require__(406);
+var from_1 = __webpack_require__(407);
 Observable_1.Observable.from = from_1.from;
 //# sourceMappingURL=from.js.map
 
@@ -41482,7 +41482,7 @@ Observable_1.Observable.from = from_1.from;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var fromEvent_1 = __webpack_require__(407);
+var fromEvent_1 = __webpack_require__(408);
 Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
@@ -41548,7 +41548,7 @@ Observable_1.Observable.interval = interval_1.interval;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var merge_1 = __webpack_require__(408);
+var merge_1 = __webpack_require__(409);
 Observable_1.Observable.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
@@ -41757,7 +41757,7 @@ Observable_1.Observable.prototype.concat = concat_1.concat;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var concatAll_1 = __webpack_require__(410);
+var concatAll_1 = __webpack_require__(411);
 Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 //# sourceMappingURL=concatAll.js.map
 
@@ -41768,7 +41768,7 @@ Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var concatMap_1 = __webpack_require__(411);
+var concatMap_1 = __webpack_require__(412);
 Observable_1.Observable.prototype.concatMap = concatMap_1.concatMap;
 //# sourceMappingURL=concatMap.js.map
 
@@ -41878,7 +41878,7 @@ Observable_1.Observable.prototype.distinctUntilKeyChanged = distinctUntilKeyChan
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var do_1 = __webpack_require__(412);
+var do_1 = __webpack_require__(413);
 Observable_1.Observable.prototype.do = do_1._do;
 Observable_1.Observable.prototype._do = do_1._do;
 //# sourceMappingURL=do.js.map
@@ -41901,7 +41901,7 @@ Observable_1.Observable.prototype.elementAt = elementAt_1.elementAt;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var every_1 = __webpack_require__(413);
+var every_1 = __webpack_require__(414);
 Observable_1.Observable.prototype.every = every_1.every;
 //# sourceMappingURL=every.js.map
 
@@ -41990,7 +41990,7 @@ Observable_1.Observable.prototype.findIndex = findIndex_1.findIndex;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var first_1 = __webpack_require__(414);
+var first_1 = __webpack_require__(415);
 Observable_1.Observable.prototype.first = first_1.first;
 //# sourceMappingURL=first.js.map
 
@@ -42034,7 +42034,7 @@ Observable_1.Observable.prototype.isEmpty = isEmpty_1.isEmpty;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var last_1 = __webpack_require__(415);
+var last_1 = __webpack_require__(416);
 Observable_1.Observable.prototype.last = last_1.last;
 //# sourceMappingURL=last.js.map
 
@@ -42045,7 +42045,7 @@ Observable_1.Observable.prototype.last = last_1.last;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var let_1 = __webpack_require__(416);
+var let_1 = __webpack_require__(417);
 Observable_1.Observable.prototype.let = let_1.letProto;
 Observable_1.Observable.prototype.letBind = let_1.letProto;
 //# sourceMappingURL=let.js.map
@@ -53133,7 +53133,7 @@ exports.not = not;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_smart_table_module__ = __webpack_require__(996);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_smart_table_module__ = __webpack_require__(997);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ng2_smart_table_module__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_cell_cell_editors_default_editor__ = __webpack_require__(647);
 /* unused harmony reexport DefaultEditor */
@@ -53141,7 +53141,7 @@ exports.not = not;
 /* unused harmony reexport Cell */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_data_source_local_local_data_source__ = __webpack_require__(671);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__lib_data_source_local_local_data_source__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lib_data_source_server_server_data_source__ = __webpack_require__(994);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lib_data_source_server_server_data_source__ = __webpack_require__(995);
 /* unused harmony reexport ServerDataSource */
 
 
@@ -53151,14 +53151,15 @@ exports.not = not;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 950 */
+/* 950 */,
+/* 951 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dataTable_directive = __webpack_require__(653);
 var defaultSorter_directive = __webpack_require__(692);
 var paginator_component = __webpack_require__(693);
 var bootstrapPaginator_component = __webpack_require__(691);
-var dataTable_module = __webpack_require__(951);
+var dataTable_module = __webpack_require__(952);
 
 exports.DataTable = dataTable_directive.DataTable;
 exports.DataEvent = dataTable_directive.DataEvent;
@@ -53171,7 +53172,7 @@ exports.DataTableModule = dataTable_module.DataTableModule;
 
 
 /***/ }),
-/* 951 */
+/* 952 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53216,7 +53217,7 @@ exports.DataTableModule = DataTableModule;
 //# sourceMappingURL=DataTableModule.js.map
 
 /***/ }),
-/* 952 */
+/* 953 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53290,8 +53291,8 @@ Ng2CompleterModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=ng2-completer.module.js.map
 
 /***/ }),
-/* 953 */,
-/* 954 */
+/* 954 */,
+/* 955 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53319,20 +53320,20 @@ var HotTableModule = (function () {
 //# sourceMappingURL=handsontable.module.js.map
 
 /***/ }),
-/* 955 */
+/* 956 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__handsontable__ = __webpack_require__(701);
 /* unused harmony reexport HotTable */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__handsontable_module__ = __webpack_require__(954);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__handsontable_module__ = __webpack_require__(955);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__handsontable_module__["a"]; });
 
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 956 */
+/* 957 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53402,7 +53403,7 @@ CustomEditComponent = __decorate([
 //# sourceMappingURL=custom-edit.component.js.map
 
 /***/ }),
-/* 957 */
+/* 958 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53451,7 +53452,7 @@ DefaultEditComponent = __decorate([
 //# sourceMappingURL=default-edit.component.js.map
 
 /***/ }),
-/* 958 */
+/* 959 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53505,7 +53506,7 @@ EditCellComponent = __decorate([
 //# sourceMappingURL=edit-cell.component.js.map
 
 /***/ }),
-/* 959 */
+/* 960 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53557,7 +53558,7 @@ CheckboxEditorComponent = __decorate([
 //# sourceMappingURL=checkbox-editor.component.js.map
 
 /***/ }),
-/* 960 */
+/* 961 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53619,7 +53620,7 @@ CompleterEditorComponent = __decorate([
 //# sourceMappingURL=completer-editor.component.js.map
 
 /***/ }),
-/* 961 */
+/* 962 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53666,7 +53667,7 @@ InputEditorComponent = __decorate([
 //# sourceMappingURL=input-editor.component.js.map
 
 /***/ }),
-/* 962 */
+/* 963 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53712,7 +53713,7 @@ SelectEditorComponent = __decorate([
 //# sourceMappingURL=select-editor.component.js.map
 
 /***/ }),
-/* 963 */
+/* 964 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53759,7 +53760,7 @@ TextareaEditorComponent = __decorate([
 //# sourceMappingURL=textarea-editor.component.js.map
 
 /***/ }),
-/* 964 */
+/* 965 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53815,7 +53816,7 @@ CustomViewComponent = __decorate([
 //# sourceMappingURL=custom-view.component.js.map
 
 /***/ }),
-/* 965 */
+/* 966 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53852,7 +53853,7 @@ ViewCellComponent = __decorate([
 //# sourceMappingURL=view-cell.component.js.map
 
 /***/ }),
-/* 966 */
+/* 967 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53941,7 +53942,7 @@ CellComponent = __decorate([
 //# sourceMappingURL=cell.component.js.map
 
 /***/ }),
-/* 967 */
+/* 968 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54014,7 +54015,7 @@ CheckboxFilterComponent = __decorate([
 //# sourceMappingURL=checkbox-filter.component.js.map
 
 /***/ }),
-/* 968 */
+/* 969 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54096,7 +54097,7 @@ CompleterFilterComponent = __decorate([
 //# sourceMappingURL=completer-filter.component.js.map
 
 /***/ }),
-/* 969 */
+/* 970 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54159,7 +54160,7 @@ InputFilterComponent = __decorate([
 //# sourceMappingURL=input-filter.component.js.map
 
 /***/ }),
-/* 970 */
+/* 971 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54222,7 +54223,7 @@ SelectFilterComponent = __decorate([
 //# sourceMappingURL=select-filter.component.js.map
 
 /***/ }),
-/* 971 */
+/* 972 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54302,7 +54303,7 @@ FilterComponent = __decorate([
 //# sourceMappingURL=filter.component.js.map
 
 /***/ }),
-/* 972 */
+/* 973 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54410,13 +54411,13 @@ PagerComponent = __decorate([
 //# sourceMappingURL=pager.component.js.map
 
 /***/ }),
-/* 973 */
+/* 974 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pager_component__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pager_component__ = __webpack_require__(973);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagerModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -54449,7 +54450,7 @@ PagerModule = __decorate([
 //# sourceMappingURL=pager.module.js.map
 
 /***/ }),
-/* 974 */
+/* 975 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54506,7 +54507,7 @@ TbodyCreateCancelComponent = __decorate([
 //# sourceMappingURL=create-cancel.component.js.map
 
 /***/ }),
-/* 975 */
+/* 976 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54603,7 +54604,7 @@ TbodyEditDeleteComponent = __decorate([
 //# sourceMappingURL=edit-delete.component.js.map
 
 /***/ }),
-/* 976 */
+/* 977 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54698,7 +54699,7 @@ Ng2SmartTableTbodyComponent = __decorate([
 //# sourceMappingURL=tbody.component.js.map
 
 /***/ }),
-/* 977 */
+/* 978 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54706,9 +54707,9 @@ Ng2SmartTableTbodyComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cell_cell_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tbody_component__ = __webpack_require__(976);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cells_create_cancel_component__ = __webpack_require__(974);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_edit_delete_component__ = __webpack_require__(975);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tbody_component__ = __webpack_require__(977);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cells_create_cancel_component__ = __webpack_require__(975);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_edit_delete_component__ = __webpack_require__(976);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TBodyModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -54748,7 +54749,7 @@ TBodyModule = __decorate([
 //# sourceMappingURL=tbody.module.js.map
 
 /***/ }),
-/* 978 */
+/* 979 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54790,7 +54791,7 @@ ActionsTitleComponent = __decorate([
 //# sourceMappingURL=actions-title.component.js.map
 
 /***/ }),
-/* 979 */
+/* 980 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54832,7 +54833,7 @@ ActionsComponent = __decorate([
 //# sourceMappingURL=actions.component.js.map
 
 /***/ }),
-/* 980 */
+/* 981 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54895,7 +54896,7 @@ AddButtonComponent = __decorate([
 //# sourceMappingURL=add-button.component.js.map
 
 /***/ }),
-/* 981 */
+/* 982 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54940,7 +54941,7 @@ CheckboxSelectAllComponent = __decorate([
 //# sourceMappingURL=checkbox-select-all.component.js.map
 
 /***/ }),
-/* 982 */
+/* 983 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54986,7 +54987,7 @@ ColumnTitleComponent = __decorate([
 //# sourceMappingURL=column-title.component.js.map
 
 /***/ }),
-/* 983 */
+/* 984 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55072,7 +55073,7 @@ TitleComponent = __decorate([
 //# sourceMappingURL=title.component.js.map
 
 /***/ }),
-/* 984 */
+/* 985 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55123,7 +55124,7 @@ TheadFitlersRowComponent = __decorate([
 //# sourceMappingURL=thead-filters-row.component.js.map
 
 /***/ }),
-/* 985 */
+/* 986 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55179,7 +55180,7 @@ TheadFormRowComponent = __decorate([
 //# sourceMappingURL=thead-form-row.component.js.map
 
 /***/ }),
-/* 986 */
+/* 987 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55234,7 +55235,7 @@ TheadTitlesRowComponent = __decorate([
 //# sourceMappingURL=thead-titles-row.component.js.map
 
 /***/ }),
-/* 987 */
+/* 988 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55303,7 +55304,7 @@ Ng2SmartTableTheadComponent = __decorate([
 //# sourceMappingURL=thead.component.js.map
 
 /***/ }),
-/* 988 */
+/* 989 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55312,16 +55313,16 @@ Ng2SmartTableTheadComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__filter_filter_module__ = __webpack_require__(703);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cell_cell_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__thead_component__ = __webpack_require__(987);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_actions_component__ = __webpack_require__(979);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cells_actions_title_component__ = __webpack_require__(978);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cells_add_button_component__ = __webpack_require__(980);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cells_checkbox_select_all_component__ = __webpack_require__(981);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cells_column_title_component__ = __webpack_require__(982);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cells_title_title_component__ = __webpack_require__(983);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__rows_thead_filters_row_component__ = __webpack_require__(984);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__rows_thead_form_row_component__ = __webpack_require__(985);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__rows_thead_titles_row_component__ = __webpack_require__(986);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__thead_component__ = __webpack_require__(988);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_actions_component__ = __webpack_require__(980);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cells_actions_title_component__ = __webpack_require__(979);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cells_add_button_component__ = __webpack_require__(981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cells_checkbox_select_all_component__ = __webpack_require__(982);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cells_column_title_component__ = __webpack_require__(983);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cells_title_title_component__ = __webpack_require__(984);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__rows_thead_filters_row_component__ = __webpack_require__(985);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__rows_thead_form_row_component__ = __webpack_require__(986);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__rows_thead_titles_row_component__ = __webpack_require__(987);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return THeadModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -55377,7 +55378,7 @@ THeadModule = __decorate([
 //# sourceMappingURL=thead.module.js.map
 
 /***/ }),
-/* 989 */
+/* 990 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55513,7 +55514,7 @@ var DataSet = (function () {
 //# sourceMappingURL=data-set.js.map
 
 /***/ }),
-/* 990 */
+/* 991 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55537,7 +55538,7 @@ LocalFilter.FILTER = function (value, search) {
 //# sourceMappingURL=local.filter.js.map
 
 /***/ }),
-/* 991 */
+/* 992 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55554,7 +55555,7 @@ var LocalPager = (function () {
 //# sourceMappingURL=local.pager.js.map
 
 /***/ }),
-/* 992 */
+/* 993 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55584,7 +55585,7 @@ LocalSorter.COMPARE = function (direction, a, b) {
 //# sourceMappingURL=local.sorter.js.map
 
 /***/ }),
-/* 993 */
+/* 994 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55614,13 +55615,13 @@ ServerSourceConf.DATA_KEY = '';
 //# sourceMappingURL=server-source.conf.js.map
 
 /***/ }),
-/* 994 */
+/* 995 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__local_local_data_source__ = __webpack_require__(671);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__server_source_conf__ = __webpack_require__(993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__server_source_conf__ = __webpack_require__(994);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__helpers__ = __webpack_require__(660);
 /* unused harmony export ServerDataSource */
 var __extends = (this && this.__extends) || (function () {
@@ -55736,7 +55737,7 @@ var ServerDataSource = (function (_super) {
 //# sourceMappingURL=server.data-source.js.map
 
 /***/ }),
-/* 995 */
+/* 996 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55970,7 +55971,7 @@ Ng2SmartTableComponent = __decorate([
 //# sourceMappingURL=ng2-smart-table.component.js.map
 
 /***/ }),
-/* 996 */
+/* 997 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55979,10 +55980,10 @@ Ng2SmartTableComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_cell_cell_module__ = __webpack_require__(670);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_filter_filter_module__ = __webpack_require__(703);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_pager_pager_module__ = __webpack_require__(973);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tbody_tbody_module__ = __webpack_require__(977);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_thead_thead_module__ = __webpack_require__(988);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ng2_smart_table_component__ = __webpack_require__(995);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_pager_pager_module__ = __webpack_require__(974);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tbody_tbody_module__ = __webpack_require__(978);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_thead_thead_module__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ng2_smart_table_component__ = __webpack_require__(996);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Ng2SmartTableModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56028,7 +56029,7 @@ Ng2SmartTableModule = __decorate([
 //# sourceMappingURL=ng2-smart-table.module.js.map
 
 /***/ }),
-/* 997 */
+/* 998 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -56218,9 +56219,9 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 998 */,
 /* 999 */,
-/* 1000 */
+/* 1000 */,
+/* 1001 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56904,7 +56905,7 @@ BasicTablesService = __decorate([
 //# sourceMappingURL=basicTables.service.js.map
 
 /***/ }),
-/* 1001 */
+/* 1002 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57389,7 +57390,6 @@ function getFinanceData() {
 //# sourceMappingURL=data.js.map
 
 /***/ }),
-/* 1002 */,
 /* 1003 */,
 /* 1004 */,
 /* 1005 */,
@@ -57437,7 +57437,14 @@ function getFinanceData() {
 /* 1047 */,
 /* 1048 */,
 /* 1049 */,
-/* 1050 */
+/* 1050 */,
+/* 1051 */,
+/* 1052 */,
+/* 1053 */,
+/* 1054 */,
+/* 1055 */,
+/* 1056 */,
+/* 1057 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57461,8 +57468,8 @@ var BasicTables = (function () {
 BasicTables = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'basic-tables',
-        template: __webpack_require__(1257),
-        styles: [__webpack_require__(1196)]
+        template: __webpack_require__(1279),
+        styles: [__webpack_require__(1209)]
     }),
     __metadata("design:paramtypes", [])
 ], BasicTables);
@@ -57470,12 +57477,12 @@ BasicTables = __decorate([
 //# sourceMappingURL=basicTables.component.js.map
 
 /***/ }),
-/* 1051 */
+/* 1058 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dataTables_service__ = __webpack_require__(1052);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dataTables_service__ = __webpack_require__(1059);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataTables; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -57511,8 +57518,8 @@ var DataTables = (function () {
 DataTables = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'data-tables',
-        template: __webpack_require__(1264),
-        styles: [__webpack_require__(1197)]
+        template: __webpack_require__(1286),
+        styles: [__webpack_require__(1210)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__dataTables_service__["a" /* DataTablesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__dataTables_service__["a" /* DataTablesService */]) === "function" && _a || Object])
 ], DataTables);
@@ -57521,7 +57528,7 @@ var _a;
 //# sourceMappingURL=dataTables.component.js.map
 
 /***/ }),
-/* 1052 */
+/* 1059 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58255,7 +58262,7 @@ DataTablesService = __decorate([
 //# sourceMappingURL=dataTables.service.js.map
 
 /***/ }),
-/* 1053 */
+/* 1060 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58287,7 +58294,7 @@ function generateHeatmapData(context, colId) {
 //# sourceMappingURL=science-demo.service.js.map
 
 /***/ }),
-/* 1054 */
+/* 1061 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58308,7 +58315,7 @@ var HotTablesComponent = (function () {
 HotTablesComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'hot-tables',
-        styles: [__webpack_require__(1198)],
+        styles: [__webpack_require__(1211)],
         template: "\n    <div class=\"container\">\n      <handsontable-section class=\"col-md-12\"></handsontable-section>\n    </div>\n  "
     })
 ], HotTablesComponent);
@@ -58316,12 +58323,12 @@ HotTablesComponent = __decorate([
 //# sourceMappingURL=hotTables.component.js.map
 
 /***/ }),
-/* 1055 */
+/* 1062 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__smartTables_service__ = __webpack_require__(1056);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__smartTables_service__ = __webpack_require__(1063);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng2_smart_table__ = __webpack_require__(949);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SmartTables; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -58401,8 +58408,8 @@ var SmartTables = (function () {
 SmartTables = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'smart-tables',
-        template: __webpack_require__(1271),
-        styles: [__webpack_require__(1199)]
+        template: __webpack_require__(1293),
+        styles: [__webpack_require__(1212)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__smartTables_service__["a" /* SmartTablesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__smartTables_service__["a" /* SmartTablesService */]) === "function" && _a || Object])
 ], SmartTables);
@@ -58411,7 +58418,7 @@ var _a;
 //# sourceMappingURL=smartTables.component.js.map
 
 /***/ }),
-/* 1056 */
+/* 1063 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58978,7 +58985,7 @@ SmartTablesService = __decorate([
 //# sourceMappingURL=smartTables.service.js.map
 
 /***/ }),
-/* 1057 */
+/* 1064 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59010,13 +59017,6 @@ Tables = __decorate([
 //# sourceMappingURL=tables.component.js.map
 
 /***/ }),
-/* 1058 */,
-/* 1059 */,
-/* 1060 */,
-/* 1061 */,
-/* 1062 */,
-/* 1063 */,
-/* 1064 */,
 /* 1065 */,
 /* 1066 */,
 /* 1067 */,
@@ -59081,12 +59081,24 @@ Tables = __decorate([
 /* 1126 */,
 /* 1127 */,
 /* 1128 */,
-/* 1129 */
+/* 1129 */,
+/* 1130 */,
+/* 1131 */,
+/* 1132 */,
+/* 1133 */,
+/* 1134 */,
+/* 1135 */,
+/* 1136 */,
+/* 1137 */,
+/* 1138 */,
+/* 1139 */,
+/* 1140 */,
+/* 1141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1000);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1001);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BorderedTable; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59109,7 +59121,7 @@ var BorderedTable = (function () {
 BorderedTable = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'bordered-table',
-        template: __webpack_require__(1258),
+        template: __webpack_require__(1280),
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */]) === "function" && _a || Object])
 ], BorderedTable);
@@ -59118,22 +59130,22 @@ var _a;
 //# sourceMappingURL=borderedTable.component.js.map
 
 /***/ }),
-/* 1130 */
+/* 1142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__borderedTable_component__ = __webpack_require__(1129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__borderedTable_component__ = __webpack_require__(1141);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__borderedTable_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1131 */
+/* 1143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1000);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1001);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CondensedTable; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59156,7 +59168,7 @@ var CondensedTable = (function () {
 CondensedTable = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'condensed-table',
-        template: __webpack_require__(1259)
+        template: __webpack_require__(1281)
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */]) === "function" && _a || Object])
 ], CondensedTable);
@@ -59165,17 +59177,17 @@ var _a;
 //# sourceMappingURL=condensedTable.component.js.map
 
 /***/ }),
-/* 1132 */
+/* 1144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__condensedTable_component__ = __webpack_require__(1131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__condensedTable_component__ = __webpack_require__(1143);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__condensedTable_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1133 */
+/* 1145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59199,7 +59211,7 @@ var ContextualTable = (function () {
 ContextualTable = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'contextual-table',
-        template: __webpack_require__(1260),
+        template: __webpack_require__(1282),
     }),
     __metadata("design:paramtypes", [])
 ], ContextualTable);
@@ -59207,22 +59219,22 @@ ContextualTable = __decorate([
 //# sourceMappingURL=contextualTable.component.js.map
 
 /***/ }),
-/* 1134 */
+/* 1146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__contextualTable_component__ = __webpack_require__(1133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__contextualTable_component__ = __webpack_require__(1145);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__contextualTable_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1135 */
+/* 1147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1000);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1001);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HoverTable; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59245,7 +59257,7 @@ var HoverTable = (function () {
 HoverTable = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'hover-table',
-        template: __webpack_require__(1261)
+        template: __webpack_require__(1283)
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */]) === "function" && _a || Object])
 ], HoverTable);
@@ -59254,27 +59266,27 @@ var _a;
 //# sourceMappingURL=hoverTable.component.js.map
 
 /***/ }),
-/* 1136 */
+/* 1148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hoverTable_component__ = __webpack_require__(1135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hoverTable_component__ = __webpack_require__(1147);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__hoverTable_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1137 */
+/* 1149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__responsiveTable_component__ = __webpack_require__(1138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__responsiveTable_component__ = __webpack_require__(1150);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__responsiveTable_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1138 */
+/* 1150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59298,7 +59310,7 @@ var ResponsiveTable = (function () {
 ResponsiveTable = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'responsive-table',
-        template: __webpack_require__(1262),
+        template: __webpack_require__(1284),
     }),
     __metadata("design:paramtypes", [])
 ], ResponsiveTable);
@@ -59306,22 +59318,22 @@ ResponsiveTable = __decorate([
 //# sourceMappingURL=responsiveTable.component.js.map
 
 /***/ }),
-/* 1139 */
+/* 1151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stripedTable_component__ = __webpack_require__(1140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stripedTable_component__ = __webpack_require__(1152);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__stripedTable_component__["a"]; });
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1140 */
+/* 1152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1000);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basicTables_service__ = __webpack_require__(1001);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StripedTable; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59344,7 +59356,7 @@ var StripedTable = (function () {
 StripedTable = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'striped-table',
-        template: __webpack_require__(1263)
+        template: __webpack_require__(1285)
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__basicTables_service__["a" /* BasicTablesService */]) === "function" && _a || Object])
 ], StripedTable);
@@ -59353,7 +59365,7 @@ var _a;
 //# sourceMappingURL=stripedTable.component.js.map
 
 /***/ }),
-/* 1141 */
+/* 1153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59389,7 +59401,7 @@ DataFilterPipe = __decorate([
 //# sourceMappingURL=data-filter.pipe.js.map
 
 /***/ }),
-/* 1142 */
+/* 1154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59426,14 +59438,14 @@ function escape(text) {
 //# sourceMappingURL=handsontable-section.js.map
 
 /***/ }),
-/* 1143 */
+/* 1155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_handsontable_dist_handsontable_full_js__ = __webpack_require__(704);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_handsontable_dist_handsontable_full_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_handsontable_dist_handsontable_full_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(1001);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(1002);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdvancedDemoComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59479,7 +59491,7 @@ var AdvancedDemoComponent = (function () {
 AdvancedDemoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'advanced-demo',
-        template: __webpack_require__(1265)
+        template: __webpack_require__(1287)
     }),
     __metadata("design:paramtypes", [])
 ], AdvancedDemoComponent);
@@ -59487,12 +59499,12 @@ AdvancedDemoComponent = __decorate([
 //# sourceMappingURL=advanced-demo.js.map
 
 /***/ }),
-/* 1144 */
+/* 1156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data__ = __webpack_require__(1001);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data__ = __webpack_require__(1002);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BasicDemoComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59563,19 +59575,19 @@ var BasicDemoComponent = (function () {
 BasicDemoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'basic-demo',
-        template: __webpack_require__(1266)
+        template: __webpack_require__(1288)
     })
 ], BasicDemoComponent);
 
 //# sourceMappingURL=basic-demo.js.map
 
 /***/ }),
-/* 1145 */
+/* 1157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data__ = __webpack_require__(1001);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data__ = __webpack_require__(1002);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinanceDemoComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59612,7 +59624,7 @@ var FinanceDemoComponent = (function () {
 FinanceDemoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'finance-demo',
-        template: __webpack_require__(1267)
+        template: __webpack_require__(1289)
     }),
     __metadata("design:paramtypes", [])
 ], FinanceDemoComponent);
@@ -59620,15 +59632,15 @@ FinanceDemoComponent = __decorate([
 //# sourceMappingURL=finance-demo.js.map
 
 /***/ }),
-/* 1146 */
+/* 1158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_handsontable_dist_handsontable_full_js__ = __webpack_require__(704);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_handsontable_dist_handsontable_full_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_handsontable_dist_handsontable_full_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(1001);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__science_demo_service__ = __webpack_require__(1053);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data__ = __webpack_require__(1002);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__science_demo_service__ = __webpack_require__(1060);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScienceDemoComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59682,7 +59694,7 @@ var ScienceDemoComponent = (function () {
 ScienceDemoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'science-demo',
-        template: __webpack_require__(1268)
+        template: __webpack_require__(1290)
     }),
     __metadata("design:paramtypes", [])
 ], ScienceDemoComponent);
@@ -59690,7 +59702,7 @@ ScienceDemoComponent = __decorate([
 //# sourceMappingURL=science-demo.js.map
 
 /***/ }),
-/* 1147 */
+/* 1159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59726,7 +59738,7 @@ var SheetDemoComponent = (function () {
 SheetDemoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'sheet-demo',
-        template: __webpack_require__(1269)
+        template: __webpack_require__(1291)
     }),
     __metadata("design:paramtypes", [])
 ], SheetDemoComponent);
@@ -59734,12 +59746,12 @@ SheetDemoComponent = __decorate([
 //# sourceMappingURL=sheet-demo.js.map
 
 /***/ }),
-/* 1148 */
+/* 1160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data__ = __webpack_require__(1001);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data__ = __webpack_require__(1002);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SportDemoComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59786,7 +59798,7 @@ var SportDemoComponent = (function () {
 SportDemoComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'sport-demo',
-        template: __webpack_require__(1270)
+        template: __webpack_require__(1292)
     }),
     __metadata("design:paramtypes", [])
 ], SportDemoComponent);
@@ -59794,16 +59806,16 @@ SportDemoComponent = __decorate([
 //# sourceMappingURL=sport-demo.js.map
 
 /***/ }),
-/* 1149 */
+/* 1161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tables_component__ = __webpack_require__(1057);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_basicTables_basicTables_component__ = __webpack_require__(1050);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_smartTables_smartTables_component__ = __webpack_require__(1055);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_dataTables_dataTables_component__ = __webpack_require__(1051);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_hotTables_hotTables_component__ = __webpack_require__(1054);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tables_component__ = __webpack_require__(1064);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_basicTables_basicTables_component__ = __webpack_require__(1057);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_smartTables_smartTables_component__ = __webpack_require__(1062);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_dataTables_dataTables_component__ = __webpack_require__(1058);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_hotTables_hotTables_component__ = __webpack_require__(1061);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -59828,18 +59840,6 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 //# sourceMappingURL=tables.routing.js.map
 
 /***/ }),
-/* 1150 */,
-/* 1151 */,
-/* 1152 */,
-/* 1153 */,
-/* 1154 */,
-/* 1155 */,
-/* 1156 */,
-/* 1157 */,
-/* 1158 */,
-/* 1159 */,
-/* 1160 */,
-/* 1161 */,
 /* 1162 */,
 /* 1163 */,
 /* 1164 */,
@@ -59874,7 +59874,20 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 /* 1193 */,
 /* 1194 */,
 /* 1195 */,
-/* 1196 */
+/* 1196 */,
+/* 1197 */,
+/* 1198 */,
+/* 1199 */,
+/* 1200 */,
+/* 1201 */,
+/* 1202 */,
+/* 1203 */,
+/* 1204 */,
+/* 1205 */,
+/* 1206 */,
+/* 1207 */,
+/* 1208 */,
+/* 1209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -59891,7 +59904,7 @@ exports.push([module.i, ":host /deep/ .status-button {\n  width: 60px; }\n", ""]
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 1197 */
+/* 1210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -59908,7 +59921,7 @@ exports.push([module.i, ":host /deep/ .widgets .data-table-container {\n  width:
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 1198 */
+/* 1211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -59925,7 +59938,7 @@ exports.push([module.i, ":host /deep/ .handsontable tr:first-child th, :host /de
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 1199 */
+/* 1212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -59942,19 +59955,6 @@ exports.push([module.i, ":host /deep/ .widgets .smart-table-container {\n  width
 module.exports = module.exports.toString();
 
 /***/ }),
-/* 1200 */,
-/* 1201 */,
-/* 1202 */,
-/* 1203 */,
-/* 1204 */,
-/* 1205 */,
-/* 1206 */,
-/* 1207 */,
-/* 1208 */,
-/* 1209 */,
-/* 1210 */,
-/* 1211 */,
-/* 1212 */,
 /* 1213 */,
 /* 1214 */,
 /* 1215 */,
@@ -59999,91 +59999,113 @@ module.exports = module.exports.toString();
 /* 1254 */,
 /* 1255 */,
 /* 1256 */,
-/* 1257 */
+/* 1257 */,
+/* 1258 */,
+/* 1259 */,
+/* 1260 */,
+/* 1261 */,
+/* 1262 */,
+/* 1263 */,
+/* 1264 */,
+/* 1265 */,
+/* 1266 */,
+/* 1267 */,
+/* 1268 */,
+/* 1269 */,
+/* 1270 */,
+/* 1271 */,
+/* 1272 */,
+/* 1273 */,
+/* 1274 */,
+/* 1275 */,
+/* 1276 */,
+/* 1277 */,
+/* 1278 */,
+/* 1279 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n\n  <div class=\"row\">\n    <div class=\"col-lg-6 col-md-12\">\n      <ba-card cardTitle=\"Hover Rows\" baCardClass=\"with-scroll table-panel\">\n        <hover-table></hover-table>\n      </ba-card>\n    </div>\n    <div class=\"col-lg-6 col-md-12\">\n      <ba-card cardTitle=\"Bordered Table\" baCardClass=\"with-scroll table-panel\">\n        <bordered-table></bordered-table>\n      </ba-card>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-lg-6 col-md-12\">\n      <ba-card cardTitle=\"Condensed Table\" baCardClass=\"with-scroll table-panel\">\n        <condensed-table></condensed-table>\n      </ba-card>\n    </div>\n    <div class=\"col-lg-6 col-md-12\">\n      <ba-card cardTitle=\"Striped Rows\" baCardClass=\"with-scroll table-panel\">\n        <striped-table></striped-table>\n      </ba-card>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-lg-6 col-md-12\">\n      <ba-card cardTitle=\"Contextual Table\" baCardClass=\"with-scroll table-panel\">\n        <contextual-table></contextual-table>\n      </ba-card>\n    </div>\n    <div class=\"col-lg-6 col-md-12\">\n      <ba-card cardTitle=\"Responsive Table\" baCardClass=\"with-scroll table-panel\">\n        <responsive-table></responsive-table>\n      </ba-card>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
-/* 1258 */
+/* 1280 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"horizontal-scroll\">\n  <table class=\"table table-bordered\">\n    <thead>\n    <tr>\n      <th class=\"browser-icons\"></th>\n      <th>Browser</th>\n      <th class=\"align-right\">Visits</th>\n      <th class=\"align-right\">Purchases</th>\n      <th class=\"align-right\">%</th>\n    </tr>\n    </thead>\n    <tbody>\n    <tr *ngFor=\"let item of metricsTableData\">\n      <td><img src=\"{{ ( item.image | baAppPicture )}}\" width=\"20\" height=\"20\"></td>\n      <td ngClass=\"nowrap\">{{ item.browser }}</td>\n      <td class=\"align-right\">{{ item.visits }}</td>\n      <td class=\"align-right\">{{ item.purchases }}</td>\n      <td class=\"align-right\">{{ item.percent }}</td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n"
 
 /***/ }),
-/* 1259 */
+/* 1281 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"horizontal-scroll\">\n  <table class=\"table table-condensed\">\n    <thead>\n    <tr>\n      <th class=\"table-id\">#</th>\n      <th>First Name</th>\n      <th>Last Name</th>\n      <th>Username</th>\n      <th>Email</th>\n      <th>Status</th>\n    </tr>\n    </thead>\n    <tbody>\n    <tr *ngFor=\"let item of peopleTableData\">\n      <td class=\"table-id\">{{ item.id }}</td>\n      <td>{{ item.firstName }}</td>\n      <td>{{ item.lastName }}</td>\n      <td>{{ item.username }}</td>\n      <td><a class=\"email-link\" href=\"mailto:{{ item.email }}\">{{ item.email }}</a></td>\n      <td>\n        <button ngClass=\"{status-button btn btn-xs btn-{{ item.status }}\">{{ item.status }}</button>\n      </td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n"
 
 /***/ }),
-/* 1260 */
+/* 1282 */
 /***/ (function(module, exports) {
 
 module.exports = "<table class=\"table\">\n  <tr>\n    <th>#</th>\n    <th>First Name</th>\n    <th>Last Name</th>\n    <th>Username</th>\n    <th>Email</th>\n    <th>Age</th>\n  </tr>\n  <tr class=\"primary\">\n    <td>1</td>\n    <td>Mark</td>\n    <td>Otto</td>\n    <td>@mdo</td>\n    <td><a class=\"email-link \" href=\"mailto:mdo@gmail.com\">mdo@gmail.com</a></td>\n    <td>28</td>\n  </tr>\n  <tr class=\"success\">\n    <td>2</td>\n    <td>Jacob</td>\n    <td>Thornton</td>\n    <td>@fat</td>\n    <td><a class=\"email-link \" href=\"mailto:fat@yandex.ru\">fat@yandex.ru</a></td>\n    <td>45</td>\n  </tr>\n  <tr class=\"warning\">\n    <td>3</td>\n    <td>Larry</td>\n    <td>Bird</td>\n    <td>@twitter</td>\n    <td><a class=\"email-link \" href=\"mailto:twitter@outlook.com\">twitter@outlook.com</a>\n    </td>\n    <td>18</td>\n  </tr>\n  <tr class=\"danger\">\n    <td>4</td>\n    <td>John</td>\n    <td>Snow</td>\n    <td>@snow</td>\n    <td><a class=\"email-link\" href=\"mailto:snow@gmail.com\">snow@gmail.com</a></td>\n    <td>20</td>\n  </tr>\n  <tr class=\"info\">\n    <td>5</td>\n    <td>Jack</td>\n    <td>Sparrow</td>\n    <td>@jack</td>\n    <td><a class=\"email-link\" href=\"mailto:jack@yandex.ru\">jack@yandex.ru</a></td>\n    <td>30</td>\n  </tr>\n</table>\n"
 
 /***/ }),
-/* 1261 */
+/* 1283 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"horizontal-scroll\">\n  <table class=\"table table-hover\">\n    <thead>\n    <tr class=\"black-muted-bg\">\n      <th class=\"browser-icons\"></th>\n      <th>Browser</th>\n      <th class=\"align-right\">Visits</th>\n      <th class=\"table-arr\"></th>\n      <th class=\"align-right\">Purchases</th>\n      <th class=\"table-arr\"></th>\n      <th class=\"align-right\">%</th>\n      <th class=\"table-arr\"></th>\n    </tr>\n    </thead>\n    <tbody>\n    <tr *ngFor=\"let item of metricsTableData\" class=\"no-top-border\">\n      <td><img src=\"{{ ( item.image | baAppPicture ) }}\" width=\"20\" height=\"20\"></td>\n      <td ngClass=\"nowrap\">{{item.browser}}</td>\n      <td class=\"align-right\">{{item.visits}}</td>\n      <td class=\"table-arr\"><i [ngClass]=\"{'icon-up': item.isVisitsUp, 'icon-down': !item.isVisitsUp }\"></i></td>\n      <td class=\"align-right\">{{item.purchases}}</td>\n      <td class=\"table-arr\"><i [ngClass]=\"{'icon-up': item.isPurchasesUp, 'icon-down': !item.isPurchasesUp }\"></i></td>\n      <td class=\"align-right\">{{item.percent}}</td>\n      <td class=\"table-arr\"><i [ngClass]=\"{'icon-up': item.isPercentUp, 'icon-down': !item.isPercentUp }\"></i></td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n"
 
 /***/ }),
-/* 1262 */
+/* 1284 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"vertical-scroll\">\n  <table class=\"table\">\n    <tr>\n      <th>#</th>\n      <th>First Name</th>\n      <th>Last Name</th>\n      <th>Username</th>\n      <th>Email</th>\n      <th>Age</th>\n    </tr>\n    <tr>\n      <td>1</td>\n      <td>Mark</td>\n      <td>Otto</td>\n      <td>@mdo</td>\n      <td><a class=\"email-link\" href=\"mailto:mdo@gmail.com\">mdo@gmail.com</a></td>\n      <td>28</td>\n    </tr>\n    <tr>\n      <td>2</td>\n      <td>Jacob</td>\n      <td>Thornton</td>\n      <td>@fat</td>\n      <td><a class=\"email-link\" href=\"mailto:fat@yandex.ru\">fat@yandex.ru</a></td>\n      <td>45</td>\n    </tr>\n    <tr>\n      <td>3</td>\n      <td>Larry</td>\n      <td>Bird</td>\n      <td>@twitter</td>\n      <td><a class=\"email-link\" href=\"mailto:twitter@outlook.com\">twitter@outlook.com</a>\n      </td>\n      <td>18</td>\n    </tr>\n    <tr>\n      <td>4</td>\n      <td>John</td>\n      <td>Snow</td>\n      <td>@snow</td>\n      <td><a class=\"email-link\" href=\"mailto:snow@gmail.com\">snow@gmail.com</a></td>\n      <td>20</td>\n    </tr>\n    <tr>\n      <td>5</td>\n      <td>Jack</td>\n      <td>Sparrow</td>\n      <td>@jack</td>\n      <td><a class=\"email-link\" href=\"mailto:jack@yandex.ru\">jack@yandex.ru</a></td>\n      <td>30</td>\n    </tr>\n  </table>\n</div>\n"
 
 /***/ }),
-/* 1263 */
+/* 1285 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"vertical-scroll\">\n  <table class=\"table table-striped\">\n    <thead>\n    <tr>\n      <th class=\"table-id\">#</th>\n      <th>First Name</th>\n      <th>Last Name</th>\n      <th>Username</th>\n      <th>Email</th>\n      <th>Age</th>\n    </tr>\n    </thead>\n    <tbody>\n    <tr *ngFor=\"let item of smartTableData\">\n      <td class=\"table-id\">{{ item.id }}</td>\n      <td>{{ item.firstName }}</td>\n      <td>{{ item.lastName }}</td>\n      <td>{{ item.username }}</td>\n      <td><a class=\"email-link\" href=\"mailto:{{ item.email }}\">{{ item.email }}</a></td>\n      <td>{{ item.age }}</td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n"
 
 /***/ }),
-/* 1264 */
+/* 1286 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n    <div class=\"row\">\n        <ba-card title=\"Basic Example\" baCardClass=\"with-scroll\" class=\"data-table-container\">\n            <div class=\"row\">\n                <div class=\"col-sm-2\">\n                    <label class=\"label-control\">Rows on page</label>\n                    <select class=\"form-control input-sm\" [(ngModel)]=\"rowsOnPage\">\n                    <option [ngValue]=\"5\">5</option>\n                    <option [ngValue]=\"10\">10</option>\n                    <option [ngValue]=\"15\">15</option>\n                </select>\n                </div>\n                <div class=\"col-sm-4\">\n                    <div class=\"row\">\n                        <label class=\"col-sm-12 label-control\">Sort by</label>\n                    </div>\n                    <div class=\"row\">\n                        <div class=\"offset-sm-1 col-sm-5\">\n                            <div class=\"row\">\n                                <select class=\"form-control input-sm\" [(ngModel)]=\"sortBy\">\n                            <option ngValue=\"name\">Name</option>\n                            <option ngValue=\"email\">Email</option>\n                            <option ngValue=\"age\">Age</option>\n                            <option [ngValue]=\"sortByWordLength\">City</option>\n                        </select>\n                            </div>\n                        </div>\n                        <div class=\"offset-sm-1 col-sm-5\">\n                            <div class=\"row\">\n                                <select class=\"form-control input-sm\" [(ngModel)]=\"sortOrder\">\n                            <option ngValue=\"asc\">Ascending</option>\n                            <option ngValue=\"desc\">Descending</option>\n                            <option ngValue=\"badValue\">Bad value</option>\n                        </select>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\">User information</div>\n\n                <table class=\"table table-striped\" [mfData]=\"data | dataFilter : filterQuery\" #mf=\"mfDataTable\" [mfRowsOnPage]=\"rowsOnPage\" [(mfSortBy)]=\"sortBy\" [(mfSortOrder)]=\"sortOrder\">\n                    <thead>\n                        <tr>\n                            <th style=\"width: 10%\"></th>\n                            <th style=\"width: 20%\">\n                                <mfDefaultSorter by=\"name\">Name</mfDefaultSorter>\n                            </th>\n                            <th style=\"width: 40%\">\n                                <mfDefaultSorter by=\"email\">Email</mfDefaultSorter>\n                            </th>\n                            <th style=\"width: 10%\">\n                                <mfDefaultSorter by=\"age\">Age</mfDefaultSorter>\n                            </th>\n                            <th style=\"width: 20%\">\n                                <mfDefaultSorter [by]=\"sortByWordLength\">City</mfDefaultSorter>\n                            </th>\n                        </tr>\n                        <tr>\n                            <th colspan=\"5\">\n                                Filter by name:\n                                <input class=\"form-control\" [(ngModel)]=\"filterQuery\" />\n                            </th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr *ngFor=\"let item of mf.data\">\n                            <td>\n                                <button (click)=\"remove(item)\" class=\"btn btn-danger\">x</button>\n                            </td>\n                            <td>{{item.name}}</td>\n                            <td>{{item.email}}</td>\n                            <td class=\"text-right\">{{item.age}}</td>\n                            <td>{{item.city | uppercase}}</td>\n                        </tr>\n                    </tbody>\n                    <tfoot>\n                        <tr>\n                            <td colspan=\"5\">\n                                <mfBootstrapPaginator [rowsOnPageSet]=\"[5,10,15]\"></mfBootstrapPaginator>\n                            </td>\n                        </tr>\n                    </tfoot>\n                </table>\n            </div>\n        </ba-card>\n    </div>\n</div>"
 
 /***/ }),
-/* 1265 */
+/* 1287 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Advanced demo</h1>\n<hot-table [data]=\"data\" [col-headers]=\"colHeaders\" [columns]=\"columns\" [options]=\"options\"></hot-table>"
 
 /***/ }),
-/* 1266 */
+/* 1288 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Basic demo</h1>\n<hot-table [data]=\"data\" (after-change)=\"afterChange($event)\" (after-on-cell-mouse-down)=\"afterOnCellMouseDown($event)\" [col-headers]=\"colHeaders\" [columns]=\"columns\" [options]=\"options\" [col-widths]=\"colWidths\">\n</hot-table>\n"
 
 /***/ }),
-/* 1267 */
+/* 1289 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Finance demo</h1>\n<hot-table [data]=\"data\" [col-headers]=\"colHeaders\" [columns]=\"columns\" [options]=\"options\"></hot-table>"
 
 /***/ }),
-/* 1268 */
+/* 1290 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Science demo</h1>\n<hot-table [data]=\"data\" [options]=\"options\"></hot-table>"
 
 /***/ }),
-/* 1269 */
+/* 1291 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Sheet demo</h1>\n<hot-table [data]=\"data\" [options]=\"options\"></hot-table>"
 
 /***/ }),
-/* 1270 */
+/* 1292 */
 /***/ (function(module, exports) {
 
 module.exports = "<h1>Sport demo</h1>\n<hot-table [data]=\"data\" [col-headers]=\"colHeaders\" [options]=\"options\"></hot-table>"
 
 /***/ }),
-/* 1271 */
+/* 1293 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"widgets\">\n\n  <div class=\"row\">\n    <ba-card cardTitle=\"Basic Example\" baCardClass=\"with-scroll\" class=\"smart-table-container\">\n      <ng2-smart-table [settings]=\"settings\" [source]=\"source\" (deleteConfirm)=\"onDeleteConfirm($event)\"></ng2-smart-table>\n    </ba-card>\n  </div>\n\n</div>\n"

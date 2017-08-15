@@ -4,21 +4,21 @@ webpackJsonp([3,18],Array(632).concat([
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__documentos_component__ = __webpack_require__(1032);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__documentos_component__ = __webpack_require__(1038);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_nga_module__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__documentos_routing__ = __webpack_require__(1097);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__documentos_routing__ = __webpack_require__(1108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_translation_module__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_smart_table__ = __webpack_require__(949);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angular2_datatable__ = __webpack_require__(950);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angular2_datatable__ = __webpack_require__(951);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angular2_datatable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_angular2_datatable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ng2_handsontable__ = __webpack_require__(955);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ng2_datepicker__ = __webpack_require__(953);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ng2_handsontable__ = __webpack_require__(956);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ng2_datepicker__ = __webpack_require__(954);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular_2_dropdown_multiselect__ = __webpack_require__(419);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_solicitacao_compras_solicitacao_compras_component__ = __webpack_require__(1031);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_solicitacao_compras_solicitacao_compras_component__ = __webpack_require__(1037);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DocumentosModule", function() { return DocumentosModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -140,7 +140,7 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__helpers__ = __webpack_require__(660);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_set_data_set__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_set_data_set__ = __webpack_require__(990);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Grid; });
 
 
@@ -842,7 +842,7 @@ var queue_1 = __webpack_require__(683);
 var Subscription_1 = __webpack_require__(43);
 var observeOn_1 = __webpack_require__(396);
 var ObjectUnsubscribedError_1 = __webpack_require__(170);
-var SubjectSubscription_1 = __webpack_require__(397);
+var SubjectSubscription_1 = __webpack_require__(398);
 /**
  * @class ReplaySubject<T>
  */
@@ -1402,7 +1402,7 @@ Observable_1.Observable.prototype.distinctUntilChanged = distinctUntilChanged_1.
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_completer_module__ = __webpack_require__(952);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_completer_module__ = __webpack_require__(953);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ng2_completer_module__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_completer_cmp__ = __webpack_require__(694);
 /* unused harmony reexport CompleterCmp */
@@ -2229,7 +2229,7 @@ var ZipBufferIterator = (function (_super) {
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var catch_1 = __webpack_require__(409);
+var catch_1 = __webpack_require__(410);
 Observable_1.Observable.prototype.catch = catch_1._catch;
 Observable_1.Observable.prototype._catch = catch_1._catch;
 //# sourceMappingURL=catch.js.map
@@ -2699,17 +2699,17 @@ var RemoteData = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_completer__ = __webpack_require__(658);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cell_component__ = __webpack_require__(966);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cell_edit_mode_custom_edit_component__ = __webpack_require__(956);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cell_edit_mode_default_edit_component__ = __webpack_require__(957);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cell_edit_mode_edit_cell_component__ = __webpack_require__(958);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cell_editors_checkbox_editor_component__ = __webpack_require__(959);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cell_editors_completer_editor_component__ = __webpack_require__(960);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cell_editors_input_editor_component__ = __webpack_require__(961);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cell_editors_select_editor_component__ = __webpack_require__(962);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__cell_editors_textarea_editor_component__ = __webpack_require__(963);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__cell_view_mode_custom_view_component__ = __webpack_require__(964);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__cell_view_mode_view_cell_component__ = __webpack_require__(965);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cell_component__ = __webpack_require__(967);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cell_edit_mode_custom_edit_component__ = __webpack_require__(957);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cell_edit_mode_default_edit_component__ = __webpack_require__(958);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cell_edit_mode_edit_cell_component__ = __webpack_require__(959);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cell_editors_checkbox_editor_component__ = __webpack_require__(960);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cell_editors_completer_editor_component__ = __webpack_require__(961);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cell_editors_input_editor_component__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cell_editors_select_editor_component__ = __webpack_require__(963);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__cell_editors_textarea_editor_component__ = __webpack_require__(964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__cell_view_mode_custom_view_component__ = __webpack_require__(965);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__cell_view_mode_view_cell_component__ = __webpack_require__(966);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CellModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2769,9 +2769,9 @@ CellModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__local_sorter__ = __webpack_require__(992);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__local_filter__ = __webpack_require__(990);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__local_pager__ = __webpack_require__(991);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__local_sorter__ = __webpack_require__(993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__local_filter__ = __webpack_require__(991);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__local_pager__ = __webpack_require__(992);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_source__ = __webpack_require__(656);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__helpers__ = __webpack_require__(660);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocalDataSource; });
@@ -3838,7 +3838,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var FromObservable_1 = __webpack_require__(404);
+var FromObservable_1 = __webpack_require__(405);
 var isArray_1 = __webpack_require__(113);
 var OuterSubscriber_1 = __webpack_require__(41);
 var subscribeToResult_1 = __webpack_require__(42);
@@ -4741,7 +4741,7 @@ __webpack_require__(721);
 __webpack_require__(722);
 __webpack_require__(726);
 __webpack_require__(723);
-__webpack_require__(398);
+__webpack_require__(399);
 __webpack_require__(724);
 __webpack_require__(725);
 __webpack_require__(727);
@@ -4797,7 +4797,7 @@ __webpack_require__(171);
 __webpack_require__(768);
 __webpack_require__(769);
 __webpack_require__(770);
-__webpack_require__(399);
+__webpack_require__(400);
 __webpack_require__(771);
 __webpack_require__(772);
 __webpack_require__(773);
@@ -4823,7 +4823,7 @@ __webpack_require__(792);
 __webpack_require__(793);
 __webpack_require__(794);
 __webpack_require__(795);
-__webpack_require__(400);
+__webpack_require__(401);
 __webpack_require__(796);
 __webpack_require__(797);
 __webpack_require__(798);
@@ -4835,7 +4835,7 @@ __webpack_require__(803);
 __webpack_require__(804);
 __webpack_require__(805);
 __webpack_require__(806);
-__webpack_require__(401);
+__webpack_require__(402);
 __webpack_require__(807);
 __webpack_require__(173);
 __webpack_require__(808);
@@ -4845,7 +4845,7 @@ __webpack_require__(811);
 __webpack_require__(812);
 __webpack_require__(813);
 __webpack_require__(814);
-__webpack_require__(402);
+__webpack_require__(403);
 __webpack_require__(815);
 __webpack_require__(816);
 __webpack_require__(817);
@@ -4866,7 +4866,7 @@ var ReplaySubject_1 = __webpack_require__(650);
 exports.ReplaySubject = ReplaySubject_1.ReplaySubject;
 var BehaviorSubject_1 = __webpack_require__(169);
 exports.BehaviorSubject = BehaviorSubject_1.BehaviorSubject;
-var ConnectableObservable_1 = __webpack_require__(403);
+var ConnectableObservable_1 = __webpack_require__(404);
 exports.ConnectableObservable = ConnectableObservable_1.ConnectableObservable;
 var Notification_1 = __webpack_require__(392);
 exports.Notification = Notification_1.Notification;
@@ -4878,7 +4878,7 @@ var ObjectUnsubscribedError_1 = __webpack_require__(170);
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError_1.ObjectUnsubscribedError;
 var TimeoutError_1 = __webpack_require__(686);
 exports.TimeoutError = TimeoutError_1.TimeoutError;
-var UnsubscriptionError_1 = __webpack_require__(417);
+var UnsubscriptionError_1 = __webpack_require__(418);
 exports.UnsubscriptionError = UnsubscriptionError_1.UnsubscriptionError;
 var timeInterval_1 = __webpack_require__(679);
 exports.TimeInterval = timeInterval_1.TimeInterval;
@@ -6064,11 +6064,11 @@ __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_completer__ = __webpack_require__(658);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__filter_component__ = __webpack_require__(971);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__filter_types_checkbox_filter_component__ = __webpack_require__(967);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter_types_completer_filter_component__ = __webpack_require__(968);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__filter_types_input_filter_component__ = __webpack_require__(969);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__filter_types_select_filter_component__ = __webpack_require__(970);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__filter_component__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__filter_types_checkbox_filter_component__ = __webpack_require__(968);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__filter_types_completer_filter_component__ = __webpack_require__(969);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__filter_types_input_filter_component__ = __webpack_require__(970);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__filter_types_select_filter_component__ = __webpack_require__(971);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FilterModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -41264,7 +41264,7 @@ return hooks;
 }());
 },{}]},{},[24,63,65,66,64,67,110,111,112,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,99,100,101,102,103,105,106,107,108,109,113,114,115,116,133,134,135,136,119,120,121,122,123,124,32,36,33,34,41,35,37,38,39,40])(24)
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(997), __webpack_require__(44)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(998), __webpack_require__(44)))
 
 /***/ }),
 /* 705 */
@@ -41416,7 +41416,7 @@ Observable_1.Observable.empty = empty_1.empty;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var forkJoin_1 = __webpack_require__(405);
+var forkJoin_1 = __webpack_require__(406);
 Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 //# sourceMappingURL=forkJoin.js.map
 
@@ -41427,7 +41427,7 @@ Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var from_1 = __webpack_require__(406);
+var from_1 = __webpack_require__(407);
 Observable_1.Observable.from = from_1.from;
 //# sourceMappingURL=from.js.map
 
@@ -41438,7 +41438,7 @@ Observable_1.Observable.from = from_1.from;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var fromEvent_1 = __webpack_require__(407);
+var fromEvent_1 = __webpack_require__(408);
 Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
@@ -41504,7 +41504,7 @@ Observable_1.Observable.interval = interval_1.interval;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var merge_1 = __webpack_require__(408);
+var merge_1 = __webpack_require__(409);
 Observable_1.Observable.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
@@ -41713,7 +41713,7 @@ Observable_1.Observable.prototype.concat = concat_1.concat;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var concatAll_1 = __webpack_require__(410);
+var concatAll_1 = __webpack_require__(411);
 Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 //# sourceMappingURL=concatAll.js.map
 
@@ -41724,7 +41724,7 @@ Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var concatMap_1 = __webpack_require__(411);
+var concatMap_1 = __webpack_require__(412);
 Observable_1.Observable.prototype.concatMap = concatMap_1.concatMap;
 //# sourceMappingURL=concatMap.js.map
 
@@ -41834,7 +41834,7 @@ Observable_1.Observable.prototype.distinctUntilKeyChanged = distinctUntilKeyChan
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var do_1 = __webpack_require__(412);
+var do_1 = __webpack_require__(413);
 Observable_1.Observable.prototype.do = do_1._do;
 Observable_1.Observable.prototype._do = do_1._do;
 //# sourceMappingURL=do.js.map
@@ -41857,7 +41857,7 @@ Observable_1.Observable.prototype.elementAt = elementAt_1.elementAt;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var every_1 = __webpack_require__(413);
+var every_1 = __webpack_require__(414);
 Observable_1.Observable.prototype.every = every_1.every;
 //# sourceMappingURL=every.js.map
 
@@ -41946,7 +41946,7 @@ Observable_1.Observable.prototype.findIndex = findIndex_1.findIndex;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var first_1 = __webpack_require__(414);
+var first_1 = __webpack_require__(415);
 Observable_1.Observable.prototype.first = first_1.first;
 //# sourceMappingURL=first.js.map
 
@@ -41990,7 +41990,7 @@ Observable_1.Observable.prototype.isEmpty = isEmpty_1.isEmpty;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var last_1 = __webpack_require__(415);
+var last_1 = __webpack_require__(416);
 Observable_1.Observable.prototype.last = last_1.last;
 //# sourceMappingURL=last.js.map
 
@@ -42001,7 +42001,7 @@ Observable_1.Observable.prototype.last = last_1.last;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var let_1 = __webpack_require__(416);
+var let_1 = __webpack_require__(417);
 Observable_1.Observable.prototype.let = let_1.letProto;
 Observable_1.Observable.prototype.letBind = let_1.letProto;
 //# sourceMappingURL=let.js.map
@@ -53437,7 +53437,7 @@ var DatePickerComponent = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_smart_table_module__ = __webpack_require__(996);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ng2_smart_table_module__ = __webpack_require__(997);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__ng2_smart_table_module__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_cell_cell_editors_default_editor__ = __webpack_require__(647);
 /* unused harmony reexport DefaultEditor */
@@ -53445,7 +53445,7 @@ var DatePickerComponent = (function () {
 /* unused harmony reexport Cell */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_data_source_local_local_data_source__ = __webpack_require__(671);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__lib_data_source_local_local_data_source__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lib_data_source_server_server_data_source__ = __webpack_require__(994);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lib_data_source_server_server_data_source__ = __webpack_require__(995);
 /* unused harmony reexport ServerDataSource */
 
 
@@ -53455,14 +53455,15 @@ var DatePickerComponent = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 950 */
+/* 950 */,
+/* 951 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dataTable_directive = __webpack_require__(653);
 var defaultSorter_directive = __webpack_require__(692);
 var paginator_component = __webpack_require__(693);
 var bootstrapPaginator_component = __webpack_require__(691);
-var dataTable_module = __webpack_require__(951);
+var dataTable_module = __webpack_require__(952);
 
 exports.DataTable = dataTable_directive.DataTable;
 exports.DataEvent = dataTable_directive.DataEvent;
@@ -53475,7 +53476,7 @@ exports.DataTableModule = dataTable_module.DataTableModule;
 
 
 /***/ }),
-/* 951 */
+/* 952 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53520,7 +53521,7 @@ exports.DataTableModule = DataTableModule;
 //# sourceMappingURL=DataTableModule.js.map
 
 /***/ }),
-/* 952 */
+/* 953 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53594,14 +53595,14 @@ Ng2CompleterModule.ctorParameters = function () { return []; };
 //# sourceMappingURL=ng2-completer.module.js.map
 
 /***/ }),
-/* 953 */
+/* 954 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_slimscroll__ = __webpack_require__(998);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_slimscroll__ = __webpack_require__(999);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng2_datepicker_component__ = __webpack_require__(948);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__ng2_datepicker_component__["b"]; });
 /* unused harmony reexport DateModel */
@@ -53639,7 +53640,7 @@ var DatePickerModule = (function () {
 //# sourceMappingURL=ng2-datepicker.module.js.map
 
 /***/ }),
-/* 954 */
+/* 955 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53667,20 +53668,20 @@ var HotTableModule = (function () {
 //# sourceMappingURL=handsontable.module.js.map
 
 /***/ }),
-/* 955 */
+/* 956 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__handsontable__ = __webpack_require__(701);
 /* unused harmony reexport HotTable */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__handsontable_module__ = __webpack_require__(954);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__handsontable_module__ = __webpack_require__(955);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__handsontable_module__["a"]; });
 
 
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 956 */
+/* 957 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53750,7 +53751,7 @@ CustomEditComponent = __decorate([
 //# sourceMappingURL=custom-edit.component.js.map
 
 /***/ }),
-/* 957 */
+/* 958 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53799,7 +53800,7 @@ DefaultEditComponent = __decorate([
 //# sourceMappingURL=default-edit.component.js.map
 
 /***/ }),
-/* 958 */
+/* 959 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53853,7 +53854,7 @@ EditCellComponent = __decorate([
 //# sourceMappingURL=edit-cell.component.js.map
 
 /***/ }),
-/* 959 */
+/* 960 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53905,7 +53906,7 @@ CheckboxEditorComponent = __decorate([
 //# sourceMappingURL=checkbox-editor.component.js.map
 
 /***/ }),
-/* 960 */
+/* 961 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53967,7 +53968,7 @@ CompleterEditorComponent = __decorate([
 //# sourceMappingURL=completer-editor.component.js.map
 
 /***/ }),
-/* 961 */
+/* 962 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54014,7 +54015,7 @@ InputEditorComponent = __decorate([
 //# sourceMappingURL=input-editor.component.js.map
 
 /***/ }),
-/* 962 */
+/* 963 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54060,7 +54061,7 @@ SelectEditorComponent = __decorate([
 //# sourceMappingURL=select-editor.component.js.map
 
 /***/ }),
-/* 963 */
+/* 964 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54107,7 +54108,7 @@ TextareaEditorComponent = __decorate([
 //# sourceMappingURL=textarea-editor.component.js.map
 
 /***/ }),
-/* 964 */
+/* 965 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54163,7 +54164,7 @@ CustomViewComponent = __decorate([
 //# sourceMappingURL=custom-view.component.js.map
 
 /***/ }),
-/* 965 */
+/* 966 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54200,7 +54201,7 @@ ViewCellComponent = __decorate([
 //# sourceMappingURL=view-cell.component.js.map
 
 /***/ }),
-/* 966 */
+/* 967 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54289,7 +54290,7 @@ CellComponent = __decorate([
 //# sourceMappingURL=cell.component.js.map
 
 /***/ }),
-/* 967 */
+/* 968 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54362,7 +54363,7 @@ CheckboxFilterComponent = __decorate([
 //# sourceMappingURL=checkbox-filter.component.js.map
 
 /***/ }),
-/* 968 */
+/* 969 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54444,7 +54445,7 @@ CompleterFilterComponent = __decorate([
 //# sourceMappingURL=completer-filter.component.js.map
 
 /***/ }),
-/* 969 */
+/* 970 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54507,7 +54508,7 @@ InputFilterComponent = __decorate([
 //# sourceMappingURL=input-filter.component.js.map
 
 /***/ }),
-/* 970 */
+/* 971 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54570,7 +54571,7 @@ SelectFilterComponent = __decorate([
 //# sourceMappingURL=select-filter.component.js.map
 
 /***/ }),
-/* 971 */
+/* 972 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54650,7 +54651,7 @@ FilterComponent = __decorate([
 //# sourceMappingURL=filter.component.js.map
 
 /***/ }),
-/* 972 */
+/* 973 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54758,13 +54759,13 @@ PagerComponent = __decorate([
 //# sourceMappingURL=pager.component.js.map
 
 /***/ }),
-/* 973 */
+/* 974 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pager_component__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pager_component__ = __webpack_require__(973);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagerModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -54797,7 +54798,7 @@ PagerModule = __decorate([
 //# sourceMappingURL=pager.module.js.map
 
 /***/ }),
-/* 974 */
+/* 975 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54854,7 +54855,7 @@ TbodyCreateCancelComponent = __decorate([
 //# sourceMappingURL=create-cancel.component.js.map
 
 /***/ }),
-/* 975 */
+/* 976 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54951,7 +54952,7 @@ TbodyEditDeleteComponent = __decorate([
 //# sourceMappingURL=edit-delete.component.js.map
 
 /***/ }),
-/* 976 */
+/* 977 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55046,7 +55047,7 @@ Ng2SmartTableTbodyComponent = __decorate([
 //# sourceMappingURL=tbody.component.js.map
 
 /***/ }),
-/* 977 */
+/* 978 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55054,9 +55055,9 @@ Ng2SmartTableTbodyComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cell_cell_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tbody_component__ = __webpack_require__(976);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cells_create_cancel_component__ = __webpack_require__(974);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_edit_delete_component__ = __webpack_require__(975);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tbody_component__ = __webpack_require__(977);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cells_create_cancel_component__ = __webpack_require__(975);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_edit_delete_component__ = __webpack_require__(976);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TBodyModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -55096,7 +55097,7 @@ TBodyModule = __decorate([
 //# sourceMappingURL=tbody.module.js.map
 
 /***/ }),
-/* 978 */
+/* 979 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55138,7 +55139,7 @@ ActionsTitleComponent = __decorate([
 //# sourceMappingURL=actions-title.component.js.map
 
 /***/ }),
-/* 979 */
+/* 980 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55180,7 +55181,7 @@ ActionsComponent = __decorate([
 //# sourceMappingURL=actions.component.js.map
 
 /***/ }),
-/* 980 */
+/* 981 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55243,7 +55244,7 @@ AddButtonComponent = __decorate([
 //# sourceMappingURL=add-button.component.js.map
 
 /***/ }),
-/* 981 */
+/* 982 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55288,7 +55289,7 @@ CheckboxSelectAllComponent = __decorate([
 //# sourceMappingURL=checkbox-select-all.component.js.map
 
 /***/ }),
-/* 982 */
+/* 983 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55334,7 +55335,7 @@ ColumnTitleComponent = __decorate([
 //# sourceMappingURL=column-title.component.js.map
 
 /***/ }),
-/* 983 */
+/* 984 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55420,7 +55421,7 @@ TitleComponent = __decorate([
 //# sourceMappingURL=title.component.js.map
 
 /***/ }),
-/* 984 */
+/* 985 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55471,7 +55472,7 @@ TheadFitlersRowComponent = __decorate([
 //# sourceMappingURL=thead-filters-row.component.js.map
 
 /***/ }),
-/* 985 */
+/* 986 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55527,7 +55528,7 @@ TheadFormRowComponent = __decorate([
 //# sourceMappingURL=thead-form-row.component.js.map
 
 /***/ }),
-/* 986 */
+/* 987 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55582,7 +55583,7 @@ TheadTitlesRowComponent = __decorate([
 //# sourceMappingURL=thead-titles-row.component.js.map
 
 /***/ }),
-/* 987 */
+/* 988 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55651,7 +55652,7 @@ Ng2SmartTableTheadComponent = __decorate([
 //# sourceMappingURL=thead.component.js.map
 
 /***/ }),
-/* 988 */
+/* 989 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55660,16 +55661,16 @@ Ng2SmartTableTheadComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__filter_filter_module__ = __webpack_require__(703);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cell_cell_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__thead_component__ = __webpack_require__(987);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_actions_component__ = __webpack_require__(979);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cells_actions_title_component__ = __webpack_require__(978);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cells_add_button_component__ = __webpack_require__(980);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cells_checkbox_select_all_component__ = __webpack_require__(981);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cells_column_title_component__ = __webpack_require__(982);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cells_title_title_component__ = __webpack_require__(983);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__rows_thead_filters_row_component__ = __webpack_require__(984);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__rows_thead_form_row_component__ = __webpack_require__(985);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__rows_thead_titles_row_component__ = __webpack_require__(986);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__thead_component__ = __webpack_require__(988);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cells_actions_component__ = __webpack_require__(980);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__cells_actions_title_component__ = __webpack_require__(979);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__cells_add_button_component__ = __webpack_require__(981);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__cells_checkbox_select_all_component__ = __webpack_require__(982);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__cells_column_title_component__ = __webpack_require__(983);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__cells_title_title_component__ = __webpack_require__(984);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__rows_thead_filters_row_component__ = __webpack_require__(985);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__rows_thead_form_row_component__ = __webpack_require__(986);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__rows_thead_titles_row_component__ = __webpack_require__(987);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return THeadModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -55725,7 +55726,7 @@ THeadModule = __decorate([
 //# sourceMappingURL=thead.module.js.map
 
 /***/ }),
-/* 989 */
+/* 990 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55861,7 +55862,7 @@ var DataSet = (function () {
 //# sourceMappingURL=data-set.js.map
 
 /***/ }),
-/* 990 */
+/* 991 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55885,7 +55886,7 @@ LocalFilter.FILTER = function (value, search) {
 //# sourceMappingURL=local.filter.js.map
 
 /***/ }),
-/* 991 */
+/* 992 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55902,7 +55903,7 @@ var LocalPager = (function () {
 //# sourceMappingURL=local.pager.js.map
 
 /***/ }),
-/* 992 */
+/* 993 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55932,7 +55933,7 @@ LocalSorter.COMPARE = function (direction, a, b) {
 //# sourceMappingURL=local.sorter.js.map
 
 /***/ }),
-/* 993 */
+/* 994 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55962,13 +55963,13 @@ ServerSourceConf.DATA_KEY = '';
 //# sourceMappingURL=server-source.conf.js.map
 
 /***/ }),
-/* 994 */
+/* 995 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__local_local_data_source__ = __webpack_require__(671);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__server_source_conf__ = __webpack_require__(993);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__server_source_conf__ = __webpack_require__(994);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__helpers__ = __webpack_require__(660);
 /* unused harmony export ServerDataSource */
 var __extends = (this && this.__extends) || (function () {
@@ -56084,7 +56085,7 @@ var ServerDataSource = (function (_super) {
 //# sourceMappingURL=server.data-source.js.map
 
 /***/ }),
-/* 995 */
+/* 996 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56318,7 +56319,7 @@ Ng2SmartTableComponent = __decorate([
 //# sourceMappingURL=ng2-smart-table.component.js.map
 
 /***/ }),
-/* 996 */
+/* 997 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56327,10 +56328,10 @@ Ng2SmartTableComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_cell_cell_module__ = __webpack_require__(670);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_filter_filter_module__ = __webpack_require__(703);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_pager_pager_module__ = __webpack_require__(973);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tbody_tbody_module__ = __webpack_require__(977);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_thead_thead_module__ = __webpack_require__(988);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ng2_smart_table_component__ = __webpack_require__(995);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_pager_pager_module__ = __webpack_require__(974);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_tbody_tbody_module__ = __webpack_require__(978);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_thead_thead_module__ = __webpack_require__(989);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ng2_smart_table_component__ = __webpack_require__(996);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Ng2SmartTableModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56376,7 +56377,7 @@ Ng2SmartTableModule = __decorate([
 //# sourceMappingURL=ng2-smart-table.module.js.map
 
 /***/ }),
-/* 997 */
+/* 998 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -56566,12 +56567,12 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 998 */
+/* 999 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_directives_slimscroll_directive__ = __webpack_require__(999);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_directives_slimscroll_directive__ = __webpack_require__(1000);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_classes_slimscroll_options_class__ = __webpack_require__(947);
 /* unused harmony namespace reexport */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlimScrollModule; });
@@ -56603,7 +56604,7 @@ SlimScrollModule = __decorate([
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 999 */
+/* 1000 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56853,11 +56854,13 @@ var _a, _b, _c;
 //# sourceMappingURL=slimscroll.directive.js.map
 
 /***/ }),
-/* 1000 */,
 /* 1001 */,
 /* 1002 */,
 /* 1003 */,
-/* 1004 */
+/* 1004 */,
+/* 1005 */,
+/* 1006 */,
+/* 1007 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56878,9 +56881,6 @@ var SolData = (function () {
 //# sourceMappingURL=sols.js.map
 
 /***/ }),
-/* 1005 */,
-/* 1006 */,
-/* 1007 */,
 /* 1008 */,
 /* 1009 */,
 /* 1010 */,
@@ -56904,11 +56904,17 @@ var SolData = (function () {
 /* 1028 */,
 /* 1029 */,
 /* 1030 */,
-/* 1031 */
+/* 1031 */,
+/* 1032 */,
+/* 1033 */,
+/* 1034 */,
+/* 1035 */,
+/* 1036 */,
+/* 1037 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sols__ = __webpack_require__(1004);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sols__ = __webpack_require__(1007);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SolicitacaoComprasComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -56933,8 +56939,8 @@ var SolicitacaoComprasComponent = (function () {
 SolicitacaoComprasComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Component"])({
         selector: 'app-solicitacao-compras',
-        template: __webpack_require__(1234),
-        styles: [__webpack_require__(1184)]
+        template: __webpack_require__(1255),
+        styles: [__webpack_require__(1196)]
     }),
     __metadata("design:paramtypes", [])
 ], SolicitacaoComprasComponent);
@@ -56942,7 +56948,7 @@ SolicitacaoComprasComponent = __decorate([
 //# sourceMappingURL=solicitacao-compras.component.js.map
 
 /***/ }),
-/* 1032 */
+/* 1038 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56976,12 +56982,6 @@ Documentos = __decorate([
 //# sourceMappingURL=documentos.component.js.map
 
 /***/ }),
-/* 1033 */,
-/* 1034 */,
-/* 1035 */,
-/* 1036 */,
-/* 1037 */,
-/* 1038 */,
 /* 1039 */,
 /* 1040 */,
 /* 1041 */,
@@ -57040,12 +57040,23 @@ Documentos = __decorate([
 /* 1094 */,
 /* 1095 */,
 /* 1096 */,
-/* 1097 */
+/* 1097 */,
+/* 1098 */,
+/* 1099 */,
+/* 1100 */,
+/* 1101 */,
+/* 1102 */,
+/* 1103 */,
+/* 1104 */,
+/* 1105 */,
+/* 1106 */,
+/* 1107 */,
+/* 1108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_solicitacao_compras_solicitacao_compras_component__ = __webpack_require__(1031);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__documentos_component__ = __webpack_require__(1032);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_solicitacao_compras_solicitacao_compras_component__ = __webpack_require__(1037);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__documentos_component__ = __webpack_require__(1038);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(38);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
@@ -57067,17 +57078,6 @@ var routing = __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* RouterModule 
 //# sourceMappingURL=documentos.routing.js.map
 
 /***/ }),
-/* 1098 */,
-/* 1099 */,
-/* 1100 */,
-/* 1101 */,
-/* 1102 */,
-/* 1103 */,
-/* 1104 */,
-/* 1105 */,
-/* 1106 */,
-/* 1107 */,
-/* 1108 */,
 /* 1109 */,
 /* 1110 */,
 /* 1111 */,
@@ -57153,23 +57153,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* RouterModule 
 /* 1181 */,
 /* 1182 */,
 /* 1183 */,
-/* 1184 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(4)(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
+/* 1184 */,
 /* 1185 */,
 /* 1186 */,
 /* 1187 */,
@@ -57181,7 +57165,23 @@ module.exports = module.exports.toString();
 /* 1193 */,
 /* 1194 */,
 /* 1195 */,
-/* 1196 */,
+/* 1196 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* Style when highlighting a search. */\n.ui-select-highlight {\n  font-weight: bold; }\n\n.ui-select-offscreen {\n  clip: rect(0 0 0 0) !important;\n  width: 1px !important;\n  height: 1px !important;\n  border: 0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  overflow: hidden !important;\n  position: absolute !important;\n  outline: 0 !important;\n  left: 0px !important;\n  top: 0px !important; }\n\n.ui-select-choices-row:hover {\n  background-color: #f5f5f5; }\n\n/* Select2 theme */\n/* Mark invalid Select2 */\n.ng-dirty.ng-invalid > a.select2-choice {\n  border-color: #D44950; }\n\n.select2-result-single {\n  padding-left: 0; }\n\n.select2-locked > .select2-search-choice-close {\n  display: none; }\n\n.select-locked > .ui-select-match-close {\n  display: none; }\n\nbody > .select2-container.open {\n  z-index: 9999;\n  /* The z-index Select2 applies to the select2-drop */ }\n\n/* Handle up direction Select2 */\n.ui-select-container[theme=\"select2\"].direction-up .ui-select-match {\n  border-radius: 4px;\n  /* FIXME hardcoded value :-/ */\n  border-top-left-radius: 0;\n  border-top-right-radius: 0; }\n\n.ui-select-container[theme=\"select2\"].direction-up .ui-select-dropdown {\n  border-radius: 4px;\n  /* FIXME hardcoded value :-/ */\n  border-bottom-left-radius: 0;\n  border-bottom-right-radius: 0;\n  border-top-width: 1px;\n  /* FIXME hardcoded value :-/ */\n  border-top-style: solid;\n  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25);\n  margin-top: -4px;\n  /* FIXME hardcoded value :-/ */ }\n\n.ui-select-container[theme=\"select2\"].direction-up .ui-select-dropdown .select2-search {\n  margin-top: 4px;\n  /* FIXME hardcoded value :-/ */ }\n\n.ui-select-container[theme=\"select2\"].direction-up.select2-dropdown-open .ui-select-match {\n  border-bottom-color: #5897fb; }\n\n/* Selectize theme */\n/* Helper class to show styles when focus */\n.selectize-input.selectize-focus {\n  border-color: #007FBB !important; }\n\n/* Fix input width for Selectize theme */\n.selectize-control > .selectize-input > input {\n  width: 100%; }\n\n/* Fix dropdown width for Selectize theme */\n.selectize-control > .selectize-dropdown {\n  width: 100%; }\n\n/* Mark invalid Selectize */\n.ng-dirty.ng-invalid > div.selectize-input {\n  border-color: #D44950; }\n\n/* Handle up direction Selectize */\n.ui-select-container[theme=\"selectize\"].direction-up .ui-select-dropdown {\n  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25);\n  margin-top: -2px;\n  /* FIXME hardcoded value :-/ */ }\n\n/* Bootstrap theme */\n/* Helper class to show styles when focus */\n.btn-default-focus {\n  color: #333;\n  background-color: #EBEBEB;\n  border-color: #ADADAD;\n  text-decoration: none;\n  outline: 5px auto -webkit-focus-ring-color;\n  outline-offset: -2px;\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }\n\n.ui-select-bootstrap .ui-select-toggle {\n  position: relative; }\n\n.ui-select-bootstrap .ui-select-toggle > .caret {\n  position: absolute;\n  height: 10px;\n  top: 50%;\n  right: 10px;\n  margin-top: -2px; }\n\n/* Fix Bootstrap dropdown position when inside a input-group */\n.input-group > .ui-select-bootstrap.dropdown {\n  /* Instead of relative */\n  position: static; }\n\n.input-group > .ui-select-bootstrap > input.ui-select-search.form-control {\n  border-radius: 4px;\n  /* FIXME hardcoded value :-/ */\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0; }\n\n.input-group > .ui-select-bootstrap > input.ui-select-search.form-control.direction-up {\n  border-radius: 4px !important;\n  /* FIXME hardcoded value :-/ */\n  border-top-right-radius: 0 !important;\n  border-bottom-right-radius: 0 !important; }\n\n.ui-select-bootstrap > .ui-select-match > .btn {\n  /* Instead of center because of .btn */\n  text-align: left !important; }\n\n.ui-select-bootstrap > .ui-select-match > .caret {\n  position: absolute;\n  top: 45%;\n  right: 15px; }\n\n.ui-disabled {\n  background-color: #eceeef;\n  border-radius: 4px;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  z-index: 5;\n  opacity: 0.6;\n  top: 0;\n  left: 0;\n  cursor: not-allowed; }\n\n/* See Scrollable Menu with Bootstrap 3 http://stackoverflow.com/questions/19227496 */\n.ui-select-bootstrap > .ui-select-choices {\n  width: 100%;\n  height: auto;\n  max-height: 200px;\n  overflow-x: hidden;\n  margin-top: -1px; }\n\nbody > .ui-select-bootstrap.open {\n  z-index: 1000;\n  /* Standard Bootstrap dropdown z-index */ }\n\n.ui-select-multiple.ui-select-bootstrap {\n  height: auto;\n  padding: 3px 3px 0 3px; }\n\n.ui-select-multiple.ui-select-bootstrap input.ui-select-search {\n  background-color: transparent !important;\n  /* To prevent double background when disabled */\n  border: none;\n  outline: none;\n  height: 1.666666em;\n  margin-bottom: 3px; }\n\n.ui-select-multiple.ui-select-bootstrap .ui-select-match .close {\n  font-size: 1.6em;\n  line-height: 0.75; }\n\n.ui-select-multiple.ui-select-bootstrap .ui-select-match-item {\n  outline: 0;\n  margin: 0 3px 3px 0; }\n\n.ui-select-multiple .ui-select-match-item {\n  position: relative; }\n\n.ui-select-multiple .ui-select-match-item.dropping-before:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  right: 100%;\n  height: 100%;\n  margin-right: 2px;\n  border-left: 1px solid #428bca; }\n\n.ui-select-multiple .ui-select-match-item.dropping-after:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 100%;\n  height: 100%;\n  margin-left: 2px;\n  border-right: 1px solid #428bca; }\n\n.ui-select-bootstrap .ui-select-choices-row > a {\n  display: block;\n  padding: 3px 20px;\n  clear: both;\n  font-weight: 400;\n  line-height: 1.42857143;\n  color: #333;\n  white-space: nowrap; }\n\n.ui-select-bootstrap .ui-select-choices-row > a:hover,\n.ui-select-bootstrap .ui-select-choices-row > a:focus {\n  text-decoration: none;\n  color: #262626;\n  background-color: #f5f5f5; }\n\n.ui-select-bootstrap .ui-select-choices-row.active > a {\n  color: #fff;\n  text-decoration: none;\n  outline: 0;\n  background-color: #428bca; }\n\n.ui-select-bootstrap .ui-select-choices-row.disabled > a,\n.ui-select-bootstrap .ui-select-choices-row.active.disabled > a {\n  color: #777;\n  cursor: not-allowed;\n  background-color: #fff; }\n\n/* fix hide/show angular animation */\n.ui-select-match.ng-hide-add,\n.ui-select-search.ng-hide-add {\n  display: none !important; }\n\n/* Mark invalid Bootstrap */\n.ui-select-bootstrap.ng-dirty.ng-invalid > button.btn.ui-select-match {\n  border-color: #D44950; }\n\n/* Handle up direction Bootstrap */\n.ui-select-container[theme=\"bootstrap\"].direction-up .ui-select-dropdown {\n  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25); }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
 /* 1197 */,
 /* 1198 */,
 /* 1199 */,
@@ -57219,7 +57219,28 @@ module.exports = module.exports.toString();
 /* 1231 */,
 /* 1232 */,
 /* 1233 */,
-/* 1234 */
+/* 1234 */,
+/* 1235 */,
+/* 1236 */,
+/* 1237 */,
+/* 1238 */,
+/* 1239 */,
+/* 1240 */,
+/* 1241 */,
+/* 1242 */,
+/* 1243 */,
+/* 1244 */,
+/* 1245 */,
+/* 1246 */,
+/* 1247 */,
+/* 1248 */,
+/* 1249 */,
+/* 1250 */,
+/* 1251 */,
+/* 1252 */,
+/* 1253 */,
+/* 1254 */,
+/* 1255 */
 /***/ (function(module, exports) {
 
 module.exports = "<button type=\"button\" [routerLink]=\"['./../../solicitacoes/reembolso-create']\" class=\"btn btn-primary btn-lg\" style=\"float: right\">Novo</button>\n<div class=\"vertical-scroll\">\n  <table class=\"table table-hover\">\n    <tr>\n      <th style=\"text-align: center\">#</th>\n      <th>Fornecedor</th>\n      <th>Nº</th>\n      <th>Data</th>\n      <th>Valor</th>\n      <th>Status</th>\n      <th style=\"text-align: center\">Editar</th>\n    </tr>\n    <tr *ngFor=\"let sol of solcomps\">\n      <td style=\"text-align: center\">{{sol.id}}</td>\n      <td>{{sol.n}}</td>\n\n\n      <td>{{sol.Fornecedor}}</td>\n      <td>{{sol.Data}}</td>\n      <td>{{sol.Valor}}</td>\n      <td>{{sol.Status}}</td>\n      <td [routerLink]=\"['./../user-create-edit']\" style=\"text-align: center\"><i class=\"ion-edit\"></i></td>\n    </tr>\n\n  </table>\n</div>"

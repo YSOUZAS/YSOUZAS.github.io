@@ -1,11 +1,11 @@
 webpackJsonp([8,18],{
 
-/***/ 1039:
+/***/ 1045:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bubbleMaps_service__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bubbleMaps_service__ = __webpack_require__(1046);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BubbleMaps; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -30,8 +30,8 @@ var BubbleMaps = (function () {
 BubbleMaps = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'bubble-maps',
-        template: __webpack_require__(1250),
-        styles: [__webpack_require__(1189)]
+        template: __webpack_require__(1271),
+        styles: [__webpack_require__(1201)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__bubbleMaps_service__["a" /* BubbleMapsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__bubbleMaps_service__["a" /* BubbleMapsService */]) === "function" && _a || Object])
 ], BubbleMaps);
@@ -41,7 +41,7 @@ var _a;
 
 /***/ }),
 
-/***/ 1040:
+/***/ 1046:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -549,12 +549,12 @@ var _a;
 
 /***/ }),
 
-/***/ 1041:
+/***/ 1047:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_google_maps__ = __webpack_require__(1206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_google_maps__ = __webpack_require__(1219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_google_maps___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_google_maps__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GoogleMaps; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -588,8 +588,8 @@ var GoogleMaps = (function () {
 GoogleMaps = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'google-maps',
-        styles: [__webpack_require__(1190)],
-        template: __webpack_require__(1251),
+        styles: [__webpack_require__(1202)],
+        template: __webpack_require__(1272),
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"]) === "function" && _a || Object])
 ], GoogleMaps);
@@ -599,12 +599,12 @@ var _a;
 
 /***/ }),
 
-/***/ 1042:
+/***/ 1048:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_leaflet_map__ = __webpack_require__(1207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_leaflet_map__ = __webpack_require__(1220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_leaflet_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_leaflet_map__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LeafletMaps; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -638,8 +638,8 @@ var LeafletMaps = (function () {
 LeafletMaps = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'leaflet-maps',
-        template: __webpack_require__(1252),
-        styles: [__webpack_require__(1191)]
+        template: __webpack_require__(1273),
+        styles: [__webpack_require__(1203)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"]) === "function" && _a || Object])
 ], LeafletMaps);
@@ -649,12 +649,12 @@ var _a;
 
 /***/ }),
 
-/***/ 1043:
+/***/ 1049:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__lineMaps_service__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__lineMaps_service__ = __webpack_require__(1050);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LineMaps; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -677,8 +677,8 @@ var LineMaps = (function () {
 LineMaps = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'line-maps',
-        template: __webpack_require__(1253),
-        styles: [__webpack_require__(1192)]
+        template: __webpack_require__(1274),
+        styles: [__webpack_require__(1204)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__lineMaps_service__["a" /* LineMapsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__lineMaps_service__["a" /* LineMapsService */]) === "function" && _a || Object])
 ], LineMaps);
@@ -688,7 +688,7 @@ var _a;
 
 /***/ }),
 
-/***/ 1044:
+/***/ 1050:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -973,7 +973,7 @@ var _a;
 
 /***/ }),
 
-/***/ 1045:
+/***/ 1051:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1008,16 +1008,16 @@ Maps = __decorate([
 
 /***/ }),
 
-/***/ 1126:
+/***/ 1137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__maps_component__ = __webpack_require__(1045);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_bubbleMaps_bubbleMaps_component__ = __webpack_require__(1039);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_googleMaps_googleMaps_component__ = __webpack_require__(1041);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_leafletMaps_leafletMaps_component__ = __webpack_require__(1042);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_lineMaps_lineMaps_component__ = __webpack_require__(1043);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__maps_component__ = __webpack_require__(1051);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_bubbleMaps_bubbleMaps_component__ = __webpack_require__(1045);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_googleMaps_googleMaps_component__ = __webpack_require__(1047);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_leafletMaps_leafletMaps_component__ = __webpack_require__(1048);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_lineMaps_lineMaps_component__ = __webpack_require__(1049);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -1043,7 +1043,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 1189:
+/***/ 1201:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -1061,7 +1061,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1190:
+/***/ 1202:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -1079,7 +1079,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1191:
+/***/ 1203:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -1097,7 +1097,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1192:
+/***/ 1204:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -1115,7 +1115,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1206:
+/***/ 1219:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory) {
@@ -1345,10 +1345,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;(function(root
 
 /***/ }),
 
-/***/ 1207:
+/***/ 1220:
 /***/ (function(module, exports, __webpack_require__) {
 
-var L = __webpack_require__(1208)
+var L = __webpack_require__(1221)
 
 function leafletMap (opt) {
   opt = opt || {
@@ -1381,7 +1381,7 @@ module.exports = leafletMap
 
 /***/ }),
 
-/***/ 1208:
+/***/ 1221:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -10559,28 +10559,28 @@ L.Map.include({
 
 /***/ }),
 
-/***/ 1250:
+/***/ 1271:
 /***/ (function(module, exports) {
 
 module.exports = "<ba-card cardTitle=\"Map with bubbles\">\n  <ba-am-chart baAmChartClass=\"bubble-maps\" [baAmChartConfiguration]=\"chartData\"></ba-am-chart>\n</ba-card>\n"
 
 /***/ }),
 
-/***/ 1251:
+/***/ 1272:
 /***/ (function(module, exports) {
 
 module.exports = "<ba-card cardTitle=\"Google Maps\">\n  <div class=\"google-maps\"></div>\n</ba-card>\n"
 
 /***/ }),
 
-/***/ 1252:
+/***/ 1273:
 /***/ (function(module, exports) {
 
 module.exports = "<ba-card cardTitle=\"Leaflet Maps\">\n  <div class=\"leaflet-maps\"></div>\n</ba-card>\n"
 
 /***/ }),
 
-/***/ 1253:
+/***/ 1274:
 /***/ (function(module, exports) {
 
 module.exports = "<ba-card cardTitle=\"Line Maps\">\n  <ba-am-chart id=\"map-lines\" baAmChartClass=\"line-maps\" [baAmChartConfiguration]=\"chartData\"></ba-am-chart>\n</ba-card>\n\n"
@@ -10596,14 +10596,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__maps_routing__ = __webpack_require__(1126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__maps_component__ = __webpack_require__(1045);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_bubbleMaps_bubbleMaps_component__ = __webpack_require__(1039);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_googleMaps_googleMaps_component__ = __webpack_require__(1041);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_leafletMaps_leafletMaps_component__ = __webpack_require__(1042);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_lineMaps_lineMaps_component__ = __webpack_require__(1043);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_bubbleMaps_bubbleMaps_service__ = __webpack_require__(1040);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_lineMaps_lineMaps_service__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__maps_routing__ = __webpack_require__(1137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__maps_component__ = __webpack_require__(1051);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_bubbleMaps_bubbleMaps_component__ = __webpack_require__(1045);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_googleMaps_googleMaps_component__ = __webpack_require__(1047);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_leafletMaps_leafletMaps_component__ = __webpack_require__(1048);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_lineMaps_lineMaps_component__ = __webpack_require__(1049);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_bubbleMaps_bubbleMaps_service__ = __webpack_require__(1046);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_lineMaps_lineMaps_service__ = __webpack_require__(1050);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapsModule", function() { return MapsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

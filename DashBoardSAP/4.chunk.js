@@ -8,11 +8,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_nga_module__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_tree__ = __webpack_require__(1211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_tree__ = __webpack_require__(1224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_tree___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_ng2_tree__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_routing__ = __webpack_require__(1079);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_component__ = __webpack_require__(1021);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_treeView_treeView_component__ = __webpack_require__(1022);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_routing__ = __webpack_require__(1090);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_component__ = __webpack_require__(1027);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_treeView_treeView_component__ = __webpack_require__(1028);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComponentsModule", function() { return ComponentsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -409,7 +409,7 @@ var queue_1 = __webpack_require__(683);
 var Subscription_1 = __webpack_require__(43);
 var observeOn_1 = __webpack_require__(396);
 var ObjectUnsubscribedError_1 = __webpack_require__(170);
-var SubjectSubscription_1 = __webpack_require__(397);
+var SubjectSubscription_1 = __webpack_require__(398);
 /**
  * @class ReplaySubject<T>
  */
@@ -1179,7 +1179,7 @@ var ZipBufferIterator = (function (_super) {
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var catch_1 = __webpack_require__(409);
+var catch_1 = __webpack_require__(410);
 Observable_1.Observable.prototype.catch = catch_1._catch;
 Observable_1.Observable.prototype._catch = catch_1._catch;
 //# sourceMappingURL=catch.js.map
@@ -2003,7 +2003,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var FromObservable_1 = __webpack_require__(404);
+var FromObservable_1 = __webpack_require__(405);
 var isArray_1 = __webpack_require__(113);
 var OuterSubscriber_1 = __webpack_require__(41);
 var subscribeToResult_1 = __webpack_require__(42);
@@ -2906,7 +2906,7 @@ __webpack_require__(721);
 __webpack_require__(722);
 __webpack_require__(726);
 __webpack_require__(723);
-__webpack_require__(398);
+__webpack_require__(399);
 __webpack_require__(724);
 __webpack_require__(725);
 __webpack_require__(727);
@@ -2962,7 +2962,7 @@ __webpack_require__(171);
 __webpack_require__(768);
 __webpack_require__(769);
 __webpack_require__(770);
-__webpack_require__(399);
+__webpack_require__(400);
 __webpack_require__(771);
 __webpack_require__(772);
 __webpack_require__(773);
@@ -2988,7 +2988,7 @@ __webpack_require__(792);
 __webpack_require__(793);
 __webpack_require__(794);
 __webpack_require__(795);
-__webpack_require__(400);
+__webpack_require__(401);
 __webpack_require__(796);
 __webpack_require__(797);
 __webpack_require__(798);
@@ -3000,7 +3000,7 @@ __webpack_require__(803);
 __webpack_require__(804);
 __webpack_require__(805);
 __webpack_require__(806);
-__webpack_require__(401);
+__webpack_require__(402);
 __webpack_require__(807);
 __webpack_require__(173);
 __webpack_require__(808);
@@ -3010,7 +3010,7 @@ __webpack_require__(811);
 __webpack_require__(812);
 __webpack_require__(813);
 __webpack_require__(814);
-__webpack_require__(402);
+__webpack_require__(403);
 __webpack_require__(815);
 __webpack_require__(816);
 __webpack_require__(817);
@@ -3031,7 +3031,7 @@ var ReplaySubject_1 = __webpack_require__(650);
 exports.ReplaySubject = ReplaySubject_1.ReplaySubject;
 var BehaviorSubject_1 = __webpack_require__(169);
 exports.BehaviorSubject = BehaviorSubject_1.BehaviorSubject;
-var ConnectableObservable_1 = __webpack_require__(403);
+var ConnectableObservable_1 = __webpack_require__(404);
 exports.ConnectableObservable = ConnectableObservable_1.ConnectableObservable;
 var Notification_1 = __webpack_require__(392);
 exports.Notification = Notification_1.Notification;
@@ -3043,7 +3043,7 @@ var ObjectUnsubscribedError_1 = __webpack_require__(170);
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError_1.ObjectUnsubscribedError;
 var TimeoutError_1 = __webpack_require__(686);
 exports.TimeoutError = TimeoutError_1.TimeoutError;
-var UnsubscriptionError_1 = __webpack_require__(417);
+var UnsubscriptionError_1 = __webpack_require__(418);
 exports.UnsubscriptionError = UnsubscriptionError_1.UnsubscriptionError;
 var timeInterval_1 = __webpack_require__(679);
 exports.TimeInterval = timeInterval_1.TimeInterval;
@@ -3270,7 +3270,7 @@ Observable_1.Observable.empty = empty_1.empty;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var forkJoin_1 = __webpack_require__(405);
+var forkJoin_1 = __webpack_require__(406);
 Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 //# sourceMappingURL=forkJoin.js.map
 
@@ -3281,7 +3281,7 @@ Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var from_1 = __webpack_require__(406);
+var from_1 = __webpack_require__(407);
 Observable_1.Observable.from = from_1.from;
 //# sourceMappingURL=from.js.map
 
@@ -3292,7 +3292,7 @@ Observable_1.Observable.from = from_1.from;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var fromEvent_1 = __webpack_require__(407);
+var fromEvent_1 = __webpack_require__(408);
 Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
@@ -3358,7 +3358,7 @@ Observable_1.Observable.interval = interval_1.interval;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var merge_1 = __webpack_require__(408);
+var merge_1 = __webpack_require__(409);
 Observable_1.Observable.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
@@ -3567,7 +3567,7 @@ Observable_1.Observable.prototype.concat = concat_1.concat;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var concatAll_1 = __webpack_require__(410);
+var concatAll_1 = __webpack_require__(411);
 Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 //# sourceMappingURL=concatAll.js.map
 
@@ -3578,7 +3578,7 @@ Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var concatMap_1 = __webpack_require__(411);
+var concatMap_1 = __webpack_require__(412);
 Observable_1.Observable.prototype.concatMap = concatMap_1.concatMap;
 //# sourceMappingURL=concatMap.js.map
 
@@ -3688,7 +3688,7 @@ Observable_1.Observable.prototype.distinctUntilKeyChanged = distinctUntilKeyChan
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var do_1 = __webpack_require__(412);
+var do_1 = __webpack_require__(413);
 Observable_1.Observable.prototype.do = do_1._do;
 Observable_1.Observable.prototype._do = do_1._do;
 //# sourceMappingURL=do.js.map
@@ -3711,7 +3711,7 @@ Observable_1.Observable.prototype.elementAt = elementAt_1.elementAt;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var every_1 = __webpack_require__(413);
+var every_1 = __webpack_require__(414);
 Observable_1.Observable.prototype.every = every_1.every;
 //# sourceMappingURL=every.js.map
 
@@ -3800,7 +3800,7 @@ Observable_1.Observable.prototype.findIndex = findIndex_1.findIndex;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var first_1 = __webpack_require__(414);
+var first_1 = __webpack_require__(415);
 Observable_1.Observable.prototype.first = first_1.first;
 //# sourceMappingURL=first.js.map
 
@@ -3844,7 +3844,7 @@ Observable_1.Observable.prototype.isEmpty = isEmpty_1.isEmpty;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var last_1 = __webpack_require__(415);
+var last_1 = __webpack_require__(416);
 Observable_1.Observable.prototype.last = last_1.last;
 //# sourceMappingURL=last.js.map
 
@@ -3855,7 +3855,7 @@ Observable_1.Observable.prototype.last = last_1.last;
 "use strict";
 
 var Observable_1 = __webpack_require__(3);
-var let_1 = __webpack_require__(416);
+var let_1 = __webpack_require__(417);
 Observable_1.Observable.prototype.let = let_1.letProto;
 Observable_1.Observable.prototype.letBind = let_1.letProto;
 //# sourceMappingURL=let.js.map
@@ -14997,14 +14997,17 @@ exports.not = not;
 /* 1004 */,
 /* 1005 */,
 /* 1006 */,
-/* 1007 */
+/* 1007 */,
+/* 1008 */,
+/* 1009 */,
+/* 1010 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
 var Rx_1 = __webpack_require__(690);
-var draggable_events_1 = __webpack_require__(1213);
+var draggable_events_1 = __webpack_require__(1226);
 var NodeDraggableService = (function () {
     function NodeDraggableService() {
         this.draggableNodeEvents$ = new Rx_1.Subject();
@@ -15034,7 +15037,7 @@ exports.NodeDraggableService = NodeDraggableService;
 //# sourceMappingURL=node-draggable.service.js.map
 
 /***/ }),
-/* 1008 */
+/* 1011 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15053,14 +15056,14 @@ var NodeMenuAction = exports.NodeMenuAction;
 //# sourceMappingURL=menu.events.js.map
 
 /***/ }),
-/* 1009 */
+/* 1012 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
 var Rx_1 = __webpack_require__(690);
-var menu_events_1 = __webpack_require__(1008);
+var menu_events_1 = __webpack_require__(1011);
 var NodeMenuService = (function () {
     function NodeMenuService() {
         this.nodeMenuEvents$ = new Rx_1.Subject();
@@ -15090,14 +15093,14 @@ exports.NodeMenuService = NodeMenuService;
 //# sourceMappingURL=node-menu.service.js.map
 
 /***/ }),
-/* 1010 */
+/* 1013 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var _ = __webpack_require__(167);
 var rxjs_1 = __webpack_require__(690);
-var tree_types_1 = __webpack_require__(1074);
+var tree_types_1 = __webpack_require__(1081);
 var ChildrenLoadingState;
 (function (ChildrenLoadingState) {
     ChildrenLoadingState[ChildrenLoadingState["NotStarted"] = 0] = "NotStarted";
@@ -15331,15 +15334,15 @@ exports.Tree = Tree;
 //# sourceMappingURL=tree.js.map
 
 /***/ }),
-/* 1011 */
+/* 1014 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var tree_events_1 = __webpack_require__(1073);
+var tree_events_1 = __webpack_require__(1080);
 var Rx_1 = __webpack_require__(690);
 var core_1 = __webpack_require__(0);
-var node_draggable_service_1 = __webpack_require__(1007);
+var node_draggable_service_1 = __webpack_require__(1010);
 var TreeService = (function () {
     function TreeService(nodeDraggableService) {
         this.nodeDraggableService = nodeDraggableService;
@@ -15385,16 +15388,19 @@ exports.TreeService = TreeService;
 //# sourceMappingURL=tree.service.js.map
 
 /***/ }),
-/* 1012 */,
-/* 1013 */,
-/* 1014 */,
 /* 1015 */,
 /* 1016 */,
 /* 1017 */,
 /* 1018 */,
 /* 1019 */,
 /* 1020 */,
-/* 1021 */
+/* 1021 */,
+/* 1022 */,
+/* 1023 */,
+/* 1024 */,
+/* 1025 */,
+/* 1026 */,
+/* 1027 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15426,7 +15432,7 @@ Components = __decorate([
 //# sourceMappingURL=components.component.js.map
 
 /***/ }),
-/* 1022 */
+/* 1028 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15471,7 +15477,7 @@ var TreeView = (function () {
 TreeView = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'tree-view',
-        template: __webpack_require__(1224),
+        template: __webpack_require__(1245),
     }),
     __metadata("design:paramtypes", [])
 ], TreeView);
@@ -15479,12 +15485,6 @@ TreeView = __decorate([
 //# sourceMappingURL=treeView.component.js.map
 
 /***/ }),
-/* 1023 */,
-/* 1024 */,
-/* 1025 */,
-/* 1026 */,
-/* 1027 */,
-/* 1028 */,
 /* 1029 */,
 /* 1030 */,
 /* 1031 */,
@@ -15527,7 +15527,14 @@ TreeView = __decorate([
 /* 1068 */,
 /* 1069 */,
 /* 1070 */,
-/* 1071 */
+/* 1071 */,
+/* 1072 */,
+/* 1073 */,
+/* 1074 */,
+/* 1075 */,
+/* 1076 */,
+/* 1077 */,
+/* 1078 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15539,14 +15546,14 @@ var NodeEditableEventAction = exports.NodeEditableEventAction;
 //# sourceMappingURL=editable.events.js.map
 
 /***/ }),
-/* 1072 */
+/* 1079 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var tree_service_1 = __webpack_require__(1011);
-var tree_1 = __webpack_require__(1010);
+var tree_service_1 = __webpack_require__(1014);
+var tree_1 = __webpack_require__(1013);
 var TreeComponent = (function () {
     function TreeComponent(treeService) {
         this.treeService = treeService;
@@ -15608,7 +15615,7 @@ exports.TreeComponent = TreeComponent;
 //# sourceMappingURL=tree.component.js.map
 
 /***/ }),
-/* 1073 */
+/* 1080 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15679,7 +15686,7 @@ exports.NodeRenamedEvent = NodeRenamedEvent;
 //# sourceMappingURL=tree.events.js.map
 
 /***/ }),
-/* 1074 */
+/* 1081 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15720,7 +15727,7 @@ var TreeStatus = exports.TreeStatus;
 //# sourceMappingURL=tree.types.js.map
 
 /***/ }),
-/* 1075 */
+/* 1082 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15749,16 +15756,20 @@ var MouseButtons = exports.MouseButtons;
 //# sourceMappingURL=event.utils.js.map
 
 /***/ }),
-/* 1076 */,
-/* 1077 */,
-/* 1078 */,
-/* 1079 */
+/* 1083 */,
+/* 1084 */,
+/* 1085 */,
+/* 1086 */,
+/* 1087 */,
+/* 1088 */,
+/* 1089 */,
+/* 1090 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_component__ = __webpack_require__(1021);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_treeView_treeView_component__ = __webpack_require__(1022);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_component__ = __webpack_require__(1027);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_treeView_treeView_component__ = __webpack_require__(1028);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -15777,17 +15788,6 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 //# sourceMappingURL=components.routing.js.map
 
 /***/ }),
-/* 1080 */,
-/* 1081 */,
-/* 1082 */,
-/* 1083 */,
-/* 1084 */,
-/* 1085 */,
-/* 1086 */,
-/* 1087 */,
-/* 1088 */,
-/* 1089 */,
-/* 1090 */,
 /* 1091 */,
 /* 1092 */,
 /* 1093 */,
@@ -15908,17 +15908,30 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 /* 1208 */,
 /* 1209 */,
 /* 1210 */,
-/* 1211 */
+/* 1211 */,
+/* 1212 */,
+/* 1213 */,
+/* 1214 */,
+/* 1215 */,
+/* 1216 */,
+/* 1217 */,
+/* 1218 */,
+/* 1219 */,
+/* 1220 */,
+/* 1221 */,
+/* 1222 */,
+/* 1223 */,
+/* 1224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var tree_types_1 = __webpack_require__(1074);
+var tree_types_1 = __webpack_require__(1081);
 exports.TreeModelSettings = tree_types_1.TreeModelSettings;
 exports.FoldingType = tree_types_1.FoldingType;
-var tree_1 = __webpack_require__(1010);
+var tree_1 = __webpack_require__(1013);
 exports.Tree = tree_1.Tree;
-var tree_events_1 = __webpack_require__(1073);
+var tree_events_1 = __webpack_require__(1080);
 exports.NodeEvent = tree_events_1.NodeEvent;
 exports.NodeCreatedEvent = tree_events_1.NodeCreatedEvent;
 exports.NodeRemovedEvent = tree_events_1.NodeRemovedEvent;
@@ -15926,14 +15939,14 @@ exports.NodeRenamedEvent = tree_events_1.NodeRenamedEvent;
 exports.NodeMovedEvent = tree_events_1.NodeMovedEvent;
 exports.NodeSelectedEvent = tree_events_1.NodeSelectedEvent;
 exports.NodeDestructiveEvent = tree_events_1.NodeDestructiveEvent;
-var tree_component_1 = __webpack_require__(1072);
+var tree_component_1 = __webpack_require__(1079);
 exports.TreeComponent = tree_component_1.TreeComponent;
-var tree_module_1 = __webpack_require__(1218);
+var tree_module_1 = __webpack_require__(1231);
 exports.TreeModule = tree_module_1.TreeModule;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 1212 */
+/* 1225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15972,7 +15985,7 @@ exports.CapturedNode = CapturedNode;
 //# sourceMappingURL=captured-node.js.map
 
 /***/ }),
-/* 1213 */
+/* 1226 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15988,14 +16001,14 @@ exports.NodeDraggableEvent = NodeDraggableEvent;
 //# sourceMappingURL=draggable.events.js.map
 
 /***/ }),
-/* 1214 */
+/* 1227 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var node_draggable_service_1 = __webpack_require__(1007);
-var captured_node_1 = __webpack_require__(1212);
+var node_draggable_service_1 = __webpack_require__(1010);
+var captured_node_1 = __webpack_require__(1225);
 var NodeDraggableDirective = (function () {
     function NodeDraggableDirective(element, nodeDraggableService, renderer) {
         this.element = element;
@@ -16096,13 +16109,13 @@ exports.NodeDraggableDirective = NodeDraggableDirective;
 //# sourceMappingURL=node-draggable.directive.js.map
 
 /***/ }),
-/* 1215 */
+/* 1228 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var editable_events_1 = __webpack_require__(1071);
+var editable_events_1 = __webpack_require__(1078);
 var NodeEditableDirective = (function () {
     function NodeEditableDirective(renderer, elementRef) {
         this.renderer = renderer;
@@ -16149,15 +16162,15 @@ exports.NodeEditableDirective = NodeEditableDirective;
 //# sourceMappingURL=node-editable.directive.js.map
 
 /***/ }),
-/* 1216 */
+/* 1229 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var node_menu_service_1 = __webpack_require__(1009);
-var menu_events_1 = __webpack_require__(1008);
-var event_utils_1 = __webpack_require__(1075);
+var node_menu_service_1 = __webpack_require__(1012);
+var menu_events_1 = __webpack_require__(1011);
+var event_utils_1 = __webpack_require__(1082);
 var NodeMenuComponent = (function () {
     function NodeMenuComponent(renderer, nodeMenuService) {
         this.renderer = renderer;
@@ -16224,18 +16237,18 @@ exports.NodeMenuComponent = NodeMenuComponent;
 //# sourceMappingURL=node-menu.component.js.map
 
 /***/ }),
-/* 1217 */
+/* 1230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var tree_1 = __webpack_require__(1010);
-var node_menu_service_1 = __webpack_require__(1009);
-var menu_events_1 = __webpack_require__(1008);
-var editable_events_1 = __webpack_require__(1071);
-var tree_service_1 = __webpack_require__(1011);
-var EventUtils = __webpack_require__(1075);
+var tree_1 = __webpack_require__(1013);
+var node_menu_service_1 = __webpack_require__(1012);
+var menu_events_1 = __webpack_require__(1011);
+var editable_events_1 = __webpack_require__(1078);
+var tree_service_1 = __webpack_require__(1014);
+var EventUtils = __webpack_require__(1082);
 var TreeInternalComponent = (function () {
     function TreeInternalComponent(nodeMenuService, treeService, element) {
         this.nodeMenuService = nodeMenuService;
@@ -16365,21 +16378,21 @@ exports.TreeInternalComponent = TreeInternalComponent;
 //# sourceMappingURL=tree-internal.component.js.map
 
 /***/ }),
-/* 1218 */
+/* 1231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var core_1 = __webpack_require__(0);
-var tree_component_1 = __webpack_require__(1072);
-var tree_internal_component_1 = __webpack_require__(1217);
+var tree_component_1 = __webpack_require__(1079);
+var tree_internal_component_1 = __webpack_require__(1230);
 var common_1 = __webpack_require__(6);
-var node_draggable_directive_1 = __webpack_require__(1214);
-var node_draggable_service_1 = __webpack_require__(1007);
-var node_editable_directive_1 = __webpack_require__(1215);
-var node_menu_component_1 = __webpack_require__(1216);
-var node_menu_service_1 = __webpack_require__(1009);
-var tree_service_1 = __webpack_require__(1011);
+var node_draggable_directive_1 = __webpack_require__(1227);
+var node_draggable_service_1 = __webpack_require__(1010);
+var node_editable_directive_1 = __webpack_require__(1228);
+var node_menu_component_1 = __webpack_require__(1229);
+var node_menu_service_1 = __webpack_require__(1012);
+var tree_service_1 = __webpack_require__(1014);
 var TreeModule = (function () {
     function TreeModule() {
     }
@@ -16398,12 +16411,20 @@ exports.TreeModule = TreeModule;
 //# sourceMappingURL=tree.module.js.map
 
 /***/ }),
-/* 1219 */,
-/* 1220 */,
-/* 1221 */,
-/* 1222 */,
-/* 1223 */,
-/* 1224 */
+/* 1232 */,
+/* 1233 */,
+/* 1234 */,
+/* 1235 */,
+/* 1236 */,
+/* 1237 */,
+/* 1238 */,
+/* 1239 */,
+/* 1240 */,
+/* 1241 */,
+/* 1242 */,
+/* 1243 */,
+/* 1244 */,
+/* 1245 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"col-md-6\">\n  <ba-card cardTitle=\"tree_view.title\">\n    <tree id=\"tree-view\" [tree]=\"tree\"></tree>\n  </ba-card>\n</div>\n"

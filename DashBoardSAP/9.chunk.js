@@ -1,6 +1,6 @@
 webpackJsonp([9,18],{
 
-/***/ 1002:
+/***/ 1003:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -84,7 +84,7 @@ exports.CKButtonDirective = CKButtonDirective;
 
 /***/ }),
 
-/***/ 1005:
+/***/ 1008:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -99,7 +99,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = __webpack_require__(0);
-var ckbutton_directive_1 = __webpack_require__(1002);
+var ckbutton_directive_1 = __webpack_require__(1003);
 /**
  * CKGroup component
  * Usage :
@@ -153,14 +153,14 @@ exports.CKGroupDirective = CKGroupDirective;
 
 /***/ }),
 
-/***/ 1033:
+/***/ 1039:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_loader__ = __webpack_require__(1098);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_loader__ = __webpack_require__(1109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_loader___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__ckeditor_loader__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ckeditor__ = __webpack_require__(1168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ckeditor__ = __webpack_require__(1180);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ckeditor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_ckeditor__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Ckeditor; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -188,8 +188,8 @@ var Ckeditor = (function () {
 Ckeditor = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'ckeditor-component',
-        template: __webpack_require__(1235),
-        styles: [__webpack_require__(1185)]
+        template: __webpack_require__(1256),
+        styles: [__webpack_require__(1197)]
     }),
     __metadata("design:paramtypes", [])
 ], Ckeditor);
@@ -198,7 +198,7 @@ Ckeditor = __decorate([
 
 /***/ }),
 
-/***/ 1034:
+/***/ 1040:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -231,7 +231,7 @@ Editors = __decorate([
 
 /***/ }),
 
-/***/ 1067:
+/***/ 1074:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -248,8 +248,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 // Imports
 var core_1 = __webpack_require__(0);
 var forms_1 = __webpack_require__(10);
-var ckbutton_directive_1 = __webpack_require__(1002);
-var ckgroup_directive_1 = __webpack_require__(1005);
+var ckbutton_directive_1 = __webpack_require__(1003);
+var ckgroup_directive_1 = __webpack_require__(1008);
 /**
  * CKEditor component
  * Usage :
@@ -439,7 +439,7 @@ var CKEditorComponent_1;
 
 /***/ }),
 
-/***/ 1098:
+/***/ 1109:
 /***/ (function(module, exports) {
 
 window['CKEDITOR_BASEPATH'] = '//cdn.ckeditor.com/4.6.0/full/';
@@ -447,13 +447,13 @@ window['CKEDITOR_BASEPATH'] = '//cdn.ckeditor.com/4.6.0/full/';
 
 /***/ }),
 
-/***/ 1099:
+/***/ 1110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__editors_component__ = __webpack_require__(1034);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ckeditor_ckeditor_component__ = __webpack_require__(1033);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__editors_component__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_ckeditor_ckeditor_component__ = __webpack_require__(1039);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return routing; });
 
 
@@ -473,7 +473,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule 
 
 /***/ }),
 
-/***/ 1168:
+/***/ 1180:
 /***/ (function(module, exports) {
 
 ﻿/*
@@ -1502,7 +1502,7 @@ CKEDITOR.config.skin="moono-lisa",function(){var a=function(a,b){var c=CKEDITOR.
 
 /***/ }),
 
-/***/ 1185:
+/***/ 1197:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)(false);
@@ -1520,7 +1520,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1209:
+/***/ 1222:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1533,9 +1533,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var core_1 = __webpack_require__(0);
 var common_1 = __webpack_require__(6);
-var ckeditor_component_1 = __webpack_require__(1067);
-var ckbutton_directive_1 = __webpack_require__(1002);
-var ckgroup_directive_1 = __webpack_require__(1005);
+var ckeditor_component_1 = __webpack_require__(1074);
+var ckbutton_directive_1 = __webpack_require__(1003);
+var ckgroup_directive_1 = __webpack_require__(1008);
 /**
  * CKEditorModule
  */
@@ -1566,24 +1566,24 @@ exports.CKEditorModule = CKEditorModule;
 
 /***/ }),
 
-/***/ 1210:
+/***/ 1223:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ckeditor_module_1 = __webpack_require__(1209);
+var ckeditor_module_1 = __webpack_require__(1222);
 exports.CKEditorModule = ckeditor_module_1.CKEditorModule;
-var ckeditor_component_1 = __webpack_require__(1067);
+var ckeditor_component_1 = __webpack_require__(1074);
 exports.CKEditorComponent = ckeditor_component_1.CKEditorComponent;
-var ckbutton_directive_1 = __webpack_require__(1002);
+var ckbutton_directive_1 = __webpack_require__(1003);
 exports.CKButtonDirective = ckbutton_directive_1.CKButtonDirective;
-var ckgroup_directive_1 = __webpack_require__(1005);
+var ckgroup_directive_1 = __webpack_require__(1008);
 exports.CKGroupDirective = ckgroup_directive_1.CKGroupDirective;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1235:
+/***/ 1256:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"col-md-12\">\n    <ba-card cardTitle=\"ckeditor\" baCardClass=\"with-scroll\">\n      <ckeditor [(ngModel)]=\"ckeditorContent\" [config]=\"config\"></ckeditor>\n    </ba-card>\n  </div>\n</div>\n"
@@ -1598,12 +1598,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor__ = __webpack_require__(1210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor__ = __webpack_require__(1223);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_ng2_ckeditor__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_nga_module__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__editors_routing__ = __webpack_require__(1099);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__editors_component__ = __webpack_require__(1034);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_ckeditor_ckeditor_component__ = __webpack_require__(1033);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__editors_routing__ = __webpack_require__(1110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__editors_component__ = __webpack_require__(1040);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_ckeditor_ckeditor_component__ = __webpack_require__(1039);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditorsModule", function() { return EditorsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

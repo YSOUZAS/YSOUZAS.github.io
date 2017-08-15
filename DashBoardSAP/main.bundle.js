@@ -488,7 +488,7 @@ var isMobile = function () { return (/android|webos|iphone|ipad|ipod|blackberry|
 var map = {
 	"./administration/administration.module": [
 		628,
-		1
+		2
 	],
 	"./charts/charts.module": [
 		629,
@@ -520,7 +520,7 @@ var map = {
 	],
 	"./solicitacoes/solicitacoes.module": [
 		638,
-		2
+		1
 	],
 	"./tables/tables.module": [
 		639,
@@ -726,7 +726,7 @@ var _a, _b, _c, _d, _e;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(418);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_bootstrap_ng_bootstrap__ = __webpack_require__(397);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_routing__ = __webpack_require__(431);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(429);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_service__ = __webpack_require__(432);
